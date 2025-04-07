@@ -1,0 +1,458 @@
+2025-04-07 14:37:41.286 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2025-04-07 14:37:41.342 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2025-04-07 14:37:41.343 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Products/Create.cshtml'.
+2025-04-07 14:37:41.343 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Products/Delete.cshtml'.
+2025-04-07 14:37:41.343 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Products/Details.cshtml'.
+2025-04-07 14:37:41.343 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Products/Edit.cshtml'.
+2025-04-07 14:37:41.344 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Products/Index.cshtml'.
+2025-04-07 14:37:41.344 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2025-04-07 14:37:41.344 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2025-04-07 14:37:41.344 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2025-04-07 14:37:41.344 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2025-04-07 14:37:41.344 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2025-04-07 14:37:41.354 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-07 14:37:41.456 +08:00 [DBG] Hosting starting
+2025-04-07 14:37:41.498 +08:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-07 14:37:41.515 +08:00 [DBG] Reading data from file 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys\key-228ef77b-c039-4826-ac9a-42e4b3b59cdc.xml'.
+2025-04-07 14:37:41.536 +08:00 [DBG] Found key {228ef77b-c039-4826-ac9a-42e4b3b59cdc}.
+2025-04-07 14:37:41.547 +08:00 [DBG] Considering key {228ef77b-c039-4826-ac9a-42e4b3b59cdc} with expiration date 2025-07-01 06:29:20Z as default key.
+2025-04-07 14:37:41.550 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-04-07 14:37:41.552 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-04-07 14:37:41.554 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-04-07 14:37:41.558 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-04-07 14:37:41.559 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-04-07 14:37:41.560 +08:00 [DBG] Using key {228ef77b-c039-4826-ac9a-42e4b3b59cdc} as the default key.
+2025-04-07 14:37:41.561 +08:00 [DBG] Key ring with default key {228ef77b-c039-4826-ac9a-42e4b3b59cdc} was loaded during application startup.
+2025-04-07 14:37:41.566 +08:00 [DBG] Middleware loaded
+2025-04-07 14:37:41.567 +08:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16497 B).
+2025-04-07 14:37:41.568 +08:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-04-07 14:37:41.745 +08:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-04-07 14:37:41.758 +08:00 [DBG] Loaded hosting startup assembly ML.NET
+2025-04-07 14:37:41.758 +08:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-07 14:37:41.758 +08:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-07 14:37:41.758 +08:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-07 14:37:41.858 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/ - null null
+2025-04-07 14:37:41.916 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-07 14:37:41.917 +08:00 [INF] Hosting environment: Development
+2025-04-07 14:37:41.917 +08:00 [INF] Content root path: D:\AI\ML.NET\ML.NET
+2025-04-07 14:37:41.917 +08:00 [DBG] Hosting started
+2025-04-07 14:37:42.071 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-07 14:37:42.077 +08:00 [DBG] The request path / does not match a supported file type
+2025-04-07 14:37:42.099 +08:00 [DBG] 1 candidate(s) found for the request path '/'
+2025-04-07 14:37:42.103 +08:00 [DBG] Endpoint 'ML.NET.Controllers.HomeController.Index (ML.NET)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+2025-04-07 14:37:42.104 +08:00 [DBG] Request matched endpoint 'ML.NET.Controllers.HomeController.Index (ML.NET)'
+2025-04-07 14:37:42.120 +08:00 [INF] Executing endpoint 'ML.NET.Controllers.HomeController.Index (ML.NET)'
+2025-04-07 14:37:42.161 +08:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ML.NET.Controllers.HomeController (ML.NET).
+2025-04-07 14:37:42.163 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-07 14:37:42.163 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-07 14:37:42.165 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-07 14:37:42.166 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-07 14:37:42.166 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-07 14:37:42.168 +08:00 [DBG] Executing controller factory for controller ML.NET.Controllers.HomeController (ML.NET)
+2025-04-07 14:37:42.168 +08:00 [DBG] Executed controller factory for controller ML.NET.Controllers.HomeController (ML.NET)
+2025-04-07 14:37:42.169 +08:00 [INF] 進入 HomeController 的 Index Action
+2025-04-07 14:37:42.173 +08:00 [DBG] View lookup cache miss for view 'Index' in controller 'Home'.
+2025-04-07 14:37:42.189 +08:00 [INF] Executing ViewResult, running view Index.
+2025-04-07 14:37:42.192 +08:00 [DBG] The view path '/Views/Home/Index.cshtml' was found in 17.0306ms.
+2025-04-07 14:37:42.224 +08:00 [DBG] View lookup cache miss for view '_Layout' in controller 'Home'.
+2025-04-07 14:37:42.273 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2025-04-07 14:37:42.275 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2025-04-07 14:37:42.276 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2025-04-07 14:37:42.277 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2025-04-07 14:37:42.278 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2025-04-07 14:37:42.278 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2025-04-07 14:37:42.279 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-04-07 14:37:42.280 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2025-04-07 14:37:42.280 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2025-04-07 14:37:42.281 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Products])
+2025-04-07 14:37:42.281 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Products and 
+2025-04-07 14:37:42.281 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Products
+2025-04-07 14:37:42.282 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-04-07 14:37:42.282 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2025-04-07 14:37:42.282 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2025-04-07 14:37:42.290 +08:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-07 14:37:42.293 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-07 14:37:42.319 +08:00 [INF] Executed ViewResult - view Index executed in 147.1398ms.
+2025-04-07 14:37:42.321 +08:00 [INF] Executed action ML.NET.Controllers.HomeController.Index (ML.NET) in 155.2626ms
+2025-04-07 14:37:42.321 +08:00 [INF] Executed endpoint 'ML.NET.Controllers.HomeController.Index (ML.NET)'
+2025-04-07 14:37:42.322 +08:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-07 14:37:42.322 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-07 14:37:42.336 +08:00 [DBG] Connection ID "18014398523172192278" disconnecting.
+2025-04-07 14:37:42.352 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/ - 200 null text/html; charset=utf-8 508.8303ms
+2025-04-07 14:37:42.357 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-07 14:37:42.389 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/_vs/browserLink - null null
+2025-04-07 14:37:42.390 +08:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-04-07 14:37:42.391 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/_framework/aspnetcore-browser-refresh.js - 200 16497 application/javascript; charset=utf-8 32.8934ms
+2025-04-07 14:37:42.404 +08:00 [DBG] Connection ID "18014398523172192280" disconnecting.
+2025-04-07 14:37:42.464 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/_vs/browserLink - 200 null text/javascript; charset=UTF-8 74.7174ms
+2025-04-07 14:37:42.475 +08:00 [DBG] Connection ID "17798225741058408449" disconnecting.
+2025-04-07 14:38:29.852 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/ - null null
+2025-04-07 14:38:29.888 +08:00 [DBG] The request path / does not match a supported file type
+2025-04-07 14:38:29.888 +08:00 [DBG] 1 candidate(s) found for the request path '/'
+2025-04-07 14:38:29.888 +08:00 [DBG] Endpoint 'ML.NET.Controllers.HomeController.Index (ML.NET)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+2025-04-07 14:38:29.888 +08:00 [DBG] Request matched endpoint 'ML.NET.Controllers.HomeController.Index (ML.NET)'
+2025-04-07 14:38:29.889 +08:00 [INF] Executing endpoint 'ML.NET.Controllers.HomeController.Index (ML.NET)'
+2025-04-07 14:38:29.889 +08:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ML.NET.Controllers.HomeController (ML.NET).
+2025-04-07 14:38:29.889 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-07 14:38:29.889 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-07 14:38:29.890 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-07 14:38:29.890 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-07 14:38:29.890 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-07 14:38:29.890 +08:00 [DBG] Executing controller factory for controller ML.NET.Controllers.HomeController (ML.NET)
+2025-04-07 14:38:29.890 +08:00 [DBG] Executed controller factory for controller ML.NET.Controllers.HomeController (ML.NET)
+2025-04-07 14:38:29.891 +08:00 [INF] 進入 HomeController 的 Index Action
+2025-04-07 14:38:29.892 +08:00 [DBG] View lookup cache hit for view 'Index' in controller 'Home'.
+2025-04-07 14:38:29.892 +08:00 [INF] Executing ViewResult, running view Index.
+2025-04-07 14:38:29.892 +08:00 [DBG] The view path '/Views/Home/Index.cshtml' was found in 1.2238ms.
+2025-04-07 14:38:29.897 +08:00 [DBG] View lookup cache hit for view '_Layout' in controller 'Home'.
+2025-04-07 14:38:29.899 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2025-04-07 14:38:29.899 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2025-04-07 14:38:29.901 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2025-04-07 14:38:29.902 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2025-04-07 14:38:29.902 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2025-04-07 14:38:29.903 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2025-04-07 14:38:29.904 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-04-07 14:38:29.904 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2025-04-07 14:38:29.904 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2025-04-07 14:38:29.905 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Products])
+2025-04-07 14:38:29.905 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Products and 
+2025-04-07 14:38:29.905 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Products
+2025-04-07 14:38:29.906 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-04-07 14:38:29.906 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2025-04-07 14:38:29.906 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2025-04-07 14:38:29.907 +08:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-07 14:38:29.907 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-07 14:38:29.907 +08:00 [INF] Executed ViewResult - view Index executed in 16.4655ms.
+2025-04-07 14:38:29.908 +08:00 [INF] Executed action ML.NET.Controllers.HomeController.Index (ML.NET) in 17.6134ms
+2025-04-07 14:38:29.908 +08:00 [INF] Executed endpoint 'ML.NET.Controllers.HomeController.Index (ML.NET)'
+2025-04-07 14:38:29.908 +08:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-07 14:38:29.912 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-07 14:38:29.914 +08:00 [DBG] Connection ID "18230571300991009062" disconnecting.
+2025-04-07 14:38:29.914 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/ - 200 null text/html; charset=utf-8 61.9236ms
+2025-04-07 14:38:29.935 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-07 14:38:29.935 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/_vs/browserLink - null null
+2025-04-07 14:38:29.936 +08:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-04-07 14:38:29.936 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/_framework/aspnetcore-browser-refresh.js - 200 16497 application/javascript; charset=utf-8 1.2308ms
+2025-04-07 14:38:29.960 +08:00 [DBG] Connection ID "18230571300991009064" disconnecting.
+2025-04-07 14:38:29.962 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/_vs/browserLink - 200 null text/javascript; charset=UTF-8 26.4462ms
+2025-04-07 14:38:49.554 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2025-04-07 14:38:49.565 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/lib/bootstrap/dist/css/bootstrap.min.css.map - null null
+2025-04-07 14:38:49.608 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css.map'. Physical path: 'D:\AI\ML.NET\ML.NET\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map'
+2025-04-07 14:38:49.608 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'D:\AI\ML.NET\ML.NET\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2025-04-07 14:38:49.614 +08:00 [DBG] Connection ID "18086456108620185791" disconnecting.
+2025-04-07 14:38:49.619 +08:00 [DBG] Connection ID "18014398514582257700" disconnecting.
+2025-04-07 14:38:49.619 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/lib/bootstrap/dist/css/bootstrap.min.css.map - 200 449111 text/plain 54.1233ms
+2025-04-07 14:38:49.621 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 327261 text/plain 67.4208ms
+2025-04-07 14:38:55.615 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/ - null null
+2025-04-07 14:38:55.622 +08:00 [DBG] The request path / does not match a supported file type
+2025-04-07 14:38:55.623 +08:00 [DBG] 1 candidate(s) found for the request path '/'
+2025-04-07 14:38:55.624 +08:00 [DBG] Endpoint 'ML.NET.Controllers.HomeController.Index (ML.NET)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+2025-04-07 14:38:55.624 +08:00 [DBG] Request matched endpoint 'ML.NET.Controllers.HomeController.Index (ML.NET)'
+2025-04-07 14:38:55.624 +08:00 [INF] Executing endpoint 'ML.NET.Controllers.HomeController.Index (ML.NET)'
+2025-04-07 14:38:55.624 +08:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ML.NET.Controllers.HomeController (ML.NET).
+2025-04-07 14:38:55.625 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-07 14:38:55.625 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-07 14:38:55.625 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-07 14:38:55.625 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-07 14:38:55.626 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-07 14:38:55.626 +08:00 [DBG] Executing controller factory for controller ML.NET.Controllers.HomeController (ML.NET)
+2025-04-07 14:38:55.626 +08:00 [DBG] Executed controller factory for controller ML.NET.Controllers.HomeController (ML.NET)
+2025-04-07 14:38:55.626 +08:00 [INF] 進入 HomeController 的 Index Action
+2025-04-07 14:38:55.627 +08:00 [DBG] View lookup cache hit for view 'Index' in controller 'Home'.
+2025-04-07 14:38:55.627 +08:00 [INF] Executing ViewResult, running view Index.
+2025-04-07 14:38:55.628 +08:00 [DBG] The view path '/Views/Home/Index.cshtml' was found in 1.1041ms.
+2025-04-07 14:38:55.629 +08:00 [DBG] View lookup cache hit for view '_Layout' in controller 'Home'.
+2025-04-07 14:38:55.632 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2025-04-07 14:38:55.632 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2025-04-07 14:38:55.632 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2025-04-07 14:38:55.633 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2025-04-07 14:38:55.633 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2025-04-07 14:38:55.633 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2025-04-07 14:38:55.633 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-04-07 14:38:55.633 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2025-04-07 14:38:55.634 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2025-04-07 14:38:55.635 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Products])
+2025-04-07 14:38:55.635 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Products and 
+2025-04-07 14:38:55.636 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Products
+2025-04-07 14:38:55.636 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-04-07 14:38:55.637 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2025-04-07 14:38:55.637 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2025-04-07 14:38:55.638 +08:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-07 14:38:55.638 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-07 14:38:55.639 +08:00 [INF] Executed ViewResult - view Index executed in 12.0384ms.
+2025-04-07 14:38:55.639 +08:00 [INF] Executed action ML.NET.Controllers.HomeController.Index (ML.NET) in 13.0959ms
+2025-04-07 14:38:55.639 +08:00 [INF] Executed endpoint 'ML.NET.Controllers.HomeController.Index (ML.NET)'
+2025-04-07 14:38:55.639 +08:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-07 14:38:55.639 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-07 14:38:55.640 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/ - 200 null text/html; charset=utf-8 24.9625ms
+2025-04-07 14:38:55.640 +08:00 [DBG] Connection ID "18158513706953081257" disconnecting.
+2025-04-07 14:38:55.693 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/_vs/browserLink - null null
+2025-04-07 14:38:55.697 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-07 14:38:55.722 +08:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-04-07 14:38:55.723 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/_framework/aspnetcore-browser-refresh.js - 200 16497 application/javascript; charset=utf-8 25.9767ms
+2025-04-07 14:38:55.771 +08:00 [DBG] Connection ID "17654110552982552577" disconnecting.
+2025-04-07 14:38:55.772 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/_vs/browserLink - 200 null text/javascript; charset=UTF-8 79.267ms
+2025-04-07 14:45:59.665 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2025-04-07 14:45:59.706 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2025-04-07 14:45:59.707 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Products/Create.cshtml'.
+2025-04-07 14:45:59.707 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Products/Delete.cshtml'.
+2025-04-07 14:45:59.707 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Products/Details.cshtml'.
+2025-04-07 14:45:59.707 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Products/Edit.cshtml'.
+2025-04-07 14:45:59.707 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Products/Index.cshtml'.
+2025-04-07 14:45:59.707 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2025-04-07 14:45:59.707 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2025-04-07 14:45:59.707 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2025-04-07 14:45:59.707 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2025-04-07 14:45:59.707 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2025-04-07 14:45:59.717 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-07 14:45:59.795 +08:00 [DBG] Hosting starting
+2025-04-07 14:45:59.830 +08:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-07 14:45:59.847 +08:00 [DBG] Reading data from file 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys\key-228ef77b-c039-4826-ac9a-42e4b3b59cdc.xml'.
+2025-04-07 14:45:59.865 +08:00 [DBG] Found key {228ef77b-c039-4826-ac9a-42e4b3b59cdc}.
+2025-04-07 14:45:59.877 +08:00 [DBG] Considering key {228ef77b-c039-4826-ac9a-42e4b3b59cdc} with expiration date 2025-07-01 06:29:20Z as default key.
+2025-04-07 14:45:59.881 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-04-07 14:45:59.884 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-04-07 14:45:59.885 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-04-07 14:45:59.890 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-04-07 14:45:59.892 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-04-07 14:45:59.894 +08:00 [DBG] Using key {228ef77b-c039-4826-ac9a-42e4b3b59cdc} as the default key.
+2025-04-07 14:45:59.895 +08:00 [DBG] Key ring with default key {228ef77b-c039-4826-ac9a-42e4b3b59cdc} was loaded during application startup.
+2025-04-07 14:45:59.903 +08:00 [DBG] Middleware loaded
+2025-04-07 14:45:59.905 +08:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16497 B).
+2025-04-07 14:45:59.906 +08:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-04-07 14:45:59.996 +08:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-04-07 14:46:00.003 +08:00 [DBG] Loaded hosting startup assembly ML.NET
+2025-04-07 14:46:00.003 +08:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-07 14:46:00.003 +08:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-07 14:46:00.003 +08:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-07 14:46:00.087 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/ - null null
+2025-04-07 14:46:00.135 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-07 14:46:00.136 +08:00 [INF] Hosting environment: Development
+2025-04-07 14:46:00.136 +08:00 [INF] Content root path: D:\AI\ML.NET\ML.NET
+2025-04-07 14:46:00.136 +08:00 [DBG] Hosting started
+2025-04-07 14:46:00.227 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-07 14:46:00.233 +08:00 [DBG] The request path / does not match a supported file type
+2025-04-07 14:46:00.253 +08:00 [DBG] 1 candidate(s) found for the request path '/'
+2025-04-07 14:46:00.257 +08:00 [DBG] Endpoint 'ML.NET.Controllers.HomeController.Index (ML.NET)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+2025-04-07 14:46:00.257 +08:00 [DBG] Request matched endpoint 'ML.NET.Controllers.HomeController.Index (ML.NET)'
+2025-04-07 14:46:00.264 +08:00 [INF] Executing endpoint 'ML.NET.Controllers.HomeController.Index (ML.NET)'
+2025-04-07 14:46:00.308 +08:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ML.NET.Controllers.HomeController (ML.NET).
+2025-04-07 14:46:00.315 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-07 14:46:00.315 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-07 14:46:00.316 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-07 14:46:00.316 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-07 14:46:00.317 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-07 14:46:00.318 +08:00 [DBG] Executing controller factory for controller ML.NET.Controllers.HomeController (ML.NET)
+2025-04-07 14:46:00.319 +08:00 [DBG] Executed controller factory for controller ML.NET.Controllers.HomeController (ML.NET)
+2025-04-07 14:46:00.320 +08:00 [INF] 進入 HomeController 的 Index Action
+2025-04-07 14:46:00.325 +08:00 [DBG] View lookup cache miss for view 'Index' in controller 'Home'.
+2025-04-07 14:46:00.337 +08:00 [INF] Executing ViewResult, running view Index.
+2025-04-07 14:46:00.340 +08:00 [DBG] The view path '/Views/Home/Index.cshtml' was found in 13.7233ms.
+2025-04-07 14:46:00.374 +08:00 [DBG] View lookup cache miss for view '_Layout' in controller 'Home'.
+2025-04-07 14:46:00.440 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2025-04-07 14:46:00.446 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2025-04-07 14:46:00.448 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2025-04-07 14:46:00.450 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2025-04-07 14:46:00.451 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2025-04-07 14:46:00.451 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2025-04-07 14:46:00.452 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-04-07 14:46:00.452 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2025-04-07 14:46:00.453 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2025-04-07 14:46:00.453 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Products])
+2025-04-07 14:46:00.453 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Products and 
+2025-04-07 14:46:00.454 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Products
+2025-04-07 14:46:00.454 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-04-07 14:46:00.454 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2025-04-07 14:46:00.454 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2025-04-07 14:46:00.463 +08:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-07 14:46:00.467 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-07 14:46:00.506 +08:00 [INF] Executed ViewResult - view Index executed in 182.5369ms.
+2025-04-07 14:46:00.507 +08:00 [INF] Executed action ML.NET.Controllers.HomeController.Index (ML.NET) in 190.14ms
+2025-04-07 14:46:00.507 +08:00 [INF] Executed endpoint 'ML.NET.Controllers.HomeController.Index (ML.NET)'
+2025-04-07 14:46:00.507 +08:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-07 14:46:00.508 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-07 14:46:00.520 +08:00 [DBG] Connection ID "18014398523172192284" disconnecting.
+2025-04-07 14:46:00.521 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/ - 200 null text/html; charset=utf-8 449.7467ms
+2025-04-07 14:46:00.545 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/_vs/browserLink - null null
+2025-04-07 14:46:00.545 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-07 14:46:00.554 +08:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-04-07 14:46:00.556 +08:00 [DBG] Connection ID "18014398518877225092" disconnecting.
+2025-04-07 14:46:00.557 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/_framework/aspnetcore-browser-refresh.js - 200 16497 application/javascript; charset=utf-8 9.9513ms
+2025-04-07 14:46:00.607 +08:00 [DBG] Connection ID "18014398514582257704" disconnecting.
+2025-04-07 14:46:00.607 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/_vs/browserLink - 200 null text/javascript; charset=UTF-8 62.6168ms
+2025-04-07 14:50:21.076 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2025-04-07 14:50:21.151 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2025-04-07 14:50:21.151 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Products/Create.cshtml'.
+2025-04-07 14:50:21.152 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Products/Delete.cshtml'.
+2025-04-07 14:50:21.152 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Products/Details.cshtml'.
+2025-04-07 14:50:21.152 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Products/Edit.cshtml'.
+2025-04-07 14:50:21.152 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Products/Index.cshtml'.
+2025-04-07 14:50:21.152 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2025-04-07 14:50:21.152 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2025-04-07 14:50:21.152 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2025-04-07 14:50:21.152 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2025-04-07 14:50:21.152 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2025-04-07 14:50:21.164 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-07 14:50:21.259 +08:00 [DBG] Hosting starting
+2025-04-07 14:50:21.301 +08:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-07 14:50:21.321 +08:00 [DBG] Reading data from file 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys\key-228ef77b-c039-4826-ac9a-42e4b3b59cdc.xml'.
+2025-04-07 14:50:21.337 +08:00 [DBG] Found key {228ef77b-c039-4826-ac9a-42e4b3b59cdc}.
+2025-04-07 14:50:21.344 +08:00 [DBG] Considering key {228ef77b-c039-4826-ac9a-42e4b3b59cdc} with expiration date 2025-07-01 06:29:20Z as default key.
+2025-04-07 14:50:21.347 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-04-07 14:50:21.349 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-04-07 14:50:21.350 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-04-07 14:50:21.355 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-04-07 14:50:21.357 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-04-07 14:50:21.358 +08:00 [DBG] Using key {228ef77b-c039-4826-ac9a-42e4b3b59cdc} as the default key.
+2025-04-07 14:50:21.358 +08:00 [DBG] Key ring with default key {228ef77b-c039-4826-ac9a-42e4b3b59cdc} was loaded during application startup.
+2025-04-07 14:50:21.364 +08:00 [DBG] Middleware loaded
+2025-04-07 14:50:21.365 +08:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16497 B).
+2025-04-07 14:50:21.366 +08:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-04-07 14:50:21.431 +08:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-04-07 14:50:21.436 +08:00 [DBG] Loaded hosting startup assembly ML.NET
+2025-04-07 14:50:21.436 +08:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-07 14:50:21.436 +08:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-07 14:50:21.436 +08:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-07 14:50:21.490 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/ - null null
+2025-04-07 14:50:21.538 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-07 14:50:21.538 +08:00 [INF] Hosting environment: Development
+2025-04-07 14:50:21.538 +08:00 [INF] Content root path: D:\AI\ML.NET\ML.NET
+2025-04-07 14:50:21.539 +08:00 [DBG] Hosting started
+2025-04-07 14:50:21.597 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-07 14:50:21.602 +08:00 [DBG] The request path / does not match a supported file type
+2025-04-07 14:50:21.617 +08:00 [DBG] 1 candidate(s) found for the request path '/'
+2025-04-07 14:50:21.620 +08:00 [DBG] Endpoint 'ML.NET.Controllers.HomeController.Index (ML.NET)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+2025-04-07 14:50:21.621 +08:00 [DBG] Request matched endpoint 'ML.NET.Controllers.HomeController.Index (ML.NET)'
+2025-04-07 14:50:21.623 +08:00 [INF] Executing endpoint 'ML.NET.Controllers.HomeController.Index (ML.NET)'
+2025-04-07 14:50:21.654 +08:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ML.NET.Controllers.HomeController (ML.NET).
+2025-04-07 14:50:21.657 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-07 14:50:21.657 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-07 14:50:21.658 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-07 14:50:21.658 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-07 14:50:21.658 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-07 14:50:21.659 +08:00 [DBG] Executing controller factory for controller ML.NET.Controllers.HomeController (ML.NET)
+2025-04-07 14:50:21.660 +08:00 [DBG] Executed controller factory for controller ML.NET.Controllers.HomeController (ML.NET)
+2025-04-07 14:50:21.661 +08:00 [INF] 進入 HomeController 的 Index Action
+2025-04-07 14:50:21.665 +08:00 [DBG] View lookup cache miss for view 'Index' in controller 'Home'.
+2025-04-07 14:50:21.671 +08:00 [INF] Executing ViewResult, running view Index.
+2025-04-07 14:50:21.673 +08:00 [DBG] The view path '/Views/Home/Index.cshtml' was found in 7.084ms.
+2025-04-07 14:50:21.697 +08:00 [DBG] View lookup cache miss for view '_Layout' in controller 'Home'.
+2025-04-07 14:50:21.746 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2025-04-07 14:50:21.749 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2025-04-07 14:50:21.750 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2025-04-07 14:50:21.752 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2025-04-07 14:50:21.753 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2025-04-07 14:50:21.753 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2025-04-07 14:50:21.755 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-04-07 14:50:21.756 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2025-04-07 14:50:21.756 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2025-04-07 14:50:21.756 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Products])
+2025-04-07 14:50:21.756 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Products and 
+2025-04-07 14:50:21.756 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Products
+2025-04-07 14:50:21.757 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-04-07 14:50:21.757 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2025-04-07 14:50:21.757 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2025-04-07 14:50:21.764 +08:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-07 14:50:21.768 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-07 14:50:21.787 +08:00 [INF] Executed ViewResult - view Index executed in 123.0162ms.
+2025-04-07 14:50:21.790 +08:00 [INF] Executed action ML.NET.Controllers.HomeController.Index (ML.NET) in 130.8363ms
+2025-04-07 14:50:21.790 +08:00 [INF] Executed endpoint 'ML.NET.Controllers.HomeController.Index (ML.NET)'
+2025-04-07 14:50:21.791 +08:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-07 14:50:21.792 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-07 14:50:21.797 +08:00 [DBG] Connection ID "17798225728173506615" disconnecting.
+2025-04-07 14:50:21.805 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/ - 200 null text/html; charset=utf-8 322.3001ms
+2025-04-07 14:50:21.810 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-07 14:50:21.812 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/_vs/browserLink - null null
+2025-04-07 14:50:21.813 +08:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-04-07 14:50:21.816 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/_framework/aspnetcore-browser-refresh.js - 200 16497 application/javascript; charset=utf-8 3.9796ms
+2025-04-07 14:50:21.826 +08:00 [DBG] Connection ID "17798225732468474007" disconnecting.
+2025-04-07 14:50:21.891 +08:00 [DBG] Connection ID "17942340920544329751" disconnecting.
+2025-04-07 14:50:21.898 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/_vs/browserLink - 200 null text/javascript; charset=UTF-8 86.5772ms
+2025-04-07 14:50:42.504 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2025-04-07 14:50:42.579 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2025-04-07 14:50:42.580 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Products/Create.cshtml'.
+2025-04-07 14:50:42.580 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Products/Delete.cshtml'.
+2025-04-07 14:50:42.580 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Products/Details.cshtml'.
+2025-04-07 14:50:42.580 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Products/Edit.cshtml'.
+2025-04-07 14:50:42.580 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Products/Index.cshtml'.
+2025-04-07 14:50:42.581 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2025-04-07 14:50:42.581 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2025-04-07 14:50:42.581 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2025-04-07 14:50:42.581 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2025-04-07 14:50:42.581 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2025-04-07 14:50:42.613 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-07 14:50:42.734 +08:00 [DBG] Hosting starting
+2025-04-07 14:50:42.810 +08:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-07 14:50:42.833 +08:00 [DBG] Reading data from file 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys\key-228ef77b-c039-4826-ac9a-42e4b3b59cdc.xml'.
+2025-04-07 14:50:42.867 +08:00 [DBG] Found key {228ef77b-c039-4826-ac9a-42e4b3b59cdc}.
+2025-04-07 14:50:42.884 +08:00 [DBG] Considering key {228ef77b-c039-4826-ac9a-42e4b3b59cdc} with expiration date 2025-07-01 06:29:20Z as default key.
+2025-04-07 14:50:42.887 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-04-07 14:50:42.889 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-04-07 14:50:42.894 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-04-07 14:50:42.900 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-04-07 14:50:42.901 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-04-07 14:50:42.902 +08:00 [DBG] Using key {228ef77b-c039-4826-ac9a-42e4b3b59cdc} as the default key.
+2025-04-07 14:50:42.903 +08:00 [DBG] Key ring with default key {228ef77b-c039-4826-ac9a-42e4b3b59cdc} was loaded during application startup.
+2025-04-07 14:50:42.914 +08:00 [DBG] Middleware loaded
+2025-04-07 14:50:42.916 +08:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16497 B).
+2025-04-07 14:50:42.918 +08:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-04-07 14:50:43.032 +08:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-04-07 14:50:43.037 +08:00 [DBG] Loaded hosting startup assembly ML.NET
+2025-04-07 14:50:43.037 +08:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-07 14:50:43.037 +08:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-07 14:50:43.037 +08:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-07 14:50:43.092 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/ - null null
+2025-04-07 14:50:43.131 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-07 14:50:43.131 +08:00 [INF] Hosting environment: Development
+2025-04-07 14:50:43.131 +08:00 [INF] Content root path: D:\AI\ML.NET\ML.NET
+2025-04-07 14:50:43.131 +08:00 [DBG] Hosting started
+2025-04-07 14:50:43.196 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-07 14:50:43.200 +08:00 [DBG] The request path / does not match a supported file type
+2025-04-07 14:50:43.216 +08:00 [DBG] 1 candidate(s) found for the request path '/'
+2025-04-07 14:50:43.219 +08:00 [DBG] Endpoint 'ML.NET.Controllers.HomeController.Index (ML.NET)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+2025-04-07 14:50:43.219 +08:00 [DBG] Request matched endpoint 'ML.NET.Controllers.HomeController.Index (ML.NET)'
+2025-04-07 14:50:43.222 +08:00 [INF] Executing endpoint 'ML.NET.Controllers.HomeController.Index (ML.NET)'
+2025-04-07 14:50:43.260 +08:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ML.NET.Controllers.HomeController (ML.NET).
+2025-04-07 14:50:43.261 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-07 14:50:43.261 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-07 14:50:43.262 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-07 14:50:43.262 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-07 14:50:43.262 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-07 14:50:43.263 +08:00 [DBG] Executing controller factory for controller ML.NET.Controllers.HomeController (ML.NET)
+2025-04-07 14:50:43.264 +08:00 [DBG] Executed controller factory for controller ML.NET.Controllers.HomeController (ML.NET)
+2025-04-07 14:50:43.265 +08:00 [INF] 進入 HomeController 的 Index Action
+2025-04-07 14:50:43.267 +08:00 [DBG] View lookup cache miss for view 'Index' in controller 'Home'.
+2025-04-07 14:50:43.280 +08:00 [INF] Executing ViewResult, running view Index.
+2025-04-07 14:50:43.282 +08:00 [DBG] The view path '/Views/Home/Index.cshtml' was found in 13.386ms.
+2025-04-07 14:50:43.309 +08:00 [DBG] View lookup cache miss for view '_Layout' in controller 'Home'.
+2025-04-07 14:50:43.352 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2025-04-07 14:50:43.356 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2025-04-07 14:50:43.356 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2025-04-07 14:50:43.358 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2025-04-07 14:50:43.358 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2025-04-07 14:50:43.359 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2025-04-07 14:50:43.360 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-04-07 14:50:43.362 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2025-04-07 14:50:43.362 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2025-04-07 14:50:43.364 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Products])
+2025-04-07 14:50:43.364 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Products and 
+2025-04-07 14:50:43.364 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Products
+2025-04-07 14:50:43.365 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-04-07 14:50:43.365 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2025-04-07 14:50:43.365 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2025-04-07 14:50:43.373 +08:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-07 14:50:43.378 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-07 14:50:43.399 +08:00 [INF] Executed ViewResult - view Index executed in 132.4261ms.
+2025-04-07 14:50:43.400 +08:00 [INF] Executed action ML.NET.Controllers.HomeController.Index (ML.NET) in 137.7771ms
+2025-04-07 14:50:43.400 +08:00 [INF] Executed endpoint 'ML.NET.Controllers.HomeController.Index (ML.NET)'
+2025-04-07 14:50:43.400 +08:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-07 14:50:43.401 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-07 14:50:43.438 +08:00 [DBG] Connection ID "17942340920544329753" disconnecting.
+2025-04-07 14:50:43.453 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-07 14:50:43.466 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/_vs/browserLink - null null
+2025-04-07 14:50:43.466 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/ - 200 null text/html; charset=utf-8 382.5661ms
+2025-04-07 14:50:43.468 +08:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-04-07 14:50:43.469 +08:00 [DBG] Connection ID "17437937766573801509" disconnecting.
+2025-04-07 14:50:43.469 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/_framework/aspnetcore-browser-refresh.js - 200 16497 application/javascript; charset=utf-8 15.6596ms
+2025-04-07 14:50:43.517 +08:00 [DBG] Connection ID "18158513706953081259" disconnecting.
+2025-04-07 14:50:43.519 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/_vs/browserLink - 200 null text/javascript; charset=UTF-8 53.0462ms
