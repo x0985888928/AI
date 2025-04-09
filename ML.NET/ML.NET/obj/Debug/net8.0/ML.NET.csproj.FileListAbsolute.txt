@@ -292,3 +292,11 @@ D:\AI\ML.NET\ML.NET\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
 D:\AI\ML.NET\ML.NET\bin\Debug\net8.0\Serilog.Sinks.Console.dll
 D:\AI\ML.NET\ML.NET\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
 D:\AI\ML.NET\ML.NET\bin\Debug\net8.0\Serilog.Sinks.File.dll
+D:\AI\ML.NET\ML.NET\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\AI\ML.NET\ML.NET\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\AI\ML.NET\ML.NET\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\AI\ML.NET\ML.NET\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\AI\ML.NET\ML.NET\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\AI\ML.NET\ML.NET\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\AI\ML.NET\ML.NET\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\AI\ML.NET\ML.NET\obj\Debug\net8.0\ML.NET.MvcApplicationPartsAssemblyInfo.cs

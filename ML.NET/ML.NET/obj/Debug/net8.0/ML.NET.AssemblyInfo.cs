@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("ML.NET")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9266ecbf765a67ec97da9d766a1b98b8e15d9163")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25cd87f84257abdeb58ab5814cedad1b187e8c6e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ML.NET")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ML.NET")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
