@@ -1,0 +1,931 @@
+Company Name,Brand,Version,TYPE,ROM,Mobile Weight,RAM,Battery Capacity,Launched Year,Launched Price,Front Camera,Back Camera,Processor,Screen Size
+Apple,iPhone,16,Normal,128,174,6,"3,600",2024,799,12MP,48MP,A17 Bionic,6.1
+Apple,iPhone,16,Normal,256,174,6,"3,600",2024,849,12MP,48MP,A17 Bionic,6.1
+Apple,iPhone,16,Normal,512,174,6,"3,600",2024,899,12MP,48MP,A17 Bionic,6.1
+Apple,iPhone,16,Plus,128,203,6,"4,200",2024,899,12MP,48MP,A17 Bionic,6.7
+Apple,iPhone,16,Plus,256,203,6,"4,200",2024,949,12MP,48MP,A17 Bionic,6.7
+Apple,iPhone,16,Plus,512,203,6,"4,200",2024,999,12MP,48MP,A17 Bionic,6.7
+Apple,iPhone,16,Pro,128,206,6,"4,400",2024,999,12MP / 4K,50MP + 12MP,A17 Pro,6.1
+Apple,iPhone,16,Pro,256,206,8,"4,400",2024,"1,049",12MP / 4K,50MP + 12MP,A17 Pro,6.1
+Apple,iPhone,16,Pro,512,206,8,"4,400",2024,"1,099",12MP / 4K,50MP + 12MP,A17 Pro,6.1
+Apple,iPhone,16,Pro Max,128,221,6,"4,500",2024,"1,099",12MP / 4K,48MP + 12MP,A17 Pro,6.7
+Apple,iPhone,16,Pro Max,256,221,8,"4,500",2024,"1,199",12MP / 4K,48MP + 12MP,A17 Pro,6.7
+Apple,iPhone,16,Pro Max,512,221,8,"4,500",2024,"1,299",12MP / 4K,48MP + 12MP,A17 Pro,6.7
+Apple,iPhone,15,Normal,128,171,6,"3,200",2023,799,12MP,48MP,A16 Bionic,6.1
+Apple,iPhone,15,Normal,256,171,6,"3,200",2023,849,12MP,48MP,A16 Bionic,6.1
+Apple,iPhone,15,Normal,512,171,6,"3,200",2023,949,12MP,48MP,A16 Bionic,6.1
+Apple,iPhone,15,Plus,128,203,6,"4,300",2023,899,12MP,48MP,A16 Bionic,6.7
+Apple,iPhone,15,Plus,256,203,6,"4,300",2023,999,12MP,48MP,A16 Bionic,6.7
+Apple,iPhone,15,Plus,512,203,6,"4,300",2023,"1,049",12MP,48MP,A16 Bionic,6.7
+Apple,iPhone,15,Pro,128,206,6,"4,400",2023,"1,099",12MP / 4K,48MP + 12MP,A16 Bionic,6.1
+Apple,iPhone,15,Pro,256,206,8,"4,400",2023,"1,199",12MP / 4K,48MP + 12MP,A16 Bionic,6.1
+Apple,iPhone,15,Pro,512,206,8,"4,400",2023,"1,299",12MP / 4K,48MP + 12MP,A16 Bionic,6.1
+Apple,iPhone,15,Pro Max,128,221,6,"4,500",2023,"1,199",12MP / 4K,48MP + 12MP,A16 Bionic,6.7
+Apple,iPhone,15,Pro Max,256,221,8,"4,500",2023,"1,299",12MP / 4K,48MP + 12MP,A16 Bionic,6.7
+Apple,iPhone,15,Pro Max,512,221,8,"4,500",2023,"1,399",12MP / 4K,48MP + 12MP,A16 Bionic,6.7
+Apple,iPhone,14,Normal,128,172,6,"3,200",2022,799,12MP,12MP + 12MP,A15 Bionic,6.1
+Apple,iPhone,14,Normal,256,172,6,"3,200",2022,849,12MP,12MP + 12MP,A15 Bionic,6.1
+Apple,iPhone,14,Normal,512,172,6,"3,200",2022,949,12MP,12MP + 12MP,A15 Bionic,6.1
+Apple,iPhone,14,Plus,128,203,6,"4,325",2022,899,12MP,12MP + 12MP,A15 Bionic,6.7
+Apple,iPhone,14,Plus,256,203,6,"4,325",2022,999,12MP,12MP + 12MP,A15 Bionic,6.7
+Apple,iPhone,14,Plus,512,203,6,"4,325",2022,"1,049",12MP,12MP + 12MP,A15 Bionic,6.7
+Apple,iPhone,14,Pro,128,206,6,"4,200",2022,"1,099",12MP / 4K,48MP + 12MP,A16 Bionic,6.1
+Apple,iPhone,14,Pro,256,206,8,"4,200",2022,"1,199",12MP / 4K,48MP + 12MP,A16 Bionic,6.1
+Apple,iPhone,14,Pro,512,206,8,"4,200",2022,"1,299",12MP / 4K,48MP + 12MP,A16 Bionic,6.1
+Apple,iPhone,14,Pro Max,128,221,6,"4,500",2022,"1,199",12MP / 4K,48MP + 12MP,A16 Bionic,6.7
+Apple,iPhone,14,Pro Max,256,221,8,"4,500",2022,"1,299",12MP / 4K,48MP + 12MP,A16 Bionic,6.7
+Apple,iPhone,14,Pro Max,512,221,8,"4,500",2022,"1,399",12MP / 4K,48MP + 12MP,A16 Bionic,6.7
+Apple,iPhone,13,mini,128,140,4,"2,438",2021,699,12MP,12MP,A15 Bionic,5.4
+Apple,iPhone,13,mini,256,140,4,"2,438",2021,799,12MP,12MP,A15 Bionic,5.4
+Apple,iPhone,13,mini,512,140,4,"2,438",2021,899,12MP,12MP,A15 Bionic,5.4
+Apple,iPhone,13,Normal,128,174,4,"3,240",2021,799,12MP,12MP + 12MP,A15 Bionic,6.1
+Apple,iPhone,13,Normal,256,174,4,"3,240",2021,899,12MP,12MP + 12MP,A15 Bionic,6.1
+Apple,iPhone,13,Normal,512,174,4,"3,240",2021,999,12MP,12MP + 12MP,A15 Bionic,6.1
+Apple,iPhone,13,Pro,128,204,6,"3,095",2021,999,12MP / 4K,12MP + 12MP + 12MP,A15 Bionic,6.1
+Apple,iPhone,13,Pro,256,204,6,"3,095",2021,"1,099",12MP / 4K,12MP + 12MP + 12MP,A15 Bionic,6.1
+Apple,iPhone,13,Pro,512,204,6,"3,095",2021,"1,199",12MP / 4K,12MP + 12MP + 12MP,A15 Bionic,6.1
+Apple,iPhone,13,Pro Max,128,238,6,"4,352",2021,"1,099",12MP / 4K,12MP + 12MP + 12MP,A15 Bionic,6.7
+Apple,iPhone,13,Pro Max,256,238,6,"4,352",2021,"1,199",12MP / 4K,12MP + 12MP + 12MP,A15 Bionic,6.7
+Apple,iPhone,13,Pro Max,512,238,6,"4,352",2021,"1,399",12MP / 4K,12MP + 12MP + 12MP,A15 Bionic,6.7
+Apple,iPhone,12,mini,128,135,4,"2,227",2020,699,12MP,12MP,A14 Bionic,5.4
+Apple,iPhone,12,mini,128,135,4,"2,227",2020,799,12MP,12MP,A14 Bionic,5.4
+Apple,iPhone,12,mini,256,135,4,"2,227",2020,899,12MP,12MP,A14 Bionic,5.4
+Apple,iPhone,12,Normal,128,164,4,"2,815",2020,799,12MP,12MP + 12MP,A14 Bionic,6.1
+Apple,iPhone,12,Normal,128,164,4,"2,815",2020,899,12MP,12MP + 12MP,A14 Bionic,6.1
+Apple,iPhone,12,Normal,256,164,4,"2,815",2020,999,12MP,12MP + 12MP,A14 Bionic,6.1
+Apple,iPhone,12,Pro,128,189,6,"2,815",2020,999,12MP / 4K,12MP + 12MP + 12MP,A14 Bionic,6.1
+Apple,iPhone,12,Pro,256,189,6,"2,815",2020,"1,099",12MP / 4K,12MP + 12MP + 12MP,A14 Bionic,6.1
+Apple,iPhone,12,Pro,512,189,6,"2,815",2020,"1,199",12MP / 4K,12MP + 12MP + 12MP,A14 Bionic,6.1
+Apple,iPhone,12,Pro Max,128,228,6,"3,687",2020,"1,099",12MP / 4K,12MP + 12MP + 12MP,A14 Bionic,6.7
+Apple,iPhone,12,Pro Max,256,228,6,"3,687",2020,"1,199",12MP / 4K,12MP + 12MP + 12MP,A14 Bionic,6.7
+Apple,iPhone,12,Pro Max,512,228,6,"3,687",2020,"1,399",12MP / 4K,12MP + 12MP + 12MP,A14 Bionic,6.7
+Apple,iPhone,11,Normal,128,194,4,"3,110",2019,699,12MP,12MP + 12MP,A13 Bionic,6.1
+Apple,iPhone,11,Normal,128,194,4,"3,110",2019,799,12MP,12MP + 12MP,A13 Bionic,6.1
+Apple,iPhone,11,Normal,256,194,4,"3,110",2019,899,12MP,12MP + 12MP,A13 Bionic,6.1
+Apple,iPhone,11,Pro,128,188,4,"3,046",2019,999,12MP / 4K,12MP + 12MP + 12MP,A13 Bionic,5.8
+Apple,iPhone,11,Pro,256,188,4,"3,046",2019,"1,099",12MP / 4K,12MP + 12MP + 12MP,A13 Bionic,5.8
+Apple,iPhone,11,Pro,512,188,4,"3,046",2019,"1,199",12MP / 4K,12MP + 12MP + 12MP,A13 Bionic,5.8
+Apple,iPhone,11,Pro Max,128,226,4,"3,969",2019,"1,099",12MP / 4K,12MP + 12MP + 12MP,A13 Bionic,6.5
+Apple,iPhone,11,Pro Max,256,226,4,"3,969",2019,"1,199",12MP / 4K,12MP + 12MP + 12MP,A13 Bionic,6.5
+Apple,iPhone,11,Pro Max,512,226,4,"3,969",2019,"1,399",12MP / 4K,12MP + 12MP + 12MP,A13 Bionic,6.5
+Apple,iPhone,X,Normal,128,174,3,"2,716",2017,999,7MP,12MP + 12MP,A11 Bionic,5.8
+Apple,iPhone,X,Normal,256,174,3,"2,716",2017,"1,099",7MP,12MP + 12MP,A11 Bionic,5.8
+Apple,iPhone,XS,Normal,128,177,4,"2,658",2018,999,7MP,12MP + 12MP,A12 Bionic,5.8
+Apple,iPhone,XS,Normal,256,177,4,"2,658",2018,"1,099",7MP,12MP + 12MP,A12 Bionic,5.8
+Apple,iPhone,XS,Normal,512,177,4,"2,658",2018,"1,299",7MP,12MP + 12MP,A12 Bionic,5.8
+Apple,iPhone,XS,Max,128,208,4,"3,174",2018,"1,099",7MP,12MP + 12MP,A12 Bionic,6.5
+Apple,iPhone,XS,Max,256,208,4,"3,174",2018,"1,249",7MP,12MP + 12MP,A12 Bionic,6.5
+Apple,iPhone,XS,Max,512,208,4,"3,174",2018,"1,399",7MP,12MP + 12MP,A12 Bionic,6.5
+Apple,iPhone,XR,Normal,128,194,3,"2,942",2018,749,7MP,12MP + 12MP,A12 Bionic,6.1
+Apple,iPhone,XR,Normal,128,194,3,"2,942",2018,799,7MP,12MP + 12MP,A12 Bionic,6.1
+Apple,iPhone,XR,Normal,256,194,3,"2,942",2018,899,7MP,12MP + 12MP,A12 Bionic,6.1
+Apple,iPad,Air,Normal,128,458,4,"7,608",2020,599,12MP,12MP,A14 Bionic,10.9
+Apple,iPad,Air,Normal,256,458,4,"7,608",2020,749,12MP,12MP,A14 Bionic,10.9
+Apple,iPad,,Normal,128,490,3,"8,612",2020,329,12MP,8MP,A13 Bionic,10.2
+Apple,iPad,10.2-inch,Normal,128,490,3,"8,612",2020,429,12MP,8MP,A13 Bionic,10.2
+Apple,iPad,Mini,Normal,128,300.5,3,"5,124",2019,399,7MP,8MP,A12 Bionic,7.9
+Apple,iPad,Mini,Normal,256,300.5,3,"5,124",2019,499,7MP,8MP,A12 Bionic,7.9
+Apple,iPad,Pro,Normal,128,468,4,"7,812",2020,799,7MP,12MP + 10MP,A12Z Bionic,11
+Apple,iPad,Pro,Normal,256,468,4,"7,812",2020,899,7MP,12MP + 10MP,A12Z Bionic,11
+Apple,iPad,Pro,Normal,512,468,6,"7,812",2020,"1,099",7MP,12MP + 10MP,A12Z Bionic,11
+Apple,iPad,Pro,Normal,128,682,6,"9,720",2020,999,7MP,12MP + 10MP,A12Z Bionic,12.9
+Apple,iPad,Pro,Normal,256,682,6,"9,720",2020,"1,099",7MP,12MP + 10MP,A12Z Bionic,12.9
+Apple,iPad,Pro,Normal,512,682,6,"9,720",2020,"1,299",7MP,12MP + 10MP,A12Z Bionic,12.9
+Apple,iPad,Pro,Normal,128,708,6,"10,307",2020,"1,099",7MP,12MP + 10MP,A12Z Bionic,13
+Apple,iPad,Pro,Normal,256,708,6,"10,307",2020,"1,199",7MP,12MP + 10MP,A12Z Bionic,13
+Apple,iPad,Pro,Normal,512,708,6,"10,307",2020,"1,399",7MP,12MP + 10MP,A12Z Bionic,13
+Apple,iPad,Pro,Normal,1024,708,6,"10,307",2020,"1,599",7MP,12MP + 10MP,A12Z Bionic,13
+Apple,iPad,Pro,Normal,2048,708,6,"10,307",2020,"1,799",7MP,12MP + 10MP,A12Z Bionic,13
+Samsung,Galaxy,S24,Ultra,128,234,12,5000,2024,"1,199",12MP,200MP + 12MP,Exynos 2400,6.8
+Samsung,Galaxy,S24,Ultra,256,234,12,5000,2024,"1,299",12MP,200MP + 12MP,Exynos 2400,6.8
+Samsung,Galaxy,S24+,Normal,128,196,8,4800,2024,899,12MP,50MP + 12MP,Exynos 2400,6.6
+Samsung,Galaxy,S24+,Normal,256,196,8,4800,2024,999,12MP,50MP + 12MP,Exynos 2400,6.6
+Samsung,Galaxy,S24,Normal,128,168,8,4000,2024,799,12MP,50MP + 12MP,Exynos 2400,6.1
+Samsung,Galaxy,S24,Normal,256,168,8,4000,2024,899,12MP,50MP + 12MP,Exynos 2400,6.1
+Samsung,Galaxy,S23,Ultra,128,228,12,5000,2023,"1,199",12MP,200MP + 12MP,Snapdragon 8 Gen 2,6.8
+Samsung,Galaxy,S23,Ultra,256,228,12,5000,2023,"1,299",12MP,200MP + 12MP,Snapdragon 8 Gen 2,6.8
+Samsung,Galaxy,S23+,Normal,128,196,8,4700,2023,899,12MP,50MP + 12MP,Snapdragon 8 Gen 2,6.6
+Samsung,Galaxy,S23+,Normal,256,196,8,4700,2023,999,12MP,50MP + 12MP,Snapdragon 8 Gen 2,6.6
+Samsung,Galaxy,S23,Normal,128,168,8,3900,2023,799,12MP,50MP + 12MP,Snapdragon 8 Gen 2,6.1
+Samsung,Galaxy,S23,Normal,256,168,8,3900,2023,899,12MP,50MP + 12MP,Snapdragon 8 Gen 2,6.1
+Samsung,Galaxy,S22,Ultra,128,228,12,5000,2022,"1,099",10MP,108MP + 12MP,Exynos 2200,6.8
+Samsung,Galaxy,S22,Ultra,256,228,12,5000,2022,"1,199",10MP,108MP + 12MP,Exynos 2200,6.8
+Samsung,Galaxy,S22+,Normal,128,195,8,4500,2022,799,10MP,50MP + 12MP,Exynos 2200,6.6
+Samsung,Galaxy,S22+,Normal,256,195,8,4500,2022,899,10MP,50MP + 12MP,Exynos 2200,6.6
+Samsung,Galaxy,S22,Normal,128,167,8,3800,2022,699,10MP,50MP + 12MP,Exynos 2200,6.1
+Samsung,Galaxy,S22,Normal,256,167,8,3800,2022,799,10MP,50MP + 12MP,Exynos 2200,6.1
+Samsung,Galaxy,Z,Fold5,256,254,12,4400,2023,"1,799",10MP,50MP + 12MP,Snapdragon 8 Gen 2,7.6
+Samsung,Galaxy,Z,Fold5,512,254,12,4400,2023,"1,899",10MP,50MP + 12MP,Snapdragon 8 Gen 2,7.6
+Samsung,Galaxy,Z,Flip5,256,187,8,3700,2023,999,12MP,12MP + 12MP,Snapdragon 8 Gen 2,6.7
+Samsung,Galaxy,Z,Flip5,512,187,8,3700,2023,"1,099",12MP,12MP + 12MP,Snapdragon 8 Gen 2,6.7
+Samsung,Galaxy,Z,Fold4,256,263,12,4400,2022,"1,799",10MP,50MP + 12MP,Snapdragon 8 Gen 1,7.6
+Samsung,Galaxy,Z,Fold4,512,263,12,4400,2022,"1,899",10MP,50MP + 12MP,Snapdragon 8 Gen 1,7.6
+Samsung,Galaxy,Z,Flip4,256,187,8,3700,2022,999,10MP,12MP + 12MP,Snapdragon 8 Gen 1,6.7
+Samsung,Galaxy,Z,Flip4,512,187,8,3700,2022,"1,099",10MP,12MP + 12MP,Snapdragon 8 Gen 1,6.7
+Samsung,Galaxy,A54,Normal,128,189,6,5000,2023,399,32MP,50MP + 12MP,Exynos 1380,6.4
+Samsung,Galaxy,A54,Normal,256,189,6,5000,2023,449,32MP,50MP + 12MP,Exynos 1380,6.4
+Samsung,Galaxy,A34,Normal,128,199,6,5000,2023,349,13MP,48MP + 8MP,MediaTek Dimensity 1080,6.6
+Samsung,Galaxy,A34,Normal,256,199,6,5000,2023,399,13MP,48MP + 8MP,MediaTek Dimensity 1080,6.6
+Samsung,Galaxy,A24,Normal,128,195,6,5000,2023,299,13MP,50MP + 5MP,MediaTek Helio G99,6.5
+Samsung,Galaxy,A24,Normal,256,195,6,5000,2023,349,13MP,50MP + 5MP,MediaTek Helio G99,6.5
+Samsung,Galaxy,A14,Normal,128,190,4,5000,2023,249,13MP,50MP + 2MP,Exynos 850,6.6
+Samsung,Galaxy,A14,Normal,256,190,4,5000,2023,299,13MP,50MP + 2MP,Exynos 850,6.6
+Samsung,Galaxy,A04,Normal,128,188,4,5000,2022,199,5MP,50MP + 2MP,Exynos 850,6.5
+Samsung,Galaxy,A04,Normal,128,188,4,5000,2022,249,5MP,50MP + 2MP,Exynos 850,6.5
+Samsung,Galaxy,M54,Normal,128,202,8,6000,2023,349,32MP,108MP + 8MP,Exynos 1380,6.7
+Samsung,Galaxy,M54,Normal,256,202,8,6000,2023,399,32MP,108MP + 8MP,Exynos 1380,6.7
+Samsung,Galaxy,M34,Normal,128,199,6,6000,2023,299,13MP,50MP + 8MP,Exynos 1280,6.5
+Samsung,Galaxy,M34,Normal,256,199,6,6000,2023,349,13MP,50MP + 8MP,Exynos 1280,6.5
+Samsung,Galaxy,M14,Normal,128,202,4,6000,2023,249,13MP,50MP + 2MP,Exynos 850,6.6
+Samsung,Galaxy,M14,Normal,256,202,4,6000,2023,299,13MP,50MP + 2MP,Exynos 850,6.6
+Samsung,Galaxy,M04,Normal,128,188,4,5000,2022,199,5MP,13MP + 2MP,MediaTek Helio P35,6.5
+Samsung,Galaxy,M04,Normal,128,188,4,5000,2022,249,5MP,13MP + 2MP,MediaTek Helio P35,6.5
+Samsung,Galaxy,F54,Normal,128,199,8,6000,2023,349,32MP,108MP + 8MP,Exynos 1380,6.7
+Samsung,Galaxy,F54,Normal,256,199,8,6000,2023,399,32MP,108MP + 8MP,Exynos 1380,6.7
+Samsung,Galaxy,F34,Normal,128,190,6,6000,2023,299,13MP,50MP + 8MP,Exynos 1280,6.5
+Samsung,Galaxy,F34,Normal,256,190,6,6000,2023,349,13MP,50MP + 8MP,Exynos 1280,6.5
+Samsung,Galaxy,F14,Normal,128,198,4,6000,2023,249,13MP,50MP + 2MP,Exynos 850,6.6
+Samsung,Galaxy,F14,Normal,256,198,4,6000,2023,299,13MP,50MP + 2MP,Exynos 850,6.6
+Samsung,Galaxy,Note20,Ultra,128,208,12,4500,2020,"1,299",10MP,108MP + 12MP,Exynos 990,6.9
+Samsung,Galaxy,Note20,Ultra,256,208,12,4500,2020,"1,399",10MP,108MP + 12MP,Exynos 990,6.9
+Samsung,Galaxy,Note20,Normal,128,192,8,4300,2020,999,10MP,108MP + 12MP,Exynos 990,6.7
+Samsung,Galaxy,Note20,Normal,256,192,8,4300,2020,"1,099",10MP,108MP + 12MP,Exynos 990,6.7
+Samsung,Galaxy,Note10+,Normal,256,196,12,4300,2019,"1,099",10MP,12MP + 16MP,Exynos 9825,6.8
+Samsung,Galaxy,Note10+,Normal,512,196,12,4300,2019,"1,199",10MP,12MP + 16MP,Exynos 9825,6.8
+Samsung,Galaxy,Note10,Normal,256,168,8,3500,2019,949,10MP,12MP + 16MP,Exynos 9825,6.3
+Samsung,Galaxy,Note10,Normal,128,168,8,3500,2019,899,10MP,12MP + 16MP,Exynos 9825,6.3
+Samsung,Galaxy,Xcover6,Pro,128,235,6,4050,2022,499,13MP,50MP,Exynos 1380,6.6
+Samsung,Galaxy,Xcover5,Normal,128,172,4,3000,2020,249,5MP,16MP,Exynos 850,5.3
+Samsung,Galaxy,J8,Normal,128,191,4,3500,2018,199,16MP,16MP + 5MP,Snapdragon 450,6
+Samsung,Galaxy,J7,Pro,128,181,3,3600,2017,179,13MP,13MP,Exynos 7870,5.5
+Samsung,Galaxy,J6+,Normal,128,178,4,3300,2018,169,8MP,13MP + 5MP,Snapdragon 425,6
+Samsung,Galaxy,J4,16GB,128,175,2,3000,2018,129,5MP,13MP,Exynos 7570,5.5
+Samsung,Galaxy,C9,Pro,128,189,6,4000,2016,399,16MP,16MP + 8MP,Snapdragon 653,6
+Samsung,Galaxy,C7,Pro,128,165,4,3300,2017,299,16MP,16MP,Snapdragon 625,5.7
+Samsung,Galaxy,C5,Normal,128,143,4,2600,2016,249,8MP,16MP,Snapdragon 617,5.2
+Samsung,Galaxy,W22,5G,128,228,12,4500,2021,"1,499",10MP,108MP + 12MP,Snapdragon 888,7.6
+Samsung,Galaxy,W21,5G,128,229,12,4500,2020,"1,399",10MP,108MP + 12MP,Snapdragon 888,7.6
+Samsung,Galaxy,Tab,S9,256,732,12,11200,2023,"1,199",12MP + 12MP,13MP + 8MP,Snapdragon 8 Gen 2,14.6
+Samsung,Galaxy,Tab,S9+,128,586,12,10090,2023,999,12MP,13MP + 8MP,Snapdragon 8 Gen 2,12.4
+Samsung,Galaxy,Tab,S9,128,498,8,8400,2023,799,12MP,13MP,Snapdragon 8 Gen 2,11
+Samsung,Galaxy,Tab,S9,128,523,6,8000,2023,549,12MP,8MP,Exynos 1380,10.9
+Samsung,Galaxy,Tab,S8,256,726,12,11200,2022,"1,099",12MP + 12MP,13MP + 6MP,Snapdragon 8 Gen 1,14.6
+Samsung,Galaxy,Tab,S8+,128,567,8,10090,2022,899,12MP,13MP + 6MP,Snapdragon 8 Gen 1,12.4
+Samsung,Galaxy,Tab,S8,128,503,8,8000,2022,699,12MP,13MP + 6MP,Snapdragon 8 Gen 1,11
+Samsung,Galaxy,Tab,A9+,128,480,8,7040,2023,229,5MP,8MP,Snapdragon 695,11
+Samsung,Galaxy,Tab,A9,128,366,4,5100,2023,179,2MP,8MP,MediaTek Helio G99,8.7
+Samsung,Galaxy,Tab,A8,128,508,4,7040,2022,199,5MP,8MP,Unisoc T618,10.5
+Samsung,Galaxy,Tab,A7,128,366,3,5100,2021,149,2MP,8MP,MediaTek Helio P22T,8.7
+Samsung,Galaxy,Tab,Active,128,433,6,5050,2024,549,5MP,13MP,Exynos 1380,8
+Samsung,Galaxy,Tab,ActivePro,128,674,6,7600,2022,649,8MP,13MP,Snapdragon 778G,10.1
+Samsung,Galaxy,Tab,Active,128,426,4,5050,2020,499,5MP,13MP,Exynos 9810,8
+Samsung,Galaxy,Tab,E,128,490,1.5,5000,2016,129,2MP,5MP,Spreadtrum SC8830,10.1
+Samsung,Galaxy,Tab,E,128,360,1.5,5000,2016,99,2MP,5MP,Qualcomm MSM8916,8
+OnePlus,OnePlus,12,Normal,256,205,12,5000,2024,799,32MP,50MP + 48MP,Snapdragon 8 Gen 3,6.7
+OnePlus,OnePlus,12R,Normal,256,203,12,4500,2024,699,16MP,50MP + 8MP,Snapdragon 8 Gen 2,6.7
+OnePlus,OnePlus,11,Normal,256,205,12,5000,2023,699,16MP,50MP + 48MP,Snapdragon 8 Gen 1,6.7
+OnePlus,OnePlus,11R,Normal,256,202,12,5000,2023,599,16MP,50MP + 8MP,Snapdragon 8 Gen 1,6.7
+OnePlus,OnePlus,Nord,3,128,190,12,5000,2023,499,16MP,50MP + 8MP,MediaTek Dimensity 9000,6.74
+OnePlus,OnePlus,Nord CE,Normal,128,179,8,5000,2023,399,16MP,50MP + 2MP,Snapdragon 782G,6.72
+OnePlus,OnePlus,Nord CE,Lite,128,195,8,5000,2023,299,16MP,108MP,Snapdragon 695,6.72
+OnePlus,OnePlus,Nord,N30,128,192,8,5000,2023,249,16MP,64MP + 2MP,MediaTek Dimensity 6020,6.72
+OnePlus,OnePlus,Open,Normal,256,238,16,4800,2024,"1,099",32MP,48MP + 48MP,Snapdragon 8 Gen 2,7.8
+OnePlus,OnePlus,10,Pro,128,200,12,5000,2022,899,32MP,50MP + 48MP,Snapdragon 8 Gen 1,6.7
+OnePlus,OnePlus,10T,Normal,256,203,12,4500,2022,749,16MP,50MP + 8MP,Snapdragon 8+ Gen 1,6.7
+OnePlus,OnePlus,9,Pro,128,192,12,4500,2021,699,16MP,48MP + 50MP,Snapdragon 888,6.7
+OnePlus,OnePlus,9,Normal,128,183,8,4500,2021,599,16MP,48MP + 50MP,Snapdragon 888,6.55
+OnePlus,OnePlus,11,Pro,128,204,16,5000,2023,899,32MP,50MP + 48MP,Snapdragon 8 Gen 2,6.7
+OnePlus,OnePlus,Nord,Normal,128,190,8,4500,2022,399,32MP,50MP + 8MP,MediaTek Dimensity 1300,6.43
+OnePlus,OnePlus,Nord,2,128,190,8,4500,2021,349,32MP,50MP + 8MP,MediaTek Dimensity 1200-AI,6.43
+OnePlus,OnePlus,Nord,N200,128,189,4,5000,2021,199,16MP,13MP + 2MP,Snapdragon 480,6.49
+OnePlus,OnePlus,Nord,N100,128,185,4,5000,2020,179,8MP,13MP + 2MP,Qualcomm Snapdragon 460,6.52
+OnePlus,OnePlus,8T,CyberpunkEdition,128,188,12,4500,2020,749,16MP,48MP + 16MP,Snapdragon 865,6.55
+OnePlus,OnePlus,9T,Normal,128,192,8,4500,2021,649,16MP,48MP + 50MP,Snapdragon 888,6.55
+OnePlus,OnePlus,8T,Normal,128,188,12,4500,2020,599,16MP,48MP + 16MP,Snapdragon 865,6.55
+OnePlus,OnePlus,10T,5G,128,203,12,4500,2022,749,16MP,50MP + 8MP,Snapdragon 8+ Gen 1,6.7
+OnePlus,OnePlus,9R,5G,128,189,8,4500,2021,599,16MP,48MP + 5MP,Snapdragon 870,6.55
+OnePlus,OnePlus,8,Pro,128,199,12,4510,2020,749,16MP,48MP + 48MP,Snapdragon 865,6.78
+OnePlus,OnePlus,8,Normal,128,180,8,4300,2020,699,16MP,48MP + 16MP,Snapdragon 865,6.55
+OnePlus,OnePlus,NordCE,Lite,128,195,6,5000,2022,249,16MP,64MP + 2MP,MediaTek Dimensity 900,6.59
+OnePlus,OnePlus,NordCE,Normal,128,173,8,4500,2022,299,16MP,64MP + 8MP,MediaTek Dimensity 1200,6.43
+OnePlus,OnePlus,Nord,1,128,184,6,4115,2020,349,16MP,48MP + 5MP,Snapdragon 765G,6.44
+OnePlus,OnePlus,NordCE,Normal,128,170,6,4500,2021,299,16MP,64MP + 8MP,Snapdragon 750G,6.43
+OnePlus,OnePlus,Nord,2,128,189,8,4500,2021,399,32MP,50MP + 8MP,MediaTek Dimensity 1200-AI,6.43
+OnePlus,OnePlus,Nord,N100,128,185,4,5000,2020,179,8MP,13MP + 2MP,Qualcomm Snapdragon 460,6.52
+OnePlus,OnePlus,Nord,N10,128,190,6,4300,2020,299,16MP,64MP + 8MP,Qualcomm Snapdragon 690,6.49
+OnePlus,OnePlus,8R,Normal,128,192,8,4300,2020,649,16MP,48MP + 5MP,Snapdragon 865,6.55
+OnePlus,OnePlus,7R,Normal,128,190,6,3700,2020,599,16MP,48MP + 5MP,Snapdragon 855,6.41
+OnePlus,OnePlus,6T,McLaren,128,185,10,3700,2018,799,16MP,20MP + 16MP,Snapdragon 845,6.41
+OnePlus,OnePlus,5T,StarEdition,128,162,6,3300,2017,649,16MP,16MP + 20MP,Snapdragon 835,6.01
+OnePlus,OnePlus,13R,Normal,128,210,8,4500,2023,849,16MP,50MP + 8MP,Snapdragon 8 Gen 2,6.7
+OnePlus,OnePlus,11T,Normal,128,202,12,5000,2023,799,32MP,50MP + 48MP,Snapdragon 8 Gen 2,6.7
+OnePlus,OnePlus,10R,Normal,128,205,8,4500,2022,599,16MP,50MP + 16MP,MediaTek Dimensity 8100,6.7
+OnePlus,OnePlus,7,Pro,128,206,12,4000,2019,799,16MP,48MP + 8MP,Snapdragon 855,6.67
+OnePlus,OnePlus,6,Special,128,177,6,3300,2018,599,16MP,20MP + 16MP,Snapdragon 845,6.28
+OnePlus,OnePlus,5,Special,128,155,8,3300,2017,599,16MP,20MP + 16MP,Snapdragon 835,5.5
+OnePlus,OnePlus,Nord,X,128,190,8,4000,2020,299,32MP,64MP + 8MP,Snapdragon 765G,6.44
+OnePlus,OnePlus,8,ProEdition,128,199,12,4510,2020,899,16MP,48MP + 8MP,Snapdragon 865,6.78
+OnePlus,OnePlus,8T,Cyberpunk,128,188,12,4500,2020,799,16MP,48MP + 16MP,Snapdragon 865,6.55
+OnePlus,OnePlus,7T,ProMcLarenEdition,128,206,12,4085,2019,899,16MP,48MP + 8MP,Snapdragon 855,6.67
+OnePlus,OnePlus,15R,Normal,128,210,12,5000,2023,849,32MP,50MP + 8MP,Snapdragon 8 Gen 3,6.7
+OnePlus,OnePlus,14+,Normal,128,202,8,4800,2023,799,16MP,64MP + 8MP,Snapdragon 8 Gen 2,6.55
+OnePlus,OnePlus,13,Pro,128,215,12,5000,2023,899,32MP,50MP + 48MP,Snapdragon 8 Gen 2,6.7
+OnePlus,OnePlus,12T,5G,128,200,12,5000,2023,849,16MP,50MP + 8MP,Snapdragon 8 Gen 2,6.7
+OnePlus,OnePlus,Pad,Normal,128,550,8,9510,2023,499,8MP,13MP,MediaTek Dimensity 9000,11.61
+OnePlus,OnePlus,Pad,2,128,550,8,9510,2024,549,8MP,13MP,MediaTek Dimensity 9000,11.61
+OnePlus,OnePlus,Pad,Pro,128,610,12,11000,2024,799,16MP,50MP,Snapdragon 8 Gen 3,12.4
+Vivo,X200,,Normal,128,223,12,6000,2024,999,32MP,50MP,Dimensity 9400,6.78
+Vivo,X200,,Normal,256,223,12,6000,2024,"1,099",32MP,50MP,Dimensity 9400,6.78
+Vivo,X200,Pro,Normal,128,223,16,6000,2024,"1,199",32MP,200MP,Dimensity 9400,6.78
+Vivo,X200,Pro,Normal,128,223,16,6000,2024,"1,299",32MP,200MP,Dimensity 9400,6.78
+Vivo,X200,Pro,Normal,128,187,16,5700,2024,949,32MP,50MP,Dimensity 9400,6.31
+Vivo,V40e,,Normal,128,179,8,4100,2024,449,44MP,64MP,Snapdragon 778G,6.44
+Vivo,Y200,,Normal,128,190,12,5000,2024,399,16MP,64MP,Dimensity 1200,6.58
+Vivo,T3,,Normal,128,180,8,5000,2024,349,16MP,50MP,Snapdragon 870,6.67
+Vivo,Y100,,Normal,128,181,8,4500,2024,299,16MP,64MP,Dimensity 900,6.38
+Vivo,S18,,Normal,128,189,12,4700,2024,599,32MP,108MP,Snapdragon 8 Gen 2,6.56
+Vivo,V30,,Normal,128,192,12,4500,2024,549,32MP,64MP,Dimensity 1100,6.44
+Vivo,iQOO,12,Normal,128,210,16,5000,2024,699,16MP,50MP,Snapdragon 8 Gen 3,6.78
+Vivo,Z3,,Normal,128,162,6,3315,2018,249,12MP,16MP,Snapdragon 710,6.3
+Vivo,V9,,Normal,128,150,4,3260,2018,219,24MP,16MP,Snapdragon 626,6.3
+Vivo,X9,Plus,Normal,128,199,6,4000,2017,299,20MP+8MP,16MP,Snapdragon 653,5.88
+Vivo,Y81,,Normal,128,146,3,3260,2018,149,5MP,13MP,MediaTek Helio P22,6.22
+Vivo,X5Max,16GB,Normal,128,146,2,2300,2014,199,5MP,13MP,Snapdragon 615,5.5
+Vivo,V5,Plus,Normal,128,158,4,3055,2017,249,20MP+8MP,16MP,Snapdragon 625,5.5
+Vivo,Y95,,Normal,128,163,4,4030,2018,199,20MP,13MP+2MP,Snapdragon 439,6.22
+Vivo,V3,Max,Normal,128,168,4,3000,2016,179,8MP,13MP,Snapdragon 652,5.5
+Vivo,X3S,16GB,Normal,128,153,1,2000,2014,139,5MP,13MP,MediaTek MT6592,5
+Vivo,Y66,,Normal,128,155,3,3000,2017,179,16MP,13MP,Snapdragon 430,5.5
+Vivo,V19,,Normal,128,176,8,4500,2020,399,32MP,48MP,Qualcomm Snapdragon 712,6.44
+Vivo,V19,,Normal,256,176,8,4500,2020,429,32MP,48MP,Qualcomm Snapdragon 712,6.44
+Vivo,V17,Pro,Normal,128,201,8,4100,2019,399,32MP,48MP,Qualcomm Snapdragon 675,6.44
+Vivo,V17,Pro,Normal,128,201,8,4100,2019,429,32MP,48MP,Qualcomm Snapdragon 675,6.44
+Vivo,Y12s,,Normal,128,191,3,5000,2020,159,8MP,13MP,MediaTek Helio P35,6.51
+Vivo,Y12s,128GB,Normal,128,191,4,5000,2020,179,8MP,13MP,MediaTek Helio P35,6.51
+Vivo,S1,Pro,Normal,128,185,6,4500,2019,249,32MP,48MP,MediaTek Helio P65,6.38
+Vivo,S1,Pro,Normal,128,185,6,4500,2019,269,32MP,48MP,MediaTek Helio P65,6.38
+Vivo,Y11,,Normal,128,190,3,5000,2019,149,8MP,13MP,Qualcomm Snapdragon 439,6.35
+Vivo,Y11,,Normal,128,190,3,5000,2019,169,8MP,13MP,Qualcomm Snapdragon 439,6.35
+Vivo,V15,128GB,Normal,128,190,6,4000,2019,299,32MP,48MP,MediaTek Helio P70,6.53
+Vivo,V15,256GB,Normal,128,190,6,4000,2019,319,32MP,48MP,MediaTek Helio P70,6.53
+Vivo,X27,Pro,Normal,128,190,8,4000,2019,499,32MP,48MP,Qualcomm Snapdragon 710,6.39
+Vivo,X27,Pro,Normal,128,190,8,4000,2019,549,32MP,48MP,Qualcomm Snapdragon 710,6.39
+Vivo,Y30,128GB,Normal,128,193,4,5000,2020,199,8MP,13MP,MediaTek Helio P35,6.47
+Vivo,Y30,,Normal,128,193,3,5000,2020,169,8MP,13MP,MediaTek Helio P35,6.47
+Vivo,Z1,Pro,Normal,128,159,4,4500,2019,249,16MP,16MP,Qualcomm Snapdragon 712,6.53
+Vivo,Z1,Pro,Normal,128,159,6,4500,2019,299,16MP,16MP,Qualcomm Snapdragon 712,6.53
+Vivo,X21,128GB,Normal,128,156,6,3200,2018,349,12MP,12MP,Qualcomm Snapdragon 660,6.28
+Vivo,X21,,Normal,128,156,4,3200,2018,299,12MP,12MP,Qualcomm Snapdragon 660,6.28
+Vivo,V23e,128GB,Normal,128,172,8,4050,2021,299,50MP,64MP,MediaTek Helio G96,6.44
+Vivo,V23e,256GB,Normal,128,172,8,4050,2021,349,50MP,64MP,MediaTek Helio G96,6.44
+Vivo,Y33s,128GB,Normal,128,182,8,5000,2021,239,16MP,50MP,MediaTek Helio G80,6.58
+Vivo,Y33s,,Normal,128,182,4,5000,2021,179,16MP,50MP,MediaTek Helio G80,6.58
+Vivo,X60,Pro,Normal,128,190,12,4200,2021,899,32MP,48MP,Qualcomm Snapdragon 870,6.56
+Vivo,X60,Pro,Normal,128,190,12,4200,2021,999,32MP,48MP,Qualcomm Snapdragon 870,6.56
+Vivo,V20,Pro,Normal,128,173,8,4000,2020,499,44MP,64MP,Qualcomm Snapdragon 765G,6.44
+Vivo,V20,Pro,Normal,128,173,8,4000,2020,549,44MP,64MP,Qualcomm Snapdragon 765G,6.44
+Vivo,Y75,5G,Normal,128,179,8,5000,2021,349,16MP,50MP,MediaTek Dimensity 700,6.58
+Vivo,Y75,5G,Normal,128,179,8,5000,2021,399,16MP,50MP,MediaTek Dimensity 700,6.58
+Vivo,Y53s,128GB,Normal,128,190,6,5000,2021,229,16MP,64MP,MediaTek Helio G80,6.58
+Vivo,Y53s,,Normal,128,190,6,5000,2021,179,16MP,64MP,MediaTek Helio G80,6.58
+Vivo,V15,Pro,Normal,128,185,6,3700,2019,399,32MP,48MP,Qualcomm Snapdragon 675,6.39
+Vivo,V15,Pro,Normal,128,185,6,3700,2019,449,32MP,48MP,Qualcomm Snapdragon 675,6.39
+Vivo,X70,Pro,Normal,128,185,8,4450,2021,749,32MP,50MP,MediaTek Dimensity 1200,6.56
+Vivo,X70,Pro,Normal,128,185,8,4450,2021,799,32MP,50MP,MediaTek Dimensity 1200,6.56
+Vivo,T1,5G,Normal,128,181,6,5000,2022,269,16MP,50MP,Qualcomm Snapdragon 695,6.58
+Vivo,T1,5G,Normal,128,181,8,5000,2022,319,16MP,50MP,Qualcomm Snapdragon 695,6.58
+Vivo,X30,Pro,Normal,128,199,8,4200,2019,899,32MP,64MP,Qualcomm Snapdragon 855,6.44
+Vivo,X30,Pro,Normal,128,199,8,4200,2019,949,32MP,64MP,Qualcomm Snapdragon 855,6.44
+Vivo,V27,128GB,Normal,128,182,8,4600,2023,599,50MP,50MP,MediaTek Dimensity 8200,6.78
+Vivo,V27,256GB,Normal,128,182,8,4600,2023,649,50MP,50MP,MediaTek Dimensity 8200,6.78
+Vivo,V27,Pro,Normal,128,182,8,4600,2023,699,50MP,50MP,MediaTek Dimensity 8200,6.78
+Vivo,V27,Pro,Normal,128,182,8,4600,2023,749,50MP,50MP,MediaTek Dimensity 8200,6.78
+Vivo,V25,Pro,Normal,128,190,8,4830,2022,599,32MP,64MP,MediaTek Dimensity 1300,6.56
+Vivo,V25,Pro,Normal,128,190,8,4830,2022,649,32MP,64MP,MediaTek Dimensity 1300,6.56
+Vivo,X90,Pro,Normal,128,221,12,4870,2022,"1,099",32MP,50MP,MediaTek Dimensity 9200,6.78
+Vivo,X90,Pro,Normal,128,221,12,4870,2022,"1,199",32MP,50MP,MediaTek Dimensity 9200,6.78
+Vivo,Y100,128GB,Normal,128,190,8,4500,2023,399,16MP,64MP,MediaTek Dimensity 900,6.44
+Vivo,Y100,256GB,Normal,128,190,8,4500,2023,449,16MP,64MP,MediaTek Dimensity 900,6.44
+Vivo,T2,Series,Normal,128,190,8,4500,2023,299,16MP,64MP,Qualcomm Snapdragon 695,6.44
+Vivo,T2,Series,Normal,128,190,8,4500,2023,349,16MP,64MP,Qualcomm Snapdragon 695,6.44
+Vivo,V23,5G,Normal,128,179,8,4200,2022,499,50MP,64MP,MediaTek Dimensity 920,6.44
+Vivo,V23,5G,Normal,128,179,8,4200,2022,549,50MP,64MP,MediaTek Dimensity 920,6.44
+Vivo,X80,256GB,Normal,128,206,12,4700,2022,899,32MP,50MP,MediaTek Dimensity 9000,6.78
+Vivo,X80,512GB,Normal,128,206,12,4700,2022,999,32MP,50MP,MediaTek Dimensity 9000,6.78
+Vivo,Y21,128GB,Normal,128,182,4,5000,2021,199,8MP,13MP,MediaTek Helio P35,6.51
+Vivo,Y21,,Normal,128,182,4,5000,2021,179,8MP,13MP,MediaTek Helio P35,6.51
+Vivo,Pad,128GB,Normal,128,498,6,8040,2022,329,8MP,13MP,Snapdragon 870,11
+Vivo,Pad,2,Normal,128,535,8,8040,2023,399,8MP,50MP,MediaTek Dimensity 1200,11
+Vivo,Pad,Air,Normal,128,510,6,8040,2023,279,8MP,13MP,Snapdragon 870,10.4
+Vivo,Pad,3,Normal,128,500,6,8040,2023,349,8MP,13MP,Snapdragon 750G,11
+Vivo,Pad,3,Normal,128,550,8,8040,2023,449,8MP,50MP,Snapdragon 888,12.3
+Vivo,Pad,4,Normal,128,560,8,8040,2024,499,8MP,50MP,MediaTek Dimensity 9000,12.9
+iQOO,Pad,128GB,Normal,128,520,6,8040,2023,349,8MP,13MP,Snapdragon 870,11
+iQOO,Pad,2,Normal,128,540,8,8040,2024,399,8MP,50MP,Snapdragon 888,12.3
+iQOO,Pad,2,Normal,128,555,8,8040,2024,449,8MP,50MP,Snapdragon 8 Gen 1,12.3
+Oppo,Find,N3,Normal,128,239,12,4805,2023,"1,399",32MP,48MP + 64MP + 48MP,Snapdragon 8 Gen 2,7.82
+Oppo,Find,N3,Normal,128,198,12,4300,2023,999,32MP,50MP + 32MP + 48MP,MediaTek Dimensity 9200,6.8
+Oppo,Find,X8,Normal,128,210,12,5000,2024,"1,299",32MP,50MP + 50MP + 50MP,Snapdragon 8 Gen 2,6.8
+Oppo,Find,X8,Normal,128,195,8,4800,2024,"1,099",32MP,50MP + 50MP,Snapdragon 8 Gen 2,6.7
+Oppo,Reno13,F,Normal,128,192,8,5800,2025,499,32MP,50MP + 8MP + 2MP,MediaTek Helio G100,6.67
+Oppo,Reno13,F,Normal,128,192,8,5800,2025,499,32MP,50MP + 8MP + 2MP,MediaTek Helio G100,6.67
+Oppo,Reno13,Pro,Normal,128,210,12,5800,2025,799,50MP,50MP + 50MP + 8MP,MediaTek Dimensity 8350,6.83
+Oppo,Reno13,256GB,Normal,128,200,12,5600,2025,699,50MP,50MP + 8MP,MediaTek Dimensity 8350,6.59
+Oppo,Reno12,F,Normal,128,187,8,5000,2024,449,32MP,50MP + 8MP + 2MP,Snapdragon 685,6.7
+Oppo,Reno12,F,Normal,128,187,8,5000,2024,449,32MP,50MP + 8MP + 2MP,Snapdragon 685,6.7
+Oppo,Reno12,Pro,Normal,128,190,12,4600,2024,749,32MP,50MP + 32MP + 8MP,MediaTek Dimensity 8200,6.74
+Oppo,Reno12,256GB,Normal,128,185,8,5000,2024,599,32MP,50MP + 8MP,MediaTek Dimensity 7050,6.7
+Oppo,Reno11,F,Normal,128,185,8,5000,2024,499,32MP,64MP + 8MP + 2MP,MediaTek Dimensity 7050,6.7
+Oppo,Reno11,Pro,Normal,128,190,12,4600,2024,699,32MP,50MP + 32MP + 8MP,MediaTek Dimensity 8200,6.74
+Oppo,A5,Pro,Normal,128,180,8,6000,2024,599,16MP,50MP + 2MP,Dimensity 7300,6.7
+Oppo,A5,Pro,Normal,128,186,12,6000,2024,699,16MP,50MP + 2MP,Dimensity 7300,6.7
+Oppo,A80,256GB,Normal,128,186,8,5100,2024,499,8MP,50MP + 2MP,Dimensity 6300,6.67
+Oppo,A3,4G,Normal,128,186,4,5000,2024,399,5MP,50MP,Snapdragon 6s 4G Gen 1,6.7
+Oppo,A3x,4G,Normal,128,186,4,5100,2024,449,8MP,8MP + 2MP,Snapdragon 6s 4G Gen 1,6.67
+Oppo,A3x,4G,Normal,128,186,6,5100,2024,499,8MP,8MP + 2MP,Snapdragon 6s 4G Gen 1,6.67
+Oppo,A3,128GB,Normal,128,186,4,5000,2024,399,5MP,50MP,Snapdragon 6s 4G Gen 1,6.7
+Oppo,A3x,128GB,Normal,128,186,4,5100,2024,449,8MP,8MP + 2MP,Snapdragon 6s 4G Gen 1,6.67
+Oppo,A3x,256GB,Normal,128,186,6,5100,2024,499,8MP,8MP + 2MP,Snapdragon 6s 4G Gen 1,6.67
+Oppo,A3,128GB,Normal,128,186,4,5000,2024,399,5MP,50MP,Snapdragon 6s 4G Gen 1,6.7
+Oppo,A60,128GB,Normal,128,186,8,5000,2024,449,8MP,50MP + 2MP,Snapdragon 680 4G,6.67
+Oppo,A60,256GB,Normal,128,186,8,5000,2024,499,8MP,50MP + 2MP,Snapdragon 680 4G,6.67
+Oppo,K12,Plus,Normal,128,192,8,6400,2024,699,16MP,50MP,Snapdragon 7 Gen 3,6.7
+Oppo,K12,Plus,Normal,128,192,12,6400,2024,799,16MP,50MP,Snapdragon 7 Gen 3,6.7
+Oppo,F27,128GB,Normal,128,175,8,5000,2024,499,32MP,64MP + 2MP,Dimensity 7050,6.7
+Oppo,F27,256GB,Normal,128,175,8,5000,2024,549,32MP,64MP + 2MP,Dimensity 7050,6.7
+Oppo,F27,Pro+,Normal,128,177,8,5000,2024,599,32MP,64MP + 2MP,Dimensity 7050,6.7
+Oppo,F27,Pro+,Normal,128,177,12,5000,2024,699,32MP,64MP + 2MP,Dimensity 7050,6.7
+Oppo,F25,Pro,Normal,128,173,8,4500,2023,549,32MP,64MP + 2MP,Snapdragon 778G,6.55
+Oppo,F25,Pro,Normal,128,173,8,4500,2023,599,32MP,64MP + 2MP,Snapdragon 778G,6.55
+Oppo,Pad,3,Normal,128,533,8,9510,2024,699,8MP,13MP,Dimensity 8350,11.6
+Oppo,Pad,3,Normal,128,533,12,9510,2024,799,8MP,13MP,Dimensity 8350,11.6
+Oppo,Pad,3,Normal,128,586,12,9510,2024,899,8MP,13MP,Snapdragon 8 Gen 3,12.1
+Oppo,Pad,3,Normal,128,586,16,9510,2024,999,8MP,13MP,Snapdragon 8 Gen 3,12.1
+Oppo,Pad,Neo,Normal,128,520,6,8360,2023,499,8MP,13MP,Snapdragon 870,11
+Oppo,Pad,Neo,Normal,128,520,8,8360,2023,599,8MP,13MP,Snapdragon 870,11
+Oppo,Find,X7,Normal,128,221,12,5000,2024,"1,199",32MP,50MP + 50MP + 50MP,Snapdragon 8 Gen 3,6.82
+Oppo,Find,X7,Normal,128,221,16,5000,2024,"1,299",32MP,50MP + 50MP + 50MP,Snapdragon 8 Gen 3,6.82
+Oppo,Find,X7,Normal,128,206,12,5000,2024,"1,099",32MP,50MP + 50MP + 64MP,Dimensity 9300,6.78
+Oppo,Find,X7,Normal,128,206,16,5000,2024,"1,199",32MP,50MP + 50MP + 64MP,Dimensity 9300,6.78
+Oppo,Find,X6,Normal,128,218,12,5000,2023,999,32MP,50MP + 50MP + 50MP,Snapdragon 8 Gen 2,6.82
+Oppo,Find,X6,Normal,128,218,16,5000,2023,"1,099",32MP,50MP + 50MP + 50MP,Snapdragon 8 Gen 2,6.82
+Oppo,Find,X6,Normal,128,207,12,4800,2023,899,32MP,50MP + 50MP + 50MP,Dimensity 9200,6.74
+Oppo,Find,X6,Normal,128,207,16,4800,2023,999,32MP,50MP + 50MP + 50MP,Dimensity 9200,6.74
+Oppo,Find,X5,Normal,128,218,12,5000,2022,899,32MP,50MP + 50MP + 13MP,Snapdragon 8 Gen 1,6.7
+Oppo,Find,X5,Normal,128,218,16,5000,2022,999,32MP,50MP + 50MP + 13MP,Snapdragon 8 Gen 1,6.7
+Oppo,Find,X5,Normal,128,196,8,4800,2022,799,32MP,50MP + 50MP + 13MP,Snapdragon 888,6.55
+Oppo,Find,N2,Normal,128,191,8,4300,2023,899,32MP,50MP + 8MP,Dimensity 9000+,6.8
+Oppo,Find,N2,Normal,128,191,12,4300,2023,999,32MP,50MP + 8MP,Dimensity 9000+,6.8
+Oppo,Find,N2,Normal,128,233,12,4520,2022,"1,099",32MP,50MP + 48MP + 32MP,Snapdragon 8+ Gen 1,7.1
+Oppo,Reno10,5G,Normal,128,180,8,"5,000",2023,499,32MP,64MP + 32MP + 8MP,Dimensity 7050,6.7
+Oppo,Reno10,5G,Normal,128,180,8,"5,000",2023,549,32MP,64MP + 32MP + 8MP,Dimensity 7050,6.7
+Oppo,Reno10,Pro,Normal,128,186,12,"4,600",2023,599,32MP,50MP + 32MP + 8MP,Snapdragon 778G,6.7
+Oppo,Reno10,Pro+,Normal,128,194,16,"4,700",2023,699,32MP,50MP + 64MP + 8MP,Snapdragon 8+ Gen 1,6.74
+Oppo,Reno9,5G,Normal,128,174,8,"4,500",2022,449,32MP,64MP + 2MP,Snapdragon 778G,6.7
+Oppo,Reno9,5G,Normal,128,174,12,"4,500",2022,499,32MP,64MP + 2MP,Snapdragon 778G,6.7
+Oppo,Reno9,Pro,Normal,128,184,16,"4,500",2022,599,32MP,50MP + 8MP,Dimensity 8100,6.7
+Oppo,Reno9,Pro+,Normal,128,192,16,"4,700",2022,649,32MP,50MP + 8MP + 2MP,Snapdragon 8+ Gen 1,6.7
+Oppo,Reno8,5G,Normal,128,179,8,"4,500",2022,399,32MP,50MP + 8MP + 2MP,Dimensity 1300,6.4
+Oppo,Reno8,5G,Normal,128,179,12,"4,500",2022,449,32MP,50MP + 8MP + 2MP,Dimensity 1300,6.4
+Oppo,Reno8,Pro,Normal,128,183,12,"4,500",2022,549,32MP,50MP + 8MP + 2MP,Dimensity 8100,6.7
+Oppo,Reno8,Pro+,Normal,128,195,12,"4,500",2022,599,32MP,50MP + 8MP + 2MP,Dimensity 8100,6.7
+Oppo,Reno7,5G,Normal,128,173,8,"4,500",2021,349,32MP,64MP + 8MP + 2MP,Dimensity 900,6.4
+Oppo,Reno7,5G,Normal,128,173,12,"4,500",2021,399,32MP,64MP + 8MP + 2MP,Dimensity 900,6.4
+Oppo,Reno7,Pro,Normal,128,180,12,"4,500",2021,499,32MP,50MP + 8MP + 2MP,Dimensity 1200,6.55
+Oppo,Reno6,5G,Normal,128,182,8,"4,300",2021,349,32MP,64MP + 8MP + 2MP,Dimensity 900,6.43
+Oppo,Reno6,5G,Normal,128,182,12,"4,300",2021,399,32MP,64MP + 8MP + 2MP,Dimensity 900,6.43
+Oppo,Reno6,Pro,Normal,128,177,8,"4,500",2021,449,32MP,64MP + 8MP + 2MP + 2MP,Dimensity 1200,6.55
+Oppo,Reno6,Pro,Normal,128,177,12,"4,500",2021,499,32MP,64MP + 8MP + 2MP + 2MP,Dimensity 1200,6.55
+Oppo,Reno6,Pro+,Normal,128,188,12,"4,500",2021,599,32MP,50MP + 13MP + 16MP + 2MP,Snapdragon 870,6.55
+Oppo,Reno5,5G,Normal,128,180,8,"4,300",2020,299,32MP,64MP + 8MP + 2MP + 2MP,Snapdragon 765G,6.43
+Oppo,Reno5,5G,Normal,128,180,12,"4,300",2020,349,32MP,64MP + 8MP + 2MP + 2MP,Snapdragon 765G,6.43
+Oppo,Reno5,Pro,Normal,128,173,8,"4,350",2020,399,32MP,64MP + 8MP + 2MP + 2MP,Dimensity 1000+,6.55
+Oppo,Reno5,Pro,Normal,128,173,12,"4,350",2020,449,32MP,64MP + 8MP + 2MP + 2MP,Dimensity 1000+,6.55
+Oppo,Reno5,Pro+,Normal,128,184,12,"4,500",2020,599,32MP,50MP + 16MP + 13MP + 2MP,Snapdragon 865,6.55
+Oppo,Reno4,5G,Normal,128,183,8,"4,000",2020,299,32MP,48MP + 8MP + 2MP + 2MP,Snapdragon 765G,6.43
+Oppo,Reno4,5G,Normal,128,183,8,"4,000",2020,349,32MP,48MP + 8MP + 2MP + 2MP,Snapdragon 765G,6.43
+Oppo,Reno4,Pro,Normal,128,172,12,"4,000",2020,499,32MP,48MP + 13MP + 12MP,Snapdragon 765G,6.55
+Oppo,Reno3,5G,Normal,128,181,8,"4,025",2019,249,32MP,64MP + 8MP + 2MP + 2MP,Dimensity 1000L,6.4
+Oppo,Reno3,5G,Normal,128,181,12,"4,025",2019,299,32MP,64MP + 8MP + 2MP + 2MP,Dimensity 1000L,6.4
+Oppo,Reno3,Pro,Normal,128,171,12,"4,025",2019,499,32MP,48MP + 13MP + 8MP + 2MP,Snapdragon 765G,6.5
+Oppo,A59,5G,Normal,128,186,6,"5,000",2023,199,8MP,13MP + 2MP,MediaTek Dimensity 6020,6.56
+Oppo,A59,5G,Normal,128,186,8,"5,000",2023,229,8MP,13MP + 2MP,MediaTek Dimensity 6020,6.56
+Oppo,A58,5G,Normal,128,188,8,"5,000",2022,249,8MP,50MP + 2MP,MediaTek Dimensity 700,6.56
+Oppo,A57,5G,Normal,128,186,6,"5,000",2022,219,8MP,13MP + 2MP,MediaTek Dimensity 810,6.56
+Oppo,A56,5G,Normal,128,189,6,"5,000",2021,199,8MP,13MP + 2MP,MediaTek Dimensity 700,6.5
+Oppo,A55,5G,Normal,128,186,6,"5,000",2021,189,8MP,13MP + 2MP + 2MP,MediaTek Dimensity 700,6.5
+Oppo,A54,5G,Normal,128,190,6,"5,000",2021,219,16MP,48MP + 8MP + 2MP + 2MP,Qualcomm Snapdragon 480,6.5
+Oppo,A53,5G,Normal,128,175,4,"4,040",2020,179,8MP,16MP + 2MP + 2MP,MediaTek Dimensity 720,6.5
+Oppo,A52,5G,Normal,128,184,4,"4,000",2020,169,8MP,12MP + 8MP + 2MP + 2MP,MediaTek Dimensity 720,6.5
+Oppo,A51,5G,Normal,128,186,4,"4,000",2020,149,8MP,13MP + 2MP + 2MP,MediaTek Dimensity 700,6.5
+Oppo,A50,5G,Normal,128,185,4,"4,000",2020,139,8MP,13MP + 2MP,MediaTek Dimensity 700,6.5
+Oppo,A49,5G,Normal,128,185,4,"4,000",2020,129,8MP,13MP + 2MP,MediaTek Dimensity 700,6.5
+Oppo,A40,128GB,Normal,128,186,4,"5,100",2024,199,5MP,50MP,Qualcomm Snapdragon 6s Gen 1,6.67
+Oppo,A40,256GB,Normal,128,186,6,"5,100",2024,229,5MP,50MP,Qualcomm Snapdragon 6s Gen 1,6.67
+Oppo,K11x,128GB,Normal,128,195,8,"5,000",2023,199,16MP,108MP + 2MP,Qualcomm Snapdragon 695,6.72
+Oppo,K11x,256GB,Normal,128,195,12,"5,000",2023,229,16MP,108MP + 2MP,Qualcomm Snapdragon 695,6.72
+Oppo,K10x,128GB,Normal,128,195,6,"5,000",2022,199,16MP,64MP + 2MP + 2MP,Qualcomm Snapdragon 695,6.59
+Oppo,K10x,256GB,Normal,128,195,8,"5,000",2022,229,16MP,64MP + 2MP + 2MP,Qualcomm Snapdragon 695,6.59
+Oppo,K10,5G,Normal,128,205,8,"5,000",2022,249,16MP,64MP + 8MP + 2MP,MediaTek Dimensity 8000-Max,6.59
+Oppo,K9x,128GB,Normal,128,194,6,"5,000",2021,199,16MP,64MP + 2MP + 2MP,MediaTek Dimensity 810,6.5
+Oppo,K9x,256GB,Normal,128,194,8,"5,000",2021,229,16MP,64MP + 2MP + 2MP,MediaTek Dimensity 810,6.5
+Oppo,K9,Pro,Normal,128,180,8,"4,500",2021,299,16MP,64MP + 8MP + 2MP,MediaTek Dimensity 1200,6.43
+Oppo,K9,Pro,Normal,128,180,12,"4,500",2021,329,16MP,64MP + 8MP + 2MP,MediaTek Dimensity 1200,6.43
+Oppo,K9,5G,Normal,128,172,8,"4,300",2021,279,32MP,64MP + 8MP + 2MP,Qualcomm Snapdragon 768G,6.43
+Oppo,K9,5G,Normal,128,172,8,"4,300",2021,299,32MP,64MP + 8MP + 2MP,Qualcomm Snapdragon 768G,6.43
+Oppo,K7x,128GB,Normal,128,194,6,"5,000",2020,199,16MP,48MP + 8MP + 2MP + 2MP,MediaTek Dimensity 720,6.5
+Oppo,K7,5G,Normal,128,180,8,"4,025",2020,279,32MP,48MP + 8MP + 2MP + 2MP,Qualcomm Snapdragon 765G,6.4
+Oppo,K7,5G,Normal,128,180,8,"4,025",2020,299,32MP,48MP + 8MP + 2MP + 2MP,Qualcomm Snapdragon 765G,6.4
+Oppo,K11x,128GB,Normal,128,195,8,"5,000",2023,199,16MP,108MP + 2MP,Qualcomm Snapdragon 695,6.72
+Oppo,K11x,256GB,Normal,128,195,12,"5,000",2023,229,16MP,108MP + 2MP,Qualcomm Snapdragon 695,6.72
+Oppo,K11,128GB,Normal,128,184,8,"5,000",2023,259,16MP,64MP + 8MP + 2MP,Qualcomm Snapdragon 782G,6.7
+Oppo,K11,256GB,Normal,128,184,12,"5,000",2023,299,16MP,64MP + 8MP + 2MP,Qualcomm Snapdragon 782G,6.7
+Oppo,K10x,128GB,Normal,128,195,6,"5,000",2022,199,16MP,64MP + 2MP + 2MP,Qualcomm Snapdragon 695,6.59
+Oppo,K10x,256GB,Normal,128,195,8,"5,000",2022,229,16MP,64MP + 2MP + 2MP,Qualcomm Snapdragon 695,6.59
+Oppo,K10,5G,Normal,128,205,8,"5,000",2022,249,16MP,64MP + 8MP + 2MP,MediaTek Dimensity 8000-Max,6.59
+Oppo,K10,5G,Normal,128,205,12,"5,000",2022,279,16MP,64MP + 8MP + 2MP,MediaTek Dimensity 8000-Max,6.59
+Oppo,K9x,128GB,Normal,128,194,6,"5,000",2021,199,16MP,64MP + 2MP + 2MP,MediaTek Dimensity 810,6.5
+Oppo,K9x,256GB,Normal,128,194,8,"5,000",2021,229,16MP,64MP + 2MP + 2MP,MediaTek Dimensity 810,6.5
+Oppo,K9,Pro,Normal,128,180,8,"4,500",2021,299,16MP,64MP + 8MP + 2MP,MediaTek Dimensity 1200,6.43
+Oppo,K9,Pro,Normal,128,180,12,"4,500",2021,329,16MP,64MP + 8MP + 2MP,MediaTek Dimensity 1200,6.43
+Oppo,K9,5G,Normal,128,172,8,"4,300",2021,279,32MP,64MP + 8MP + 2MP,Qualcomm Snapdragon 768G,6.43
+Oppo,K9,5G,Normal,128,172,8,"4,300",2021,299,32MP,64MP + 8MP + 2MP,Qualcomm Snapdragon 768G,6.43
+Oppo,K7x,128GB,Normal,128,194,6,"5,000",2020,199,16MP,48MP + 8MP + 2MP + 2MP,MediaTek Dimensity 720,6.5
+Oppo,K7,5G,Normal,128,180,8,"4,025",2020,279,32MP,48MP + 8MP + 2MP + 2MP,Qualcomm Snapdragon 765G,6.4
+Realme,GT,7,Normal,128,222.8,12,"6,500",2024,470,16MP,50MP + 50MP + 8MP,Qualcomm Snapdragon 8 Elite,6.78
+Realme,GT,7,Normal,128,222.8,16,"6,500",2024,500,16MP,50MP + 50MP + 8MP,Qualcomm Snapdragon 8 Elite,6.78
+Realme,GT,6,Normal,128,191,8,"5,500",2023,380,32MP,50MP + 8MP + 50MP,Qualcomm Snapdragon 8s Gen 3,6.78
+Realme,GT,6,Normal,128,191,12,"5,500",2023,400,32MP,50MP + 8MP + 50MP,Qualcomm Snapdragon 8s Gen 3,6.78
+Realme,GT,6,Normal,128,191,16,"5,500",2023,420,32MP,50MP + 8MP + 50MP,Qualcomm Snapdragon 8s Gen 3,6.78
+Realme,GT,6T,Normal,128,191,8,"5,500",2023,360,32MP,50MP + 8MP,Qualcomm Snapdragon 7 Plus Gen 3,6.78
+Realme,GT,6T,Normal,128,191,8,"5,500",2023,380,32MP,50MP + 8MP,Qualcomm Snapdragon 7 Plus Gen 3,6.78
+Realme,14,Pro+,Normal,128,184,12,"6,000",2025,340,16MP,50MP + 8MP + 50MP,Qualcomm Snapdragon 7s Gen 3,6.83
+Realme,14,Pro+,Normal,128,184,12,"6,000",2025,360,16MP,50MP + 8MP + 50MP,Qualcomm Snapdragon 7s Gen 3,6.83
+Realme,14,Pro,Normal,128,184,8,"5,800",2025,320,16MP,50MP + 8MP,MediaTek Dimensity 7300 Energy,6.7
+Realme,14,Pro,Normal,128,184,8,"5,800",2025,340,16MP,50MP + 8MP,MediaTek Dimensity 7300 Energy,6.7
+Realme,14x,5G,Normal,128,190,6,"5,500",2025,270,16MP,48MP + 2MP + 2MP,Qualcomm Snapdragon 7s Gen 2,6.6
+Realme,14x,5G,Normal,128,190,8,"5,500",2025,290,16MP,48MP + 2MP + 2MP,Qualcomm Snapdragon 7s Gen 2,6.6
+Realme,13+,5G,Normal,128,185,8,"5,000",2024,250,16MP,50MP + 2MP,MediaTek Dimensity 7200,6.5
+Realme,13+,5G,Normal,128,185,8,"5,000",2024,270,16MP,50MP + 2MP,MediaTek Dimensity 7200,6.5
+Realme,13,5G,Normal,128,190,6,"5,000",2024,220,16MP,50MP + 2MP,MediaTek Dimensity 6100+,6.6
+Realme,13,5G,Normal,128,190,8,"5,000",2024,240,16MP,50MP + 2MP,MediaTek Dimensity 6100+,6.6
+Realme,13,Pro,Normal,128,192,8,"5,200",2024,300,16MP,50MP + 8MP + 2MP,Qualcomm Snapdragon 7s Gen 2,6.7
+Realme,13,Pro,Normal,128,192,12,"5,200",2024,320,16MP,50MP + 8MP + 2MP,Qualcomm Snapdragon 7s Gen 2,6.7
+Realme,13,Pro+,Normal,128,195,12,"5,500",2024,360,32MP,50MP + 8MP + 50MP,Qualcomm Snapdragon 7+ Gen 2,6.78
+Realme,13,Pro+,Normal,128,195,16,"5,500",2024,380,32MP,50MP + 8MP + 50MP,Qualcomm Snapdragon 7+ Gen 2,6.78
+Realme,P1,Speed,Normal,128,185,8,"5,100",2024,250,16MP,64MP + 2MP,MediaTek Dimensity 8100,6.7
+Realme,P1,Speed,Normal,128,185,12,"5,100",2024,270,16MP,64MP + 2MP,MediaTek Dimensity 8100,6.7
+Realme,P2,Pro,Normal,128,188,12,"5,500",2024,340,32MP,50MP + 8MP + 50MP,Qualcomm Snapdragon 7+ Gen 3,6.78
+Realme,P2,Pro,Normal,128,188,16,"5,500",2024,360,32MP,50MP + 8MP + 50MP,Qualcomm Snapdragon 7+ Gen 3,6.78
+Realme,P1,5G,Normal,128,184,6,"5,000",2024,200,16MP,50MP + 2MP,MediaTek Dimensity 6100+,6.6
+Realme,P1,5G,Normal,128,184,8,"5,000",2024,220,16MP,50MP + 2MP,MediaTek Dimensity 6100+,6.6
+Realme,P1,Pro,Normal,128,190,8,"5,200",2024,270,16MP,64MP + 2MP,Qualcomm Snapdragon 7s Gen 1,6.7
+Realme,P1,Pro,Normal,128,190,12,"5,200",2024,290,16MP,64MP + 2MP,Qualcomm Snapdragon 7s Gen 1,6.7
+Realme,Narzo,70,Normal,128,200,8,"5,000",2024,240,16MP,50MP + 2MP,MediaTek Dimensity 810,6.6
+Realme,Narzo,70,Normal,128,200,8,"5,000",2024,260,16MP,50MP + 2MP,MediaTek Dimensity 810,6.6
+Realme,Narzo,N61,Normal,128,195,6,"5,000",2024,180,16MP,50MP + 2MP,MediaTek Helio G99,6.5
+Realme,Narzo,N63,Normal,128,193,6,"5,000",2024,160,16MP,50MP + 2MP,MediaTek Helio G88,6.5
+Realme,Narzo,N65,Normal,128,198,8,"5,000",2024,210,16MP,50MP + 2MP,MediaTek Dimensity 700,6.6
+Realme,Narzo,70,Normal,128,198,8,"5,200",2024,230,16MP,50MP + 2MP,MediaTek Dimensity 810,6.6
+Realme,C75,128GB,Normal,128,190,6,"5,000",2024,160,8MP,50MP + 2MP,MediaTek Helio G85,6.6
+Realme,C75,256GB,Normal,128,190,8,"5,000",2024,180,8MP,50MP + 2MP,MediaTek Helio G85,6.6
+Realme,C61,128GB,Normal,128,189,4,"5,000",2024,130,8MP,50MP + 2MP,Unisoc T612,6.5
+Realme,C67,128GB,Normal,128,195,6,"5,000",2024,170,8MP,50MP + 2MP,MediaTek Helio G88,6.6
+Realme,C67,256GB,Normal,128,195,8,"5,000",2024,190,8MP,50MP + 2MP,MediaTek Helio G88,6.6
+Realme,C65,128GB,Normal,128,192,6,"5,000",2024,160,8MP,50MP + 2MP,Qualcomm Snapdragon 680,6.6
+Realme,C65,256GB,Normal,128,192,8,"5,000",2024,180,8MP,50MP + 2MP,Qualcomm Snapdragon 680,6.6
+Realme,C63,128GB,Normal,128,191,6,"5,000",2024,150,8MP,50MP + 2MP,MediaTek Helio G85,6.6
+Realme,C55,128GB,Normal,128,189,6,"5,000",2023,170,8MP,64MP + 2MP,MediaTek Helio G88,6.72
+Realme,C55,256GB,Normal,128,189,8,"5,000",2023,190,8MP,64MP + 2MP,MediaTek Helio G88,6.72
+Realme,Note,60x,Normal,128,198,6,"5,200",2024,210,16MP,50MP + 2MP,MediaTek Dimensity 6100+,6.6
+Realme,Note,60,Normal,128,196,6,"5,200",2024,220,16MP,50MP + 2MP,MediaTek Dimensity 810,6.6
+Realme,Note,60,Normal,128,196,8,"5,200",2024,240,16MP,50MP + 2MP,MediaTek Dimensity 810,6.6
+Realme,Note,50,Normal,128,195,6,"5,000",2024,170,16MP,50MP + 2MP,MediaTek Helio G99,6.5
+Realme,GT,7,Normal,128,199,8,"5,200",2024,440,16MP,50MP + 8MP + 2MP,Qualcomm Snapdragon 8 Gen 2,6.8
+Realme,GT,7,Normal,128,199,12,"5,200",2024,500,16MP,50MP + 8MP + 2MP,Qualcomm Snapdragon 8 Gen 2,6.8
+Realme,Neo,7,Normal,128,193,8,"5,000",2024,330,16MP,64MP + 8MP + 2MP,MediaTek Dimensity 8200,6.7
+Realme,Neo,7,Normal,128,193,12,"5,000",2024,380,16MP,64MP + 8MP + 2MP,MediaTek Dimensity 8200,6.7
+Realme,P2,Pro,Normal,128,195,8,"5,100",2024,350,16MP,50MP + 8MP,MediaTek Dimensity 9200,6.7
+Realme,P2,Pro,Normal,128,195,12,"5,100",2024,400,16MP,50MP + 8MP,MediaTek Dimensity 9200,6.7
+Realme,Pad,,Normal,128,440,4,"7,100",2021,200,8MP,8MP,MediaTek Helio G80,10.4
+Realme,Pad,128GB,Normal,128,440,6,"7,100",2021,230,8MP,8MP,MediaTek Helio G80,10.4
+Realme,Pad,2,Normal,128,482,6,"8,360",2023,280,8MP,8MP,MediaTek Helio G99,11.5
+Realme,Pad,2,Normal,128,482,8,"8,360",2023,320,8MP,8MP,MediaTek Helio G99,11.5
+Realme,Pad,2,Normal,128,466,4,"7,100",2023,190,8MP,8MP,MediaTek Helio G85,10.4
+Realme,Pad,2,Normal,128,466,6,"7,100",2023,210,8MP,8MP,MediaTek Helio G85,10.4
+Realme,Pad,X,Normal,128,499,4,"8,340",2022,310,8MP,13MP,Qualcomm Snapdragon 695,11
+Realme,Pad,X,Normal,128,499,6,"8,340",2022,350,8MP,13MP,Qualcomm Snapdragon 695,11
+Realme,Pad,Mini,Normal,128,372,3,"6,400",2022,160,5MP,8MP,Unisoc T616,8.7
+Realme,Pad,Mini,Normal,128,372,4,"6,400",2022,180,5MP,8MP,Unisoc T616,8.7
+Realme,Pad,Slim,Normal,128,440,4,"7,100",2022,200,8MP,8MP,MediaTek Helio G80,10.4
+Realme,Pad,Slim,Normal,128,440,6,"7,100",2022,220,8MP,8MP,MediaTek Helio G80,10.4
+Realme,TechLife,Pad,Normal,128,465,4,"7,200",2024,210,8MP,8MP,MediaTek Helio G85,10.5
+Realme,TechLife,Pad,Normal,128,465,6,"7,200",2024,230,8MP,8MP,MediaTek Helio G85,10.5
+Xiaomi,Xiaomi,15,Normal,128,210,12,"6,100",2024,799,32MP,50MP (Main) + 50MP (Ultra-wide) + 50MP (Telephoto),Snapdragon 8 Elite,6.73
+Xiaomi,Xiaomi,15,Normal,128,210,16,"6,100",2024,899,32MP,50MP (Main) + 50MP (Ultra-wide) + 50MP (Telephoto),Snapdragon 8 Elite,6.73
+Xiaomi,Xiaomi,15,Normal,128,210,16,"6,100",2024,999,32MP,50MP (Main) + 50MP (Ultra-wide) + 50MP (Telephoto),Snapdragon 8 Elite,6.73
+Xiaomi,Xiaomi,15,Normal,128,190,12,"5,400",2024,699,32MP,50MP (Main) + 50MP (Ultra-wide),Snapdragon 8 Elite,6.36
+Xiaomi,Xiaomi,15,Normal,128,190,16,"5,400",2024,799,32MP,50MP (Main) + 50MP (Ultra-wide),Snapdragon 8 Elite,6.36
+Xiaomi,Xiaomi,14T,Normal,128,209,12,"5,000",2024,634.99,32MP,50MP (Main) + 50MP (Ultra-wide) + 50MP (Telephoto),Dimensity 9300+,6.67
+Xiaomi,Xiaomi,14T,Normal,128,209,12,"5,000",2024,790.77,32MP,50MP (Main) + 50MP (Ultra-wide) + 50MP (Telephoto),Dimensity 9300+,6.67
+Xiaomi,Xiaomi,14T,Normal,128,209,12,"5,000",2024,899,32MP,50MP (Main) + 50MP (Ultra-wide) + 50MP (Telephoto),Dimensity 9300+,6.67
+Xiaomi,Xiaomi,14T,Normal,128,195,12,"5,000",2024,599,32MP,50MP (Main) + 50MP (Ultra-wide),Dimensity 8300-Ultra,6.67
+Xiaomi,Xiaomi,14T,Normal,128,195,12,"5,000",2024,699,32MP,50MP (Main) + 50MP (Ultra-wide),Dimensity 8300-Ultra,6.67
+Xiaomi,Xiaomi,14,Normal,128,206,12,"5,000",2023,799,32MP,50MP (Main) + 50MP (Ultra-wide) + 50MP (Telephoto),Snapdragon 8 Gen 3,6.73
+Xiaomi,Xiaomi,14,Normal,128,206,12,"5,000",2023,899,32MP,50MP (Main) + 50MP (Ultra-wide) + 50MP (Telephoto),Snapdragon 8 Gen 3,6.73
+Xiaomi,Xiaomi,14,Normal,128,189,12,"4,610",2023,699,32MP,50MP (Main) + 50MP (Ultra-wide),Snapdragon 8 Gen 3,6.36
+Xiaomi,Xiaomi,14,Normal,128,189,12,"4,610",2023,799,32MP,50MP (Main) + 50MP (Ultra-wide),Snapdragon 8 Gen 3,6.36
+Xiaomi,Redmi,Note,Normal,128,205,8,"5,110",2024,374.9,16MP,200MP (Main) + 8MP (Ultra-wide) + 2MP (Macro),Snapdragon 7s Gen 3,6.67
+Xiaomi,Redmi,Note,Normal,128,205,12,"5,110",2024,399,16MP,200MP (Main) + 8MP (Ultra-wide) + 2MP (Macro),Snapdragon 7s Gen 3,6.67
+Xiaomi,Redmi,Note,Normal,128,205,16,"5,110",2024,429,16MP,200MP (Main) + 8MP (Ultra-wide) + 2MP (Macro),Snapdragon 7s Gen 3,6.67
+Xiaomi,Redmi,Note,Normal,128,195,8,"5,500",2024,349,16MP,108MP (Main) + 8MP (Ultra-wide) + 2MP (Macro),MediaTek Dimensity 7300-Ultra,6.67
+Xiaomi,Redmi,Note,Normal,128,195,12,"5,500",2024,379,16MP,108MP (Main) + 8MP (Ultra-wide) + 2MP (Macro),MediaTek Dimensity 7300-Ultra,6.67
+Xiaomi,Redmi,Note,Normal,128,190,6,"5,000",2024,299,16MP,108MP (Main) + 8MP (Ultra-wide) + 2MP (Macro),Qualcomm Snapdragon 732G,6.67
+Xiaomi,Redmi,Note,Normal,128,190,8,"5,000",2024,329,16MP,108MP (Main) + 8MP (Ultra-wide) + 2MP (Macro),Qualcomm Snapdragon 732G,6.67
+Xiaomi,Redmi,Note,Normal,128,185,6,"5,000",2024,279,16MP,50MP (Main) + 8MP (Ultra-wide) + 2MP (Macro),MediaTek Dimensity 7025-Ultra,6.67
+Xiaomi,Redmi,Note,Normal,128,185,8,"5,000",2024,309,16MP,50MP (Main) + 8MP (Ultra-wide) + 2MP (Macro),MediaTek Dimensity 7025-Ultra,6.67
+Xiaomi,Redmi,Note,Normal,128,180,4,"5,000",2024,249,16MP,50MP (Main) + 8MP (Ultra-wide) + 2MP (Macro),Qualcomm Snapdragon 680,6.67
+Xiaomi,Redmi,Note,Normal,128,180,6,"5,000",2024,279,16MP,50MP (Main) + 8MP (Ultra-wide) + 2MP (Macro),Qualcomm Snapdragon 680,6.67
+Xiaomi,Redmi,14C,Normal,128,195,4,"5,000",2024,199,8MP,50MP (Main) + 2MP (Depth),MediaTek Dimensity 700,6.5
+Xiaomi,Redmi,14C,Normal,128,195,6,"5,000",2024,229,8MP,50MP (Main) + 2MP (Depth),MediaTek Dimensity 700,6.5
+Lenovo,Legion,Y70,Normal,128,209,8,"5,100",2022,499,16MP,50MP,Snapdragon 8+ Gen 1,6.67
+Lenovo,Legion,Y70,Normal,128,209,12,"5,100",2022,549,16MP,50MP,Snapdragon 8+ Gen 1,6.67
+Lenovo,Legion,Y70,Normal,128,209,16,"5,100",2022,599,16MP,50MP,Snapdragon 8+ Gen 1,6.67
+Lenovo,K14,Plus,Normal,128,198,4,"5,000",2022,199,8MP,48MP,Unisoc T700,6.5
+Lenovo,K14,Plus,Normal,128,198,6,"5,000",2022,229,8MP,48MP,Unisoc T700,6.5
+Lenovo,K13,Pro,Normal,128,200,6,"5,000",2021,249,16MP,64MP,Snapdragon 662,6.8
+Lenovo,K13,,Normal,128,190,2,"5,000",2021,149,5MP,13MP,Unisoc SC9863A,6.52
+Lenovo,K13,Note,Normal,128,200,4,"5,000",2021,199,8MP,48MP,Snapdragon 460,6.5
+Lenovo,K10,Plus,Normal,128,172,4,"4,050",2019,179,16MP,13MP,Snapdragon 632,6.22
+Lenovo,A6,Note,Normal,128,172,3,"4,000",2019,149,5MP,13MP,Helio P22,6.09
+Lenovo,K10,Note,Normal,128,164,4,"4,050",2019,219,16MP,16MP,Snapdragon 710,6.3
+Lenovo,K10,Note,Normal,128,164,6,"4,050",2019,249,16MP,16MP,Snapdragon 710,6.3
+Lenovo,Z6,Pro,Normal,128,185,6,"4,000",2019,429,32MP,48MP,Snapdragon 855,6.39
+Lenovo,Z6,Pro,Normal,128,185,8,"4,000",2019,479,32MP,48MP,Snapdragon 855,6.39
+Lenovo,Z5,Pro,Normal,128,210,6,"3,350",2018,299,16MP,16MP,Snapdragon 710,6.39
+Motorola,Edge,50,Normal,128,168,8,"5,000",2024,499,32MP,50MP,Snapdragon 7 Gen 1,6.7
+Motorola,Edge,50,Normal,128,168,12,"5,000",2024,549,32MP,50MP,Snapdragon 7 Gen 1,6.7
+Motorola,Edge,50,Normal,128,186,8,"4,500",2024,549,50MP,50MP,Snapdragon 7 Gen 3,6.7
+Motorola,Edge,50,Normal,128,186,12,"4,500",2024,599,50MP,50MP,Snapdragon 7 Gen 3,6.7
+Motorola,Razr,128GB,Normal,128,192,8,"3,500",2023,999,32MP,50MP,Snapdragon 8+ Gen 1,6.7
+Motorola,Razr,256GB,Normal,128,192,12,"3,500",2023,"1,099",32MP,50MP,Snapdragon 8+ Gen 1,6.7
+Motorola,G84,5G,Normal,128,166,8,"5,000",2023,299,16MP,50MP,Snapdragon 695,6.5
+Motorola,G84,5G,Normal,128,166,12,"5,000",2023,349,16MP,50MP,Snapdragon 695,6.5
+Motorola,Moto,G,Normal,128,195,4,"5,000",2023,199,16MP,50MP,MediaTek Helio G88,6.8
+Motorola,Moto,G,Normal,128,195,6,"5,000",2023,249,16MP,50MP,MediaTek Helio G88,6.8
+Motorola,One,Vision,Normal,128,180,6,"3,500",2024,299,25MP,48MP,Exynos 9609,6.3
+Motorola,One,Vision,Normal,128,180,8,"3,500",2024,349,25MP,48MP,Exynos 9609,6.3
+Motorola,Edge,50,Normal,128,170,6,"5,000",2024,399,32MP,64MP,Snapdragon 695,6.7
+Motorola,Edge,50,Normal,128,170,8,"5,000",2024,449,32MP,64MP,Snapdragon 695,6.7
+Motorola,Moto,E40,Normal,128,198,4,"5,000",2023,199,8MP,48MP,Unisoc T700,6.5
+Motorola,Moto,E40,Normal,128,198,6,"5,000",2023,229,8MP,48MP,Unisoc T700,6.5
+Motorola,Moto,G,Normal,128,206,4,"5,000",2022,249,16MP,50MP,Snapdragon 662,6.6
+Motorola,Moto,G,Normal,128,206,6,"5,000",2022,279,16MP,50MP,Snapdragon 662,6.6
+Motorola,Moto,G,Normal,128,203,3,"5,000",2022,149,5MP,13MP,MediaTek Helio G25,6.5
+Motorola,Moto,G,Normal,128,203,4,"5,000",2022,179,5MP,13MP,MediaTek Helio G25,6.5
+Motorola,Moto,G75,Normal,128,205,8,"5,000",2024,320,16MP,50MP,Snapdragon 6 Gen 3,6.78
+Motorola,Moto,G75,Normal,128,205,8,"5,000",2024,370,16MP,50MP,Snapdragon 6 Gen 3,6.78
+Motorola,Moto,S50,Normal,128,190,8,"4,500",2024,300,32MP,64MP,MediaTek Dimensity 8100,6.7
+Motorola,Moto,S50,Normal,128,190,12,"4,500",2024,350,32MP,64MP,MediaTek Dimensity 8100,6.7
+Motorola,Edge,50,Normal,128,171,8,"4,310",2024,400,32MP,50MP,MediaTek Dimensity 7300,6.4
+Motorola,Edge,50,Normal,128,171,12,"4,310",2024,450,32MP,50MP,MediaTek Dimensity 7300,6.4
+Motorola,Moto,G55,Normal,128,182,8,"5,000",2024,270,16MP,50MP,MediaTek Dimensity 7025,6.49
+Motorola,Moto,G55,Normal,128,182,8,"5,000",2024,320,16MP,50MP,MediaTek Dimensity 7025,6.49
+Motorola,Moto,G35,Normal,128,188,4,"5,000",2024,200,16MP,50MP,Unisoc T760,6.72
+Motorola,Moto,G35,Normal,128,188,8,"5,000",2024,250,16MP,50MP,Unisoc T760,6.72
+Motorola,Moto,G45,Normal,128,183,6,"5,000",2024,250,16MP,50MP,Snapdragon 6s Gen 3,6.5
+Motorola,Moto,G45,Normal,128,183,8,"5,000",2024,300,16MP,50MP,Snapdragon 6s Gen 3,6.5
+Motorola,Edge,50,Normal,128,180,8,"4,700",2024,450,32MP,50MP,Snapdragon 7s Gen 2,6.7
+Motorola,Edge,50,Normal,128,180,12,"4,700",2024,500,32MP,50MP,Snapdragon 7s Gen 2,6.7
+Motorola,Razr,50,Normal,128,189,12,"4,000",2024,"1,199",32MP,50MP,Snapdragon 8+ Gen 1,6.9
+Motorola,Razr,50,Normal,128,188,8,"3,800",2024,999,32MP,50MP,Snapdragon 7 Gen 1,6.7
+Motorola,Moto,G85,Normal,128,173,8,"5,000",2024,320,32MP,50MP,Snapdragon 6s Gen 3,6.67
+Motorola,Moto,G85,Normal,128,173,12,"5,000",2024,370,32MP,50MP,Snapdragon 6s Gen 3,6.67
+Motorola,S50,Neo,Normal,128,170,8,"4,300",2024,300,32MP,50MP,MediaTek Dimensity 7200,6.5
+Motorola,S50,Neo,Normal,128,170,12,"4,300",2024,350,32MP,50MP,MediaTek Dimensity 7200,6.5
+Motorola,Moto,E14,Normal,128,180,4,"5,000",2024,150,8MP,13MP,Unisoc T606,6.5
+Motorola,Moto,E14,Normal,128,180,4,"5,000",2024,180,8MP,13MP,Unisoc T606,6.5
+Motorola,Edge,256GB,Normal,128,174,8,"4,700",2024,450,32MP,50MP,Snapdragon 7s Gen 2,6.7
+Motorola,Edge,512GB,Normal,128,174,12,"4,700",2024,500,32MP,50MP,Snapdragon 7s Gen 2,6.7
+Motorola,Moto,X50,Normal,128,198,12,"5,000",2024,"1,499",60MP,200MP,Snapdragon 8 Gen 3,6.9
+Motorola,Moto,G,Normal,128,195,6,"5,000",2024,300,16MP,50MP,Snapdragon 6 Gen 1,6.8
+Motorola,Moto,G,Normal,128,195,8,"5,000",2024,350,16MP,50MP,Snapdragon 6 Gen 1,6.8
+Motorola,Edge,50,Normal,128,198,12,"5,000",2024,"1,499",60MP,200MP,Snapdragon 8 Gen 3,6.9
+Motorola,Edge,30,Normal,128,168,8,"4,400",2022,699,32MP,50MP,Snapdragon 888+ 5G,6.55
+Motorola,Edge,30,Normal,128,168,12,"4,400",2022,749,32MP,50MP,Snapdragon 888+ 5G,6.55
+Motorola,Edge,30,Normal,128,155,6,"4,020",2022,499,32MP,64MP,Snapdragon 695 5G,6.28
+Motorola,Edge,30,Normal,128,155,8,"4,020",2022,549,32MP,64MP,Snapdragon 695 5G,6.28
+Motorola,Moto,G82,Normal,128,173,6,"5,000",2022,399,16MP,50MP,Snapdragon 695 5G,6.6
+Motorola,Moto,G82,Normal,128,173,8,"5,000",2022,449,16MP,50MP,Snapdragon 695 5G,6.6
+Motorola,Moto,G62,Normal,128,184,4,"5,000",2022,349,16MP,50MP,Snapdragon 480+ 5G,6.5
+Motorola,Moto,G62,Normal,128,184,6,"5,000",2022,399,16MP,50MP,Snapdragon 480+ 5G,6.5
+Motorola,Moto,G42,Normal,128,175,4,"5,000",2022,299,16MP,50MP,Snapdragon 680 4G,6.4
+Motorola,Moto,G32,Normal,128,184,4,"5,000",2022,279,16MP,50MP,Snapdragon 680 4G,6.5
+Motorola,Moto,E32s,Normal,128,185,3,"5,000",2022,199,8MP,16MP,MediaTek Helio G37,6.5
+Motorola,Moto,E22i,Normal,128,169,2,"4,020",2022,179,5MP,16MP,MediaTek Helio G37,6.5
+Motorola,Moto,E22,Normal,128,169,4,"4,020",2022,199,5MP,16MP,MediaTek Helio G37,6.5
+Motorola,Moto,G22,Normal,128,185,4,"5,000",2022,249,16MP,50MP,MediaTek Helio G37,6.5
+Huawei,P50,,Normal,128,181,8,"4,100",2021,699,13MP,50MP,Snapdragon 888 4G,6.5
+Huawei,P50,Pro,Normal,128,195,8,"4,360",2021,899,13MP,50MP,Snapdragon 888 4G,6.6
+Huawei,P50,Pocket,Normal,128,190,8,"4,000",2021,"1,299",10.7MP,40MP,Snapdragon 888 4G,6.9
+Huawei,Mate,40E,Normal,128,188,8,"4,200",2021,799,13MP,64MP,Kirin 990E 5G,6.5
+Huawei,Mate,X2,Normal,128,295,8,"4,500",2021,"2,699",16MP,50MP,Kirin 9000 5G,8
+Huawei,Nova,9,Normal,128,175,8,"4,300",2021,499,32MP,50MP,Snapdragon 778G 4G,6.57
+Huawei,Nova,9,Normal,128,186,8,"4,000",2021,599,Dual 32MP,50MP,Snapdragon 778G 4G,6.72
+Huawei,P50E,,Normal,128,181,8,"4,100",2022,649,13MP,50MP,Snapdragon 778G 4G,6.5
+Huawei,Mate,Xs,Normal,128,255,8,"4,600",2022,"2,499",10.7MP,50MP,Snapdragon 888 4G,7.8
+Huawei,Mate,50,Normal,128,202,8,"4,460",2022,999,13MP,50MP,Snapdragon 8+ Gen 1 4G,6.7
+Huawei,Mate,50,Normal,128,205,8,"4,700",2022,"1,199",13MP,50MP,Snapdragon 8+ Gen 1 4G,6.74
+Huawei,Nova,10,Normal,128,168,8,"4,000",2022,499,60MP,50MP,Snapdragon 778G 4G,6.67
+Huawei,Nova,10,Normal,128,191,8,"4,500",2022,599,Dual 60MP,50MP,Snapdragon 778G 4G,6.78
+Huawei,Nova,10,Normal,128,184,8,"4,500",2022,399,16MP,108MP,Snapdragon 680 4G,6.67
+Huawei,P60,,Normal,128,197,8,"4,815",2023,999,13MP,48MP (wide) + 13MP (ultrawide) + 48MP (telephoto),Snapdragon 8+ Gen 1 4G,6.67
+Huawei,P60,Pro,Normal,128,200,8る12ら,"4,815",2023,"1,099",13MP,48MP (wide) + 13MP (ultrawide) + 48MP (telephoto),Snapdragon 8+ Gen 1 4G,6.67
+Huawei,P60,Art,Normal,128,206,8る12ら,"5,100",2023,"1,299",13MP,48MP (wide) + 40MP (ultrawide) + 48MP (telephoto),Snapdragon 8+ Gen 1 4G,6.73
+Huawei,Mate,X3,Normal,128,239,12,"4,800",2023,"2,499",8MP,50MP (wide) + 13MP (ultrawide) + 12MP (periscope telephoto),Snapdragon 8+ Gen 1 4G,7.85
+Huawei,Mate,60,Normal,128,209,12,"4,750",2023,"1,099",13MP,50MP (wide) + 12MP (ultrawide) + 12MP (telephoto),Kirin 9000S,6.7
+Huawei,Mate,60,Normal,128,225,12,"5,000",2023,"1,299",13MP,50MP (wide) + 40MP (ultrawide) + 48MP (telephoto),Kirin 9000S,6.82
+Huawei,Mate,60,Normal,128,235,12,"5,200",2023,"1,499",13MP,50MP (wide) + 48MP (ultrawide) + 48MP (telephoto),Kirin 9000S,6.82
+Huawei,Nova,11,Normal,128,168,8,"4,500",2023,499,60MP,50MP (wide) + 8MP (ultrawide),Snapdragon 778G 4G,6.7
+Huawei,Nova,11,Normal,128,188,8,"4,500",2023,599,60MP (ultrawide) + 8MP (telephoto),50MP (wide) + 8MP (ultrawide),Snapdragon 778G 4G,6.78
+Huawei,Nova,11,Normal,128,188,12,"4,500",2023,699,60MP (ultrawide) + 8MP (telephoto),50MP (wide) + 8MP (ultrawide),Snapdragon 778G 4G,6.78
+Huawei,Pura,70,Normal,128,220,12,"4,900",2024,999,13MP,50MP + 13MP + 12MP,Kirin 9010,6.8
+Huawei,Pura,70,Normal,128,220,12,"5,050",2024,"1,099",13MP,50MP + 12.5MP + 48MP,Kirin 9010,6.8
+Huawei,Pura,70,Normal,128,220,12,"5,050",2024,"1,199",13MP,50MP + 12.5MP + 48MP,Kirin 9010,6.8
+Huawei,Pura,70,Normal,128,226,16,"5,200",2024,"1,299",13MP,50MP + 40MP + 50MP,Kirin 9010,6.8
+Huawei,Mate,70,Normal,128,220,12,"4,900",2024,899,13MP,50MP + 12MP,Kirin 9010,6.7
+Huawei,Mate,70,Normal,128,220,12,"5,000",2024,999,13MP,50MP + 12MP + 40MP,Kirin 9010,6.8
+Huawei,Mate,70,Normal,128,220,12,"5,000",2024,"1,099",13MP,50MP + 12MP + 40MP,Kirin 9010,6.8
+Huawei,Mate,X6,Normal,128,241,12,"4,800",2024,"2,499",8MP,50MP + 13MP + 12MP,Kirin 9010,7.93
+Huawei,Nova,12,Normal,128,168,8,"4,500",2024,499,60MP,50MP + 8MP,Kirin 9000S,6.7
+Huawei,Nova,12,Normal,128,188,8,"4,500",2024,599,60MP + 8MP,50MP + 8MP,Kirin 9000S,6.78
+Huawei,Mate,XT,Normal,128,245,12,"5,000",2024,"2,599",13MP,50MP + 12MP + 48MP,Kirin 9010,7.92
+Huawei,Mate,XT,Normal,128,245,12,"5,000",2024,"2,799",13MP,50MP + 12MP + 48MP,Kirin 9010,7.92
+Huawei,Nova,13,Normal,128,170,8,"4,600",2024,529,50MP,50MP + 8MP,Kirin 9000S,6.7
+Huawei,Nova,13,Normal,128,170,8,"4,600",2024,599,50MP,50MP + 8MP,Kirin 9000S,6.7
+Huawei,Nova,13,Normal,128,190,8,"4,600",2024,649,60MP + 8MP,50MP + 8MP,Kirin 9000S,6.78
+Huawei,Nova,13,Normal,128,190,8,"4,600",2024,729,60MP + 8MP,50MP + 8MP,Kirin 9000S,6.78
+Nokia,G42,5G,Normal,128,193,4,"5,000",2023,229,8MP,50MP,Snapdragon 480+,6.56
+Nokia,G20,,Normal,128,197,4,"5,050",2021,169,8MP,48MP,MediaTek G35,6.52
+Nokia,G20,128GB,Normal,128,197,4,"5,050",2021,189,8MP,48MP,MediaTek G35,6.52
+Nokia,C32,,Normal,128,199,3,"5,000",2023,139,8MP,50MP,Unisoc SC9863A,6.52
+Nokia,C32,128GB,Normal,128,199,4,"5,000",2023,159,8MP,50MP,Unisoc SC9863A,6.52
+Nokia,G21,,Normal,128,190,4,"5,050",2022,169,8MP,50MP,Unisoc T606,6.5
+Nokia,G21,128GB,Normal,128,190,6,"5,050",2022,189,8MP,50MP,Unisoc T606,6.5
+Nokia,C22,,Normal,128,190,2,"5,000",2023,119,8MP,13MP,Unisoc SC9863A,6.5
+Nokia,C22,128GB,Normal,128,190,3,"5,000",2023,139,8MP,13MP,Unisoc SC9863A,6.5
+Nokia,G400,128GB,Normal,128,198,6,"5,000",2022,239,16MP,48MP,Snapdragon 480,6.58
+Sony,Xperia,1,Normal,128,185,12,"5,000",2022,"1,599",12MP,12MP,Snapdragon 8 Gen 1,6.5
+Sony,Xperia,5,Normal,128,172,8,"5,000",2022,999,12MP,12MP,Snapdragon 8 Gen 1,6.1
+Sony,Xperia,10,Normal,128,161,6,"5,000",2022,499,8MP,12MP,Snapdragon 695,6
+Sony,Xperia,1,Normal,128,187,12,"5,000",2023,"1,699",12MP,48MP,Snapdragon 8 Gen 2,6.5
+Sony,Xperia,5,Normal,128,178,8,"5,000",2023,"1,099",12MP,48MP,Snapdragon 8 Gen 2,6.1
+Sony,Xperia,10,Normal,128,164,6,"5,000",2023,599,8MP,48MP,Snapdragon 695,6.1
+Sony,Xperia,1,Normal,128,190,12,"5,000",2024,"1,799",12MP,48MP,Snapdragon 8 Gen 3,6.5
+Sony,Xperia,5,Normal,128,180,8,"5,000",2024,"1,199",12MP,48MP,Snapdragon 8 Gen 3,6.1
+Sony,Xperia,10,Normal,128,167,6,"5,000",2024,699,8MP,48MP,Snapdragon 7 Gen 1,6.1
+Nokia,T21,,Normal,128,466,4,8200,2022,"396,22",8MP,8MP,Unisoc T612,10.4
+Huawei,MatePad,Pro,Normal,128,508,12,"10,100",2024,999,16MP,"13MP (f/1.8, AF)",Kirin 9000S,12.2
+Huawei,MatePad,Pro,Normal,128,580,12,"10,100",2024,877,16MP,"13MP (f/1.8, AF)",Kirin 9000S,13.2
+Google,Pixel,3a,Normal,128,147,4,"3,000",2019,399,8MP,12.2MP,Snapdragon 670,5.6
+Google,Pixel,3a,Normal,128,167,4,"3,700",2019,479,8MP,12.2MP,Snapdragon 670,6
+Google,Pixel,4,Normal,128,162,6,"2,800",2019,799,8MP,12.2MP,Snapdragon 855,5.7
+Google,Pixel,4,Normal,128,193,6,"3,700",2019,899,8MP,12.2MP,Snapdragon 855,6.3
+Google,Pixel,4a,Normal,128,143,6,"3,140",2020,349,8MP,12.2MP,Snapdragon 730G,5.8
+Google,Pixel,4a,Normal,128,168,6,"3,885",2020,499,8MP,12.2MP,Snapdragon 765G,6.2
+Google,Pixel,5,Normal,128,151,8,"4,080",2020,699,8MP,12.2MP,Snapdragon 765G,6
+Google,Pixel,5a,Normal,128,183,6,"4,680",2021,449,8MP,12.2MP,Snapdragon 765G,6.34
+Google,Pixel,6,Normal,128,207,8,"4,614",2021,699,8MP,50MP,Google Tensor,6.4
+Google,Pixel,6,Normal,128,210,12,"5,003",2021,899,11.1MP,50MP,Google Tensor,6.71
+Google,Pixel,6a,Normal,128,178,6,"4,410",2022,449,8MP,12.2MP,Google Tensor,6.1
+Google,Pixel,7,Normal,128,197,8,"4,355",2022,599,10.8MP,50MP,Google Tensor G2,6.3
+Google,Pixel,7,Normal,128,212,12,"5,000",2022,899,10.8MP,50MP,Google Tensor G2,6.7
+Google,Pixel,7a,Normal,128,193,8,"4,385",2023,499,10.8MP,64MP,Google Tensor G2,6.1
+Google,Pixel,8,Normal,128,187,8,"4,575",2023,699,10.5MP,50MP,Google Tensor G3,6.2
+Google,Pixel,8,Normal,128,213,12,"5,050",2023,999,10.5MP,50MP,Google Tensor G3,6.7
+Google,Pixel,8a,Normal,128,194,8,"4,385",2024,549,10.5MP,64MP,Google Tensor G3,6.1
+Google,Pixel,9,Normal,128,195,8,"4,600",2024,799,10.8MP,50MP,Google Tensor G4,6.3
+Google,Pixel,9,Normal,128,216,12,"5,050",2024,"1,099",10.8MP,50MP,Google Tensor G4,6.7
+Google,Pixel,9,Normal,128,222,16,"5,250",2024,"1,299",10.8MP,50MP,Google Tensor G4,6.8
+Google,Pixel,9,Normal,128,250,16,"5,500",2024,"1,799",10.8MP,50MP,Google Tensor G4,7.6
+Tecno,Spark,Go,Normal,128,190,4,"5,000",2024,129,8MP,13MP,MediaTek Helio A22,6.6
+Tecno,Megapad,11,Normal,128,450,8,"8,000",2024,349,13MP,50MP,MediaTek G99,11
+Tecno,Pop,9,Normal,128,195,3,"5,000",2024,99,5MP,8MP,Unisoc SC9863A,6.52
+Tecno,Megapad,128GB,Normal,128,420,6,"7,500",2024,299,12MP,50MP,MediaTek Helio G80,10.9
+Tecno,Camon,30S,Normal,128,198,8,"5,200",2024,499,32MP,50MP,MediaTek Dimensity 810,6.8
+Tecno,Spark,30C,Normal,128,200,6,"5,000",2024,199,16MP,50MP,MediaTek Dimensity 6100+,6.6
+Tecno,Spark,30,Normal,128,195,6,"5,000",2024,229,16MP,50MP,MediaTek Dimensity 6020,6.6
+Tecno,Pop,9,Normal,128,190,3,"5,000",2024,89,5MP,8MP,Unisoc SC9832E,6.52
+Tecno,Spark,30,Normal,128,205,8,"5,200",2024,269,32MP,50MP,MediaTek Helio G99,6.8
+Tecno,Spark,30,Normal,128,192,4,"5,000",2024,179,16MP,50MP,MediaTek Helio G85,6.6
+Tecno,Phantom,V,Normal,128,280,12,"5,500",2024,"1,799",32MP,64MP,MediaTek Dimensity 9200+,7.85
+Tecno,Phantom,V,Normal,128,195,8,"4,300",2024,999,32MP,50MP,MediaTek Dimensity 8050,6.9
+Tecno,Pova,6,Normal,128,225,8,"6,000",2024,349,16MP,50MP,MediaTek Dimensity 810,6.8
+Tecno,Spark,30C,Normal,128,190,4,"5,000",2024,149,16MP,50MP,MediaTek Helio G85,6.6
+Tecno,Spark,Go,Normal,128,195,3,"5,000",2024,99,5MP,8MP,Unisoc SC9863A,6.52
+Tecno,Camon,30S,Normal,128,202,12,"5,200",2024,"1,099",50MP,108MP,MediaTek Dimensity 9200,6.9
+Tecno,Spark,20P,Normal,128,195,4,"5,000",2024,179,16MP,50MP,MediaTek Helio G85,6.6
+Tecno,Spark,20,Normal,128,210,8,"5,200",2024,329,32MP,50MP,MediaTek Dimensity 810,6.8
+Tecno,Pova,6,Normal,128,230,8,"6,000",2024,299,16MP,50MP,MediaTek Helio G99,6.8
+Tecno,Camon,30,Normal,128,210,12,"5,200",2024,"1,199",50MP,108MP,MediaTek Dimensity 9200,6.9
+Tecno,Camon,30,Normal,128,205,12,"5,200",2024,899,50MP,64MP,MediaTek Dimensity 8200,6.8
+Tecno,Camon,30,Normal,128,198,8,"5,000",2024,499,32MP,50MP,MediaTek Dimensity 810,6.7
+Tecno,Camon,30,Normal,128,195,6,"5,000",2024,349,32MP,50MP,MediaTek Helio G99,6.7
+Tecno,Pova,6,Normal,128,230,12,"6,000",2024,"1,099",32MP,64MP,MediaTek Dimensity 8100,6.9
+Tecno,Spark,20,Normal,128,210,8,"5,200",2024,269,32MP,50MP,MediaTek Helio G99,6.8
+Tecno,Spark,20,Normal,128,195,6,"5,000",2024,199,16MP,50MP,MediaTek Helio G85,6.6
+Tecno,Spark,20,Normal,128,192,4,"5,000",2024,179,16MP,50MP,MediaTek Helio G85,6.6
+Tecno,Spark,20C,Normal,128,190,4,"5,000",2024,149,16MP,50MP,MediaTek Helio G85,6.6
+Tecno,Spark,Go,Normal,128,195,3,"5,000",2024,99,5MP,8MP,Unisoc SC9863A,6.52
+Tecno,Pop,8,Normal,128,195,3,"5,000",2024,89,5MP,8MP,Unisoc SC9832E,6.52
+Tecno,Camon,20s,Normal,128,202,12,"5,200",2024,"1,099",50MP,108MP,MediaTek Dimensity 9200,6.9
+Tecno,Camon,20s,Normal,128,202,12,"5,200",2024,899,50MP,108MP,MediaTek Dimensity 810,6.9
+Tecno,Camon,20s,Normal,128,200,8,"5,000",2024,449,32MP,50MP,MediaTek Helio G99,6.7
+Tecno,Camon,20,Normal,128,205,12,"5,200",2024,"1,049",50MP,108MP,MediaTek Dimensity 8200,6.8
+Tecno,Camon,20,Normal,128,200,8,"5,000",2024,499,32MP,50MP,MediaTek Dimensity 810,6.7
+Tecno,Camon,20,Normal,128,198,6,"5,000",2024,349,32MP,50MP,MediaTek Helio G99,6.7
+Tecno,Camon,20,Normal,128,195,6,"5,000",2024,349,32MP,50MP,MediaTek Helio G99,6.7
+Tecno,Pova,5G,Normal,128,240,8,"6,000",2024,699,32MP,50MP,MediaTek Dimensity 900,6.9
+Tecno,Pova,5,Normal,128,230,8,"6,000",2024,329,16MP,50MP,MediaTek Helio G99,6.8
+Infinix,Xpad,,Normal,128,450,6,"7,000",2024,299,8MP,13MP,MediaTek Helio G99,10.1
+Infinix,Xpad,5G,Normal,128,470,8,"8,000",2024,399,16MP,50MP,MediaTek Dimensity 810,10.4
+Infinix,Xpad,Lite,Normal,128,420,4,"6,000",2024,219,5MP,8MP,Unisoc T606,9.7
+Infinix,Xpad,Pro,Normal,128,480,12,"9,000",2024,549,32MP,50MP,MediaTek Dimensity 9200,11
+Infinix,Hot,50,Normal,128,192,6,"5,000",2024,219,8MP,50MP,MediaTek Helio G85,6.78
+Infinix,Hot,50i,Normal,128,190,4,"5,000",2024,179,8MP,50MP,Unisoc T606,6.6
+Infinix,Hot,50,Normal,128,195,8,"5,200",2024,289,16MP,50MP,MediaTek Dimensity 810,6.78
+Infinix,Hot,50,Normal,128,194,8,"5,000",2024,269,16MP,50MP,MediaTek Helio G99,6.8
+Infinix,Hot,50,Normal,128,196,12,"5,300",2024,379,32MP,108MP,MediaTek Dimensity 9200,6.9
+Infinix,GT,20,Normal,128,198,12,"5,500",2024,449,32MP,108MP,MediaTek Dimensity 8200,6.9
+Infinix,Note,40X,Normal,128,198,8,"5,200",2024,349,32MP,108MP,MediaTek Dimensity 7200,6.8
+Infinix,Note,40S,Normal,128,196,8,"5,000",2024,279,32MP,50MP,MediaTek Helio G99,6.78
+Infinix,Note,40,Normal,128,195,8,"5,200",2024,319,32MP,108MP,MediaTek Dimensity 8100,6.8
+Infinix,Note,40,Normal,128,195,12,"5,300",2024,399,32MP,108MP,MediaTek Dimensity 9000,6.8
+Infinix,Note,40,Normal,128,196,12,"5,500",2024,449,32MP,108MP,MediaTek Dimensity 9200,6.9
+Infinix,Hot,40,Normal,128,196,8,"5,000",2023,199,32MP,50MP,MediaTek Helio G88,6.78
+Infinix,Hot,40i,Normal,128,195,4,"5,000",2023,159,8MP,13MP,Unisoc T606,6.6
+Infinix,Hot,40,Normal,128,195,8,"5,000",2023,229,32MP,108MP,MediaTek Helio G99,6.78
+Infinix,Zero,40,Normal,128,195,12,"5,000",2024,349,50MP,108MP,MediaTek Dimensity 8200,6.78
+Infinix,Zero,40,Normal,128,195,12,"5,000",2024,379,50MP,108MP,MediaTek Dimensity 8200,6.78
+Infinix,Zero,Flip,Normal,128,190,8,"4,500",2024,399,32MP,108MP,Qualcomm Snapdragon 778G,6.7
+Infinix,Note,40,Normal,128,190,8,"5,000",2024,279,32MP,108MP,MediaTek Helio G99,6.78
+Infinix,Note,40,Normal,128,190,12,"5,000",2024,329,32MP,108MP,MediaTek Dimensity 8100,6.78
+Infinix,Hot,30,Normal,128,196,8,"5,000",2023,199,8MP,50MP,MediaTek Helio G88,6.78
+Infinix,Hot,30i,Normal,128,191,4,"5,000",2023,159,8MP,13MP,Unisoc T606,6.6
+Infinix,Hot,30i,Normal,128,191,4,"5,000",2023,159,8MP,13MP,Unisoc T606,6.6
+Infinix,Hot,30,Normal,128,205,4,"6,000",2023,179,8MP,16MP,MediaTek Helio G37,6.82
+Infinix,Hot,30,Normal,128,202,8,"5,000",2023,239,8MP,50MP,MediaTek Dimensity 810,6.78
+Infinix,Zero,30,Normal,128,185,8,"5,000",2023,349,50MP,108MP,MediaTek Dimensity 8020,6.78
+Infinix,Zero,30,Normal,128,185,12,"5,000",2023,379,50MP,108MP,MediaTek Dimensity 8020,6.78
+Infinix,GT,10,Normal,128,187,8,"5,000",2023,399,32MP,108MP,MediaTek Dimensity 8050,6.67
+Infinix,Hot,12,Normal,128,195,6,"5,000",2022,179,8MP,13MP,MediaTek Helio G85,6.82
+Infinix,Hot,12,Normal,128,209,4,"6,000",2022,159,8MP,13MP,Unisoc T610,6.82
+Infinix,Hot,12,Normal,128,191,8,"5,000",2022,199,8MP,50MP,Unisoc T616,6.6
+Infinix,Hot,12i,Normal,128,190,4,"5,000",2022,139,8MP,13MP,MediaTek Helio A22,6.6
+Infinix,Hot,20,Normal,128,198,6,"5,000",2022,199,8MP,50MP,MediaTek Helio G85,6.82
+Infinix,Hot,20,Normal,128,209,4,"6,000",2022,159,8MP,13MP,MediaTek Helio G37,6.82
+Infinix,Hot,20s,Normal,128,202,8,"5,000",2022,219,8MP,50MP,MediaTek Helio G96,6.78
+Infinix,Hot,20,Normal,128,204,6,"5,000",2022,239,8MP,50MP,MediaTek Dimensity 810,6.6
+Infinix,Hot,20i,Normal,128,195,4,"5,000",2022,139,8MP,13MP,MediaTek Helio G25,6.6
+Infinix,Hot,10T,Normal,128,205,4,"5,000",2021,149,8MP,48MP,MediaTek Helio G70,6.82
+Infinix,Hot,10S,Normal,128,211,6,"6,000",2021,169,8MP,48MP,MediaTek Helio G85,6.82
+Infinix,Hot,10S,Normal,128,211,6,"6,000",2021,179,8MP,48MP,MediaTek Helio G85,6.82
+Infinix,Hot,10,Normal,128,195,3,"5,000",2020,109,8MP,13MP,MediaTek Helio A25,6.6
+Infinix,Hot,10,Normal,128,207,4,"6,000",2021,139,8MP,13MP,MediaTek Helio G25,6.82
+Infinix,Hot,11,Normal,128,201,4,"5,200",2021,159,8MP,13MP,MediaTek Helio G70,6.6
+Infinix,Hot,11,Normal,128,209,4,"6,000",2021,169,8MP,13MP,MediaTek Helio G35,6.82
+Infinix,Hot,11s,Normal,128,205,6,"5,000",2021,189,8MP,50MP,MediaTek Helio G88,6.78
+Infinix,Smart,HD,Normal,128,195,2,"5,000",2020,79,5MP,8MP,MediaTek Helio A20,6.1
+Infinix,Note,8i,Normal,128,210,6,"5,200",2020,199,8MP,48MP,MediaTek Helio G80,6.78
+Infinix,Hot,10,Normal,128,195,3,"5,000",2020,109,8MP,13MP,MediaTek Helio A25,6.6
+Infinix,Note,8,Normal,128,210,6,"5,200",2020,229,16MP,64MP,MediaTek Helio G80,6.95
+Infinix,Zero,8i,Normal,128,210,8,"4,500",2020,249,16MP,48MP,MediaTek Helio G90T,6.85
+Infinix,Hot,10,Normal,128,204,4,"5,200",2020,159,8MP,16MP,MediaTek Helio G70,6.78
+Infinix,Zero,8,Normal,128,205,8,"4,500",2020,279,48MP,64MP,MediaTek Helio G90T,6.85
+Infinix,Smart,5,Normal,128,195,3,"5,000",2020,99,8MP,13MP,MediaTek Helio A20,6.6
+Honor,9X,Lite,Normal,128,175,4,"3,750",2020,219,8MP,48MP,Kirin 710F,6.5
+Honor,30,,Normal,128,185,8,"4,000",2020,449,32MP,40MP,Kirin 985 5G,6.53
+Honor,30,Pro,Normal,128,190,8,"4,000",2020,599,32MP,50MP,Kirin 990 5G,6.57
+Honor,30,Pro+,Normal,128,192,12,"4,000",2020,699,32MP,50MP,Kirin 990 5G,6.57
+Honor,30S,,Normal,128,190,6,"4,000",2020,349,16MP,64MP,Kirin 820 5G,6.5
+Honor,X10,,Normal,128,203,6,"4,300",2020,319,16MP,40MP,Kirin 820 5G,6.63
+Honor,X10,Max,Normal,128,227,8,"5,000",2020,379,8MP,48MP,MediaTek Dimensity 800,7.09
+Honor,Play,4,Normal,128,213,6,"4,300",2020,349,16MP,64MP,MediaTek Dimensity 800,6.81
+Honor,Play,4,Normal,128,213,8,"4,200",2020,549,32MP,40MP,Kirin 990 5G,6.57
+Honor,10X,Lite,Normal,128,206,4,"5,000",2020,229,8MP,48MP,Kirin 710A,6.67
+Honor,V40,,Normal,128,189,8,"4,000",2021,599,16MP,50MP,MediaTek Dimensity 1000+,6.72
+Honor,50,,Normal,128,175,8,"4,300",2021,549,32MP,108MP,Qualcomm Snapdragon 778G,6.57
+Honor,50,Pro,Normal,128,187,8,"4,000",2021,649,32MP,108MP,Qualcomm Snapdragon 778G,6.72
+Honor,50,SE,Normal,128,191,8,"4,000",2021,449,16MP,108MP,MediaTek Dimensity 900,6.78
+Honor,X20,,Normal,128,192,6,"4,300",2021,379,16MP,64MP,MediaTek Dimensity 900,6.67
+Honor,X20,SE,Normal,128,179,6,"4,000",2021,299,16MP,64MP,MediaTek Dimensity 700,6.6
+Honor,Play,5,Normal,128,179,8,"3,800",2021,319,16MP,64MP,MediaTek Dimensity 800U,6.53
+Honor,Play,5T,Normal,128,191,6,"5,000",2021,219,8MP,13MP,Unisoc T610,6.5
+Honor,Magic3,,Normal,128,202,8,"4,600",2021,899,13MP,50MP,Qualcomm Snapdragon 888,6.76
+Honor,Magic3,Pro,Normal,128,213,8,"4,600",2021,"1,099",13MP,50MP,Qualcomm Snapdragon 888+,6.76
+Honor,Magic3,Pro+,Normal,128,236,12,"4,600",2021,"1,299",13MP,50MP,Qualcomm Snapdragon 888+,6.76
+Honor,60,,Normal,128,179,8,"4,800",2021,549,32MP,108MP,Qualcomm Snapdragon 778G,6.67
+Honor,60,Pro,Normal,128,192,8,"4,800",2021,649,50MP,108MP,Qualcomm Snapdragon 778G+,6.78
+Honor,60,SE,Normal,128,191,8,"4,300",2021,449,16MP,64MP,MediaTek Dimensity 900,6.67
+Honor,X30,,Normal,128,189,6,"4,800",2021,379,16MP,48MP,Qualcomm Snapdragon 695,6.81
+Honor,X30i,,Normal,128,175,6,"4,000",2021,299,16MP,48MP,MediaTek Dimensity 810,6.7
+Honor,X30,Max,Normal,128,228,8,"5,000",2021,499,8MP,64MP,MediaTek Dimensity 900,7.09
+Honor,Play,6,Normal,128,190,6,"5,000",2022,179,5MP,13MP,MediaTek MT6762G Helio G25,6.52
+Honor,Play,6T,Normal,128,198,6,"5,000",2022,229,5MP,13MP,MediaTek Dimensity 700,6.74
+Honor,Magic4,,Normal,128,199,8,"4,800",2022,899,12MP,50MP,Qualcomm Snapdragon 8 Gen 1,6.81
+Honor,Magic4,Pro,Normal,128,215,8,"4,600",2022,"1,099",12MP,50MP,Qualcomm Snapdragon 8 Gen 1,6.81
+Honor,Magic4,Ultimate,Normal,128,242,12,"4,600",2022,"1,299",12MP,50MP,Qualcomm Snapdragon 8 Gen 1,6.81
+Honor,Magic,V,Normal,128,288,12,"4,750",2022,"1,799",42MP,50MP,Qualcomm Snapdragon 8 Gen 1,7.9
+Honor,70,,Normal,128,178,8,"4,800",2022,549,32MP,54MP,Qualcomm Snapdragon 778G+,6.67
+Honor,70,Pro,Normal,128,192,8,"4,500",2022,699,50MP,54MP,MediaTek Dimensity 8000,6.78
+Honor,70,Pro+,Normal,128,209,12,"4,500",2022,799,50MP,54MP,MediaTek Dimensity 9000,6.78
+Honor,X40,,Normal,128,172,6,"5,100",2022,299,8MP,50MP,Qualcomm Snapdragon 695,6.67
+Honor,X40i,,Normal,128,175,6,"4,000",2022,279,8MP,50MP,MediaTek Dimensity 700,6.7
+Honor,Play,7,Normal,128,196,4,"5,200",2023,159,5MP,13MP,MediaTek Helio G37,6.74
+Honor,Play,7T,Normal,128,199,6,"5,200",2023,199,5MP,13MP,MediaTek Dimensity 6020,6.74
+Honor,Magic5,,Normal,128,204,8,"5,100",2023,999,12MP,50MP,Qualcomm Snapdragon 8 Gen 2,6.81
+Honor,Magic5,Pro,Normal,128,219,12,"5,100",2023,"1,199",12MP,50MP,Qualcomm Snapdragon 8 Gen 2,6.81
+Honor,Magic5,Ultimate,Normal,128,234,16,"5,450",2023,"1,399",12MP,50MP,Qualcomm Snapdragon 8 Gen 2,6.81
+Honor,Magic,Vs,Normal,128,267,12,"5,000",2023,"1,699",16MP,50MP,Qualcomm Snapdragon 8+ Gen 1,7.9
+Honor,80,,Normal,128,180,8,"4,800",2022,549,32MP,160MP,Qualcomm Snapdragon 782G,6.67
+Honor,80,Pro,Normal,128,193,12,"4,800",2022,799,50MP,160MP,Qualcomm Snapdragon 8+ Gen 1,6.78
+Honor,80,SE,Normal,128,175,8,"4,600",2022,399,32MP,64MP,MediaTek Dimensity 900,6.67
+Honor,X50,,Normal,128,185,6,"5,800",2023,299,8MP,108MP,Qualcomm Snapdragon 6 Gen 1,6.78
+Honor,X50i,,Normal,128,179,6,"4,500",2023,249,8MP,100MP,MediaTek Dimensity 6020,6.7
+Honor,Play,8,Normal,128,191,4,"5,000",2023,149,5MP,13MP,MediaTek Helio G36,6.52
+Honor,Play,8T,Normal,128,195,6,"5,200",2023,189,5MP,50MP,MediaTek Dimensity 6100+,6.74
+Honor,Magic6,,Normal,128,203,8,"5,200",2024,"1,099",12MP,50MP,Qualcomm Snapdragon 8 Gen 3,6.81
+Honor,Magic6,Pro,Normal,128,219,12,"5,500",2024,"1,299",12MP,50MP,Qualcomm Snapdragon 8 Gen 3,6.81
+Honor,Magic6,Ultimate,Normal,128,234,16,"5,550",2024,"1,499",12MP,50MP,Qualcomm Snapdragon 8 Gen 3,6.81
+Honor,Magic,V2,Normal,128,231,12,"5,000",2024,"1,899",16MP,50MP,Qualcomm Snapdragon 8 Gen 2,7.92
+Honor,90,,Normal,128,183,12,"5,000",2023,599,50MP,200MP,Qualcomm Snapdragon 7 Gen 1,6.7
+Honor,90,Pro,Normal,128,192,12,"5,000",2023,699,50MP,200MP,Qualcomm Snapdragon 8+ Gen 1,6.78
+Honor,90,SE,Normal,128,175,8,"4,600",2023,399,32MP,64MP,MediaTek Dimensity 900,6.67
+Honor,X60,,Normal,128,185,6,"5,800",2023,299,8MP,108MP,Qualcomm Snapdragon 6 Gen 1,6.78
+Honor,X60i,,Normal,128,179,6,"4,500",2023,249,8MP,100MP,MediaTek Dimensity 6020,6.7
+Honor,Play,9,Normal,128,191,4,"5,000",2023,149,5MP,13MP,MediaTek Helio G36,6.52
+Honor,Play,9T,Normal,128,195,6,"5,200",2023,189,5MP,50MP,MediaTek Dimensity 6100+,6.74
+Honor,Magic7,,Normal,128,203,8,"5,200",2024,"1,099",12MP,50MP,Qualcomm Snapdragon 8 Gen 3,6.81
+Honor,Magic7,Pro,Normal,128,219,12,"5,500",2024,"1,299",12MP,50MP,Qualcomm Snapdragon 8 Gen 3,6.81
+Honor,Magic7,Ultimate,Normal,128,234,16,"5,550",2024,"1,499",12MP,50MP,Qualcomm Snapdragon 8 Gen 3,6.81
+Honor,Magic,V3,Normal,128,231,12,"5,000",2024,"1,899",16MP,50MP,Qualcomm Snapdragon 8 Gen 2,7.92
+Honor,Pad,6,Normal,128,460,4,"5,100",2020,199,2MP,5MP,Qualcomm Snapdragon 662,10.1
+Honor,Pad,X6,Normal,128,460,3,"5,100",2020,159,2MP,5MP,MediaTek MT8768T,9.7
+Honor,Pad,7,Normal,128,460,4,"5,100",2021,229,2MP,5MP,MediaTek Helio G80,10.1
+Honor,Tablet,V7,Normal,128,480,6,"7,250",2021,399,8MP,13MP,MediaTek Dimensity 800,10.4
+Honor,Tablet,V7,Normal,128,485,8,"7,250",2021,499,8MP,13MP,MediaTek Dimensity 1300T,11
+Honor,Pad,8,Normal,128,520,6,"7,250",2022,299,5MP,5MP,Qualcomm Snapdragon 680,12
+Honor,Pad,X8,Normal,128,460,4,"5,100",2022,189,2MP,5MP,MediaTek Helio G80,10.1
+Honor,Pad,X8,Normal,128,450,3,"5,000",2022,149,2MP,5MP,MediaTek MT8786,9.7
+Honor,Pad,V8,Normal,128,510,6,"7,250",2023,449,5MP,13MP,MediaTek Dimensity 8020,11
+Honor,Pad,V8,Normal,128,530,8,"8,500",2023,649,8MP,13MP,MediaTek Dimensity 9000,12.1
+Honor,Pad,9,Normal,128,550,8,"8,300",2024,399,8MP,13MP,Qualcomm Snapdragon 6 Gen 1,12.1
+Honor,Pad,9,Normal,128,560,12,"9,000",2024,499,8MP,13MP,MediaTek Dimensity 8100,12.6
+Honor,Pad,X9,Normal,128,495,6,"7,250",2023,299,5MP,8MP,Qualcomm Snapdragon 685,11.5
+Honor,Pad,X8,Normal,128,460,4,"5,100",2023,189,2MP,5MP,MediaTek Helio G80,10.1
+Honor,MagicPad,13,Normal,128,590,12,"10,000",2023,799,8MP,13MP,Qualcomm Snapdragon 8+ Gen 1,13
+Honor,MagicPad,2,Normal,128,580,16,"10,500",2024,899,12MP,16MP,Qualcomm Snapdragon 8 Gen 2,13.2
+Honor,Pad,X8a,Normal,128,450,4,"5,000",2023,149,2MP,5MP,MediaTek MT8786,9.7
+Honor,Pad,X8a,Normal,128,460,3,"5,100",2023,129,2MP,5MP,MediaTek MT8786,9.7
+Honor,Pad,X9,Normal,128,505,8,"8,000",2024,399,8MP,13MP,Qualcomm Snapdragon 7s Gen 2,11.6
+Honor,Pad,V9,Normal,128,530,8,"8,500",2024,649,8MP,13MP,MediaTek Dimensity 9000,12.1
+Honor,Pad,GT,Normal,128,610,12,"10,500",2024,999,12MP,16MP,Qualcomm Snapdragon 8 Gen 3,13.5
+Honor,Pad,X10,Normal,128,475,6,"8,850",2024,399,5MP,8MP,Qualcomm Snapdragon 685,12.1
+Honor,Pad,X10,Normal,128,485,8,"9,000",2024,499,8MP,13MP,Qualcomm Snapdragon 7s Gen 2,12.6
+Honor,MagicPad,3,Normal,128,590,12,"10,500",2024,799,12MP,16MP,Qualcomm Snapdragon 8 Gen 3,13
+Honor,Pad,V10,Normal,128,530,8,"8,500",2024,649,8MP,13MP,MediaTek Dimensity 9000,12.1
+POCO,F2,Pro,Normal,128,219,6,4700,2020,499,20MP,64MP,Snapdragon 865,6.67
+POCO,M2,Pro,Normal,128,209,4,5000,2020,199,16MP,48MP,Snapdragon 720G,6.67
+POCO,X3,NFC,Normal,128,215,6,5160,2020,229,20MP,64MP,Snapdragon 732G,6.67
+POCO,M3,,Normal,128,198,4,6000,2020,149,8MP,48MP,Snapdragon 662,6.53
+POCO,F3,128GB,Normal,128,196,6,4520,2021,349,20MP,48MP,Snapdragon 870,6.67
+POCO,X3,Pro,Normal,128,215,6,5160,2021,249,20MP,48MP,Snapdragon 860,6.67
+POCO,M3,Pro,Normal,128,190,4,5000,2021,199,8MP,48MP,MediaTek Dimensity 700,6.5
+POCO,F3,GT,Normal,128,205,6,5065,2021,399,16MP,64MP,MediaTek Dimensity 1200,6.67
+POCO,X3,GT,Normal,128,193,6,5000,2021,279,16MP,64MP,MediaTek Dimensity 1100,6.6
+POCO,M4,Pro,Normal,128,195,4,5000,2021,219,16MP,50MP,MediaTek Dimensity 810,6.6
+POCO,F4,128GB,Normal,128,195,6,4500,2022,349,20MP,64MP,Snapdragon 870,6.67
+POCO,F4,GT,Normal,128,210,8,4700,2022,499,20MP,64MP,Snapdragon 8 Gen 1,6.67
+POCO,X4,Pro,Normal,128,205,6,5000,2022,299,16MP,108MP,Snapdragon 695,6.67
+POCO,M4,Pro,Normal,128,179,6,5000,2022,219,16MP,64MP,MediaTek Helio G96,6.43
+POCO,M5,128GB,Normal,128,201,4,5000,2022,199,5MP,50MP,MediaTek Helio G99,6.58
+POCO,M5s,128GB,Normal,128,178.8,4,5000,2022,229,13MP,64MP,MediaTek Helio G95,6.43
+POCO,F5,128GB,Normal,128,181,6,5000,2023,349,16MP,64MP,Snapdragon 7+ Gen 2,6.67
+POCO,F5,Pro,Normal,128,204,8,5160,2023,499,20MP,64MP,Snapdragon 8+ Gen 1,6.67
+POCO,X5,128GB,Normal,128,189,6,5000,2023,279,13MP,48MP,Snapdragon 695,6.67
+POCO,X5,Pro,Normal,128,181,6,5000,2023,329,16MP,108MP,Snapdragon 778G,6.67
+POCO,M6,,Normal,128,199,4,5000,2023,199,8MP,50MP,MediaTek Helio G88,6.58
+POCO,M6,Pro,Normal,128,202,6,5000,2023,219,8MP,50MP,Snapdragon 4 Gen 1,6.79
+POCO,X6,128GB,Normal,128,193,6,5000,2024,349,16MP,64MP,MediaTek Dimensity 8100,6.67
+POCO,X6,Pro,Normal,128,205,8,5000,2024,399,20MP,108MP,MediaTek Dimensity 8300,6.67
+POCO,F6,,Normal,128,190,6,5000,2024,449,20MP,64MP,Snapdragon 8 Gen 2,6.67
+POCO,F6,Pro,Normal,128,210,8,5160,2024,549,20MP,108MP,Snapdragon 8+ Gen 2,6.67
+POCO,C65,,Normal,128,190,4,5000,2024,149,5MP,50MP,MediaTek Helio G85,6.5
+POCO,X7,,Normal,128,195,6,5000,2025,329,16MP,64MP,MediaTek Dimensity 8200,6.67
+POCO,X7,Pro,Normal,256,207,8,6000,2025,399,20MP,108MP,MediaTek Dimensity 8400,6.67
+POCO,M7,5G,Normal,128,198,6,5110,2024,229,8MP,50MP,MediaTek Dimensity 7025,6.67
+Poco,Pad,5G,Normal,128,571,8,"10,000",2024,280,8MP,8MP,Snapdragon 7s Gen 2,12.1
+Poco,Pad,5G,Normal,256,571,8,"10,000",2024,300,8MP,8MP,Snapdragon 7s Gen 2,12.1
+Samsung,Galaxy,Z,Fold6,256,239,12,4400,2024,"1,899","10MP, 4MP (UDC)",50MP,Snapdragon 8 Gen 3,7.6
+Samsung,Galaxy,Z,Fold6,512,239,12,4400,2024,1719,"10MP, 4MP (UDC)",50MP,Snapdragon 8 Gen 3,7.6
+Samsung,Galaxy,Z,Fold6,1024,239,12,4400,2024,259,"10MP, 4MP (UDC)",50MP,Snapdragon 8 Gen 3,7.6
