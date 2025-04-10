@@ -28,8 +28,20 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Products" asp-action="Index">Products</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Customer" asp-action="Index">Customers</a>
+                        </li>
                     </ul>
                 </div>
+
+                <form asp-controller="Account" asp-action="Login" method="post" id="RegisterForm" class="navbar-right">
+                    <button type="submit" class="btn btn-primary">登入</button>
+                </form>
+
+                <form asp-controller="Account" asp-action="Logout" method="post" id="logoutForm" class="navbar-right">
+                    <button type="submit" class="btn btn-primary">登出</button>
+                </form>
+
             </div>
         </nav>
     </header>
