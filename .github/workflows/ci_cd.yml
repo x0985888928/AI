@@ -16,7 +16,7 @@ jobs:
 
     # 只有在事件是 PR 時才執行這個 job
     if: github.event_name == 'pull_request'
-    if: ${{ false }}
+
     steps:
       # 下載 PR 的原始碼
       - name: Checkout code
