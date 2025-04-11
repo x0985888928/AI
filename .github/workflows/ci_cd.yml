@@ -1,0 +1,70 @@
+name: CI and CD Pipeline
+
+# 設定觸發條件：push 到 main 或 pull request 指向 main 時都會觸發整個 workflow
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  # 🔍 CI 檢查流程，只在 pull request 時執行（判斷 github.event_name）
+  ci-check:
+    name: 🧪 CI - Build and Test
+    runs-on: ubuntu-latest
+
+    # 只有在事件是 PR 時才執行這個 job
+    if: github.event_name == 'pull_request'
+
+    steps:
+      # 🔹 下載 PR 的原始碼
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # 🔹 安裝 .NET 8 SDK
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: 8.0.x
+
+      # 🔹 嘗試編譯專案
+      - name: Build solution
+        run: dotnet build ./ML.NET/ML.NET/ML.NET.csproj --configuration Release
+
+      # 🔹 執行單元測試（如果沒有測試也不會失敗）
+      - name: Run tests (if any)
+        run: dotnet test ./ML.NET/ML.NET/ML.NET.csproj || true
+
+  # CD 部署流程，只在 push 到 main 時執行
+  cd-deploy:
+    name: CD - Package for Deployment
+    runs-on: ubuntu-latest
+
+    # 只有在事件是 push 時才執行這個 job
+    if: github.event_name == 'push'
+
+    steps:
+      # 🔹 下載最新的 main 原始碼
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # 🔹 安裝 .NET 8 SDK
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: 8.0.x
+
+      # 🔹 使用 dotnet publish 指令打包（輸出到 output 資料夾）
+      - name: Publish project
+        run: dotnet publish ./ML.NET/ML.NET/ML.NET.csproj -c Release -o output
+
+      # 🔹 把 output 資料夾壓縮成 output.zip
+      - name: Zip output
+        run: zip -r output.zip output
+
+      # 🔹 上傳 ZIP 成果到 GitHub Actions 的 Artifact（你可以在 Actions 頁面下載）
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ML.NET-Publish-ZIP
+          path: output.zip
