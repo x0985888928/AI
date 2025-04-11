@@ -1,9 +1,13 @@
 name: Build and Package ML.NET
 
+env:
+  DEPLOY_ENABLED: false
+
 on:
   push:
     branches: [main]
 
+if: env.DEPLOY_ENABLED == 'true'
 jobs:
   build:
     runs-on: ubuntu-latest

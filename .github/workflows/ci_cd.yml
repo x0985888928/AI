@@ -1,4 +1,8 @@
+
 name: CI and CD Pipeline
+
+env:
+  DEPLOY_ENABLED: true
 
 # 設定觸發條件：push 到 main 或 pull request 指向 main 時都會觸發整個 workflow
 on:
@@ -7,10 +11,11 @@ on:
   pull_request:
     branches: [main]
 
+if: env.DEPLOY_ENABLED == 'true'
 jobs:
-  # 🔍 CI 檢查流程，只在 pull request 時執行（判斷 github.event_name）
+  # CI 檢查流程，只在 pull request 時執行（判斷 github.event_name）
   ci-check:
-    name: 🧪 CI - Build and Test
+    name: CI - Build and Test
     runs-on: ubuntu-latest
 
     # 只有在事件是 PR 時才執行這個 job
