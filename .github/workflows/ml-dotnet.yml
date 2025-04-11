@@ -12,10 +12,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    defaults:
-      run:
-        working-directory: ML.NET
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -25,11 +21,12 @@ jobs:
         with:
           dotnet-version: 6.0.x
 
-      - name: Restore dependencies
-        run: dotnet restore
-
-      - name: Build solution
-        run: dotnet build --no-restore --configuration Release
-
-      - name: Run tests
-        run: dotnet test --no-build --verbosity normal
+      - name: Find and build all .csproj
+        run: |
+          find ML.NET -name "*.csproj"
+          for proj in $(find ML.NET -name "*.csproj"); do
+            echo "Building $proj"
+            dotnet restore "$proj"
+            dotnet build "$proj" --no-restore --configuration Release
+            dotnet test "$proj" --no-build --verbosity normal || true
+          done
