@@ -1,0 +1,31 @@
+name: Build and Package ML.NET
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Publish project
+        run: |
+          dotnet publish ./ML.NET/ML.NET/ML.NET.csproj -c Release -o output
+
+      - name: Zip published output
+        run: zip -r output.zip output
+
+      - name: Upload artifact (for manual deployment)
+        uses: actions/upload-artifact@v4
+        with:
+          name: ML.NET-Publish-ZIP
+          path: output.zip
