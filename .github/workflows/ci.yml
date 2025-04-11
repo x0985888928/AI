@@ -1,21 +1,19 @@
 name: ci
 
-env:
-  DEPLOY_ENABLED: false
-
 on:
   push:
     branches: [main]
   pull_request:
     branches: [main]
 
-
-
 jobs:
   build:
     runs-on: ubuntu-latest
 
-    if: env.DEPLOY_ENABLED == 'true'
+    env:
+      DEPLOY_ENABLED: false
+
+    if: ${{ env.DEPLOY_ENABLED == 'true' }}
 
     steps:
       - name: Checkout code
