@@ -11,7 +11,7 @@ on:
   pull_request:
     branches: [main]
 
-if: env.DEPLOY_ENABLED == 'true'
+
 jobs:
   # CI 檢查流程，只在 pull request 時執行（判斷 github.event_name）
   ci-check:
@@ -20,7 +20,7 @@ jobs:
 
     # 只有在事件是 PR 時才執行這個 job
     if: github.event_name == 'pull_request'
-
+    if: env.DEPLOY_ENABLED == 'true'
     steps:
       # 🔹 下載 PR 的原始碼
       - name: Checkout code

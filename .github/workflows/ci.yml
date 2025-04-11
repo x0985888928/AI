@@ -9,11 +9,13 @@ on:
   pull_request:
     branches: [main]
 
-if: env.DEPLOY_ENABLED == 'true'
+
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
+    if: env.DEPLOY_ENABLED == 'true'
 
     steps:
       - name: Checkout code
