@@ -10,10 +10,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    env:
-      DEPLOY_ENABLED: false
-
-    if: ${{ env.DEPLOY_ENABLED == 'true' }}
+    if: ${{ false }}
 
     steps:
       - name: Checkout code

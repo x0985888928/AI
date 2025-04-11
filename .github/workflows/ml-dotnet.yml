@@ -1,8 +1,5 @@
 name: ML.NET CI
 
-env:
-  DEPLOY_ENABLED: false
-
 on:
   push:
     paths:
@@ -15,8 +12,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
-    if: env.DEPLOY_ENABLED == 'true'
 
     steps:
       - name: Checkout code
