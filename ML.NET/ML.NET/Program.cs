@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using ML.NET.Data;
 using ML.NET.Middlewares;
+using ML.NET.Services;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,6 +11,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
 );
+
+builder.Services.AddSingleton<PricePredictionService>();
 
 // 加入 Identity 服務與預設 UI，使用預設的 IdentityUser
 builder.Services.AddDefaultIdentity<IdentityUser>(options =>

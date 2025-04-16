@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ML.NET")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea68961e949400e21c5ba10a7b9d81ec30070269")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+85be098d7d70c4cc02469fcdef1fdc61b1c3cf7e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ML.NET")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ML.NET")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

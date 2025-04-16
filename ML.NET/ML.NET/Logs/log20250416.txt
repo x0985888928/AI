@@ -1,0 +1,471 @@
+2025-04-16 16:46:39.790 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Account/Login.cshtml'.
+2025-04-16 16:46:39.835 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Account/Register.cshtml'.
+2025-04-16 16:46:39.835 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Customer/Create.cshtml'.
+2025-04-16 16:46:39.835 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Customer/Index.cshtml'.
+2025-04-16 16:46:39.835 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2025-04-16 16:46:39.835 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2025-04-16 16:46:39.836 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Perdict/Index.cshtml'.
+2025-04-16 16:46:39.836 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Products/Create.cshtml'.
+2025-04-16 16:46:39.836 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Products/Delete.cshtml'.
+2025-04-16 16:46:39.836 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Products/Details.cshtml'.
+2025-04-16 16:46:39.837 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Products/Edit.cshtml'.
+2025-04-16 16:46:39.837 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Products/Index.cshtml'.
+2025-04-16 16:46:39.837 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2025-04-16 16:46:39.837 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2025-04-16 16:46:39.837 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2025-04-16 16:46:39.837 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2025-04-16 16:46:39.837 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2025-04-16 16:46:39.837 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/AccessDenied.cshtml'.
+2025-04-16 16:46:39.837 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/ConfirmEmail.cshtml'.
+2025-04-16 16:46:39.837 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml'.
+2025-04-16 16:46:39.837 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/ExternalLogin.cshtml'.
+2025-04-16 16:46:39.837 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/ForgotPassword.cshtml'.
+2025-04-16 16:46:39.837 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml'.
+2025-04-16 16:46:39.838 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Lockout.cshtml'.
+2025-04-16 16:46:39.838 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Login.cshtml'.
+2025-04-16 16:46:39.838 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/LoginWith2fa.cshtml'.
+2025-04-16 16:46:39.838 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml'.
+2025-04-16 16:46:39.838 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Logout.cshtml'.
+2025-04-16 16:46:39.838 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml'.
+2025-04-16 16:46:39.838 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml'.
+2025-04-16 16:46:39.838 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml'.
+2025-04-16 16:46:39.838 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml'.
+2025-04-16 16:46:39.838 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/Email.cshtml'.
+2025-04-16 16:46:39.838 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml'.
+2025-04-16 16:46:39.839 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml'.
+2025-04-16 16:46:39.839 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml'.
+2025-04-16 16:46:39.839 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/Index.cshtml'.
+2025-04-16 16:46:39.839 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml'.
+2025-04-16 16:46:39.839 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml'.
+2025-04-16 16:46:39.839 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml'.
+2025-04-16 16:46:39.839 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml'.
+2025-04-16 16:46:39.839 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml'.
+2025-04-16 16:46:39.839 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/_Layout.cshtml'.
+2025-04-16 16:46:39.839 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml'.
+2025-04-16 16:46:39.839 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml'.
+2025-04-16 16:46:39.839 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml'.
+2025-04-16 16:46:39.839 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/_ViewStart.cshtml'.
+2025-04-16 16:46:39.839 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Register.cshtml'.
+2025-04-16 16:46:39.839 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml'.
+2025-04-16 16:46:39.839 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml'.
+2025-04-16 16:46:39.839 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/ResetPassword.cshtml'.
+2025-04-16 16:46:39.839 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml'.
+2025-04-16 16:46:39.839 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/_StatusMessage.cshtml'.
+2025-04-16 16:46:39.839 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/_ViewImports.cshtml'.
+2025-04-16 16:46:39.839 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Error.cshtml'.
+2025-04-16 16:46:39.839 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/_Layout.cshtml'.
+2025-04-16 16:46:39.839 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml'.
+2025-04-16 16:46:39.839 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/_ViewImports.cshtml'.
+2025-04-16 16:46:39.839 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/_ViewStart.cshtml'.
+2025-04-16 16:46:39.852 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-16 16:46:40.352 +08:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-16 16:46:41.493 +08:00 [DBG] Hosting starting
+2025-04-16 16:46:41.515 +08:00 [DBG] Reading data from file 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys\key-228ef77b-c039-4826-ac9a-42e4b3b59cdc.xml'.
+2025-04-16 16:46:41.719 +08:00 [DBG] Found key {228ef77b-c039-4826-ac9a-42e4b3b59cdc}.
+2025-04-16 16:46:41.729 +08:00 [DBG] Considering key {228ef77b-c039-4826-ac9a-42e4b3b59cdc} with expiration date 2025-07-01 06:29:20Z as default key.
+2025-04-16 16:46:41.734 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-04-16 16:46:41.737 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-04-16 16:46:41.739 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-04-16 16:46:41.748 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-04-16 16:46:41.750 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-04-16 16:46:41.752 +08:00 [DBG] Using key {228ef77b-c039-4826-ac9a-42e4b3b59cdc} as the default key.
+2025-04-16 16:46:41.752 +08:00 [DBG] Key ring with default key {228ef77b-c039-4826-ac9a-42e4b3b59cdc} was loaded during application startup.
+2025-04-16 16:46:42.090 +08:00 [DBG] Loaded hosting startup assembly ML.NET
+2025-04-16 16:46:42.090 +08:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-16 16:46:42.090 +08:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-16 16:46:42.090 +08:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-16 16:46:42.257 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-16 16:46:42.257 +08:00 [INF] Hosting environment: Development
+2025-04-16 16:46:42.257 +08:00 [INF] Content root path: D:\AI\ML.NET\ML.NET
+2025-04-16 16:46:42.257 +08:00 [DBG] Hosting started
+2025-04-16 16:46:42.482 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/ - null null
+2025-04-16 16:46:42.914 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-16 16:46:42.928 +08:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-04-16 16:46:42.930 +08:00 [DBG] The request path / does not match a supported file type
+2025-04-16 16:46:43.049 +08:00 [DBG] 1 candidate(s) found for the request path '/'
+2025-04-16 16:46:43.054 +08:00 [DBG] Endpoint 'ML.NET.Controllers.HomeController.Index (ML.NET)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+2025-04-16 16:46:43.055 +08:00 [DBG] Request matched endpoint 'ML.NET.Controllers.HomeController.Index (ML.NET)'
+2025-04-16 16:46:43.060 +08:00 [INF] Executing endpoint 'ML.NET.Controllers.HomeController.Index (ML.NET)'
+2025-04-16 16:46:43.109 +08:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ML.NET.Controllers.HomeController (ML.NET).
+2025-04-16 16:46:43.113 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-16 16:46:43.114 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-16 16:46:43.115 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-16 16:46:43.115 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-16 16:46:43.115 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-16 16:46:43.118 +08:00 [DBG] Executing controller factory for controller ML.NET.Controllers.HomeController (ML.NET)
+2025-04-16 16:46:43.120 +08:00 [DBG] Executed controller factory for controller ML.NET.Controllers.HomeController (ML.NET)
+2025-04-16 16:46:43.121 +08:00 [INF] 進入 HomeController 的 Index Action
+2025-04-16 16:46:43.124 +08:00 [DBG] View lookup cache miss for view 'Index' in controller 'Home'.
+2025-04-16 16:46:43.139 +08:00 [INF] Executing ViewResult, running view Index.
+2025-04-16 16:46:43.142 +08:00 [DBG] The view path '/Views/Home/Index.cshtml' was found in 16.5713ms.
+2025-04-16 16:46:43.293 +08:00 [DBG] View lookup cache miss for view '_Layout' in controller 'Home'.
+2025-04-16 16:46:43.365 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2025-04-16 16:46:43.369 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2025-04-16 16:46:43.370 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2025-04-16 16:46:43.371 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2025-04-16 16:46:43.372 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2025-04-16 16:46:43.372 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2025-04-16 16:46:43.372 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-04-16 16:46:43.373 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2025-04-16 16:46:43.373 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2025-04-16 16:46:43.373 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Products])
+2025-04-16 16:46:43.374 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Products and 
+2025-04-16 16:46:43.374 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Products
+2025-04-16 16:46:43.374 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Customer])
+2025-04-16 16:46:43.374 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Customer and 
+2025-04-16 16:46:43.374 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Customer
+2025-04-16 16:46:43.377 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Login],controller=[Account])
+2025-04-16 16:46:43.377 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Account/Login and 
+2025-04-16 16:46:43.377 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Account/Login
+2025-04-16 16:46:43.385 +08:00 [DBG] A new antiforgery cookie token was created.
+2025-04-16 16:46:43.386 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Logout],controller=[Account])
+2025-04-16 16:46:43.386 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Account/Logout and 
+2025-04-16 16:46:43.387 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Account/Logout
+2025-04-16 16:46:43.388 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-04-16 16:46:43.388 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2025-04-16 16:46:43.388 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2025-04-16 16:46:43.396 +08:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-16 16:46:43.400 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-16 16:46:43.430 +08:00 [INF] Executed ViewResult - view Index executed in 307.6455ms.
+2025-04-16 16:46:43.432 +08:00 [INF] Executed action ML.NET.Controllers.HomeController.Index (ML.NET) in 316.0913ms
+2025-04-16 16:46:43.433 +08:00 [INF] Executed endpoint 'ML.NET.Controllers.HomeController.Index (ML.NET)'
+2025-04-16 16:46:43.433 +08:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-16 16:46:43.434 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-16 16:46:43.438 +08:00 [DBG] Connection ID "17654110552982552695" disconnecting.
+2025-04-16 16:46:43.442 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/ - 200 null text/html; charset=utf-8 970.6804ms
+2025-04-16 16:46:43.461 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-04-16 16:46:43.461 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/ML.NET.styles.css?v=uU9m3NjK76cFjNkpHbuI65nrDo7IXaKG5fmCSuaxRXY - null null
+2025-04-16 16:46:43.461 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-04-16 16:46:43.464 +08:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-04-16 16:46:43.464 +08:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-04-16 16:46:43.464 +08:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-04-16 16:46:43.489 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-04-16 16:46:43.490 +08:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-04-16 16:46:43.496 +08:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'D:\AI\ML.NET\ML.NET\wwwroot\css\site.css'
+2025-04-16 16:46:43.498 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/lib/jquery/dist/jquery.min.js - null null
+2025-04-16 16:46:43.498 +08:00 [INF] Sending file. Request path: '/ML.NET.styles.css'. Physical path: 'D:\AI\ML.NET\ML.NET\obj\Debug\net8.0\scopedcss\bundle\ML.NET.styles.css'
+2025-04-16 16:46:43.498 +08:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-04-16 16:46:43.501 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/lib/jquery-validation/dist/jquery.validate.min.js - null null
+2025-04-16 16:46:43.501 +08:00 [DBG] Connection ID "17365880172535873790" disconnecting.
+2025-04-16 16:46:43.501 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - null null
+2025-04-16 16:46:43.501 +08:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-04-16 16:46:43.501 +08:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-04-16 16:46:43.501 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-04-16 16:46:43.501 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/ML.NET.styles.css?v=uU9m3NjK76cFjNkpHbuI65nrDo7IXaKG5fmCSuaxRXY - 200 1124 text/css 39.067ms
+2025-04-16 16:46:43.504 +08:00 [DBG] Connection ID "17293822578497945707" disconnecting.
+2025-04-16 16:46:43.501 +08:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-04-16 16:46:43.507 +08:00 [INF] Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.min.js'. Physical path: 'D:\AI\ML.NET\ML.NET\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js'
+2025-04-16 16:46:43.505 +08:00 [INF] Sending file. Request path: '/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js'. Physical path: 'D:\AI\ML.NET\ML.NET\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js'
+2025-04-16 16:46:43.507 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - 200 5831 text/javascript 6.5465ms
+2025-04-16 16:46:43.511 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-16 16:46:43.512 +08:00 [DBG] Connection ID "17798225736763441212" disconnecting.
+2025-04-16 16:46:43.505 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 200 362 text/css 42.7203ms
+2025-04-16 16:46:43.511 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/_vs/browserLink - null null
+2025-04-16 16:46:43.515 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 3.128ms
+2025-04-16 16:46:43.516 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'D:\AI\ML.NET\ML.NET\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2025-04-16 16:46:43.517 +08:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'D:\AI\ML.NET\ML.NET\wwwroot\js\site.js'
+2025-04-16 16:46:43.517 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 16.0929ms
+2025-04-16 16:46:43.518 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/lib/jquery-validation/dist/jquery.validate.min.js - 200 24604 text/javascript 17.118ms
+2025-04-16 16:46:43.518 +08:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'D:\AI\ML.NET\ML.NET\wwwroot\lib\jquery\dist\jquery.min.js'
+2025-04-16 16:46:43.530 +08:00 [DBG] Connection ID "17726168142725513441" disconnecting.
+2025-04-16 16:46:43.538 +08:00 [DBG] Connection ID "18014398518877225001" disconnecting.
+2025-04-16 16:46:43.547 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/lib/jquery/dist/jquery.min.js - 200 89503 text/javascript 41.419ms
+2025-04-16 16:46:43.548 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\AI\ML.NET\ML.NET\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2025-04-16 16:46:43.548 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78474 text/javascript 60.9505ms
+2025-04-16 16:46:43.553 +08:00 [DBG] Connection ID "17582052954649657467" disconnecting.
+2025-04-16 16:46:43.554 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/lib/bootstrap/dist/css/bootstrap.min.css - 200 162726 text/css 92.2035ms
+2025-04-16 16:46:43.615 +08:00 [DBG] Connection ID "17077649796384161793" disconnecting.
+2025-04-16 16:46:43.615 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/_vs/browserLink - 200 null text/javascript; charset=UTF-8 104.3862ms
+2025-04-16 16:46:52.645 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/Predict - null null
+2025-04-16 16:46:52.657 +08:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-04-16 16:46:52.658 +08:00 [DBG] The request path /Predict does not match a supported file type
+2025-04-16 16:46:52.659 +08:00 [DBG] 1 candidate(s) found for the request path '/Predict'
+2025-04-16 16:46:52.659 +08:00 [DBG] Endpoint 'ML.NET.Controllers.PredictController.Index (ML.NET)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Predict'
+2025-04-16 16:46:52.660 +08:00 [DBG] Request matched endpoint 'ML.NET.Controllers.PredictController.Index (ML.NET)'
+2025-04-16 16:46:52.660 +08:00 [INF] Executing endpoint 'ML.NET.Controllers.PredictController.Index (ML.NET)'
+2025-04-16 16:46:52.661 +08:00 [INF] Route matched with {action = "Index", controller = "Predict", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ML.NET.Controllers.PredictController (ML.NET).
+2025-04-16 16:46:52.661 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-16 16:46:52.661 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-16 16:46:52.662 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-16 16:46:52.662 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-16 16:46:52.662 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-16 16:46:52.662 +08:00 [DBG] Executing controller factory for controller ML.NET.Controllers.PredictController (ML.NET)
+2025-04-16 16:49:42.977 +08:00 [INF] Executed action ML.NET.Controllers.PredictController.Index (ML.NET) in 170315.1495ms
+2025-04-16 16:49:42.977 +08:00 [INF] Executed endpoint 'ML.NET.Controllers.PredictController.Index (ML.NET)'
+2025-04-16 16:49:42.994 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/Predict - 500 null application/json 170348.8202ms
+2025-04-16 16:50:25.414 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Account/Login.cshtml'.
+2025-04-16 16:50:25.492 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Account/Register.cshtml'.
+2025-04-16 16:50:25.492 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Customer/Create.cshtml'.
+2025-04-16 16:50:25.492 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Customer/Index.cshtml'.
+2025-04-16 16:50:25.492 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2025-04-16 16:50:25.492 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2025-04-16 16:50:25.492 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Perdict/Index.cshtml'.
+2025-04-16 16:50:25.492 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Products/Create.cshtml'.
+2025-04-16 16:50:25.492 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Products/Delete.cshtml'.
+2025-04-16 16:50:25.492 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Products/Details.cshtml'.
+2025-04-16 16:50:25.492 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Products/Edit.cshtml'.
+2025-04-16 16:50:25.492 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Products/Index.cshtml'.
+2025-04-16 16:50:25.492 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2025-04-16 16:50:25.492 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2025-04-16 16:50:25.492 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2025-04-16 16:50:25.492 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2025-04-16 16:50:25.492 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2025-04-16 16:50:25.492 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/AccessDenied.cshtml'.
+2025-04-16 16:50:25.492 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/ConfirmEmail.cshtml'.
+2025-04-16 16:50:25.492 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml'.
+2025-04-16 16:50:25.492 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/ExternalLogin.cshtml'.
+2025-04-16 16:50:25.492 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/ForgotPassword.cshtml'.
+2025-04-16 16:50:25.492 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml'.
+2025-04-16 16:50:25.492 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Lockout.cshtml'.
+2025-04-16 16:50:25.493 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Login.cshtml'.
+2025-04-16 16:50:25.493 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/LoginWith2fa.cshtml'.
+2025-04-16 16:50:25.493 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml'.
+2025-04-16 16:50:25.493 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Logout.cshtml'.
+2025-04-16 16:50:25.493 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml'.
+2025-04-16 16:50:25.493 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml'.
+2025-04-16 16:50:25.493 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml'.
+2025-04-16 16:50:25.493 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml'.
+2025-04-16 16:50:25.493 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/Email.cshtml'.
+2025-04-16 16:50:25.493 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml'.
+2025-04-16 16:50:25.493 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml'.
+2025-04-16 16:50:25.493 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml'.
+2025-04-16 16:50:25.493 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/Index.cshtml'.
+2025-04-16 16:50:25.493 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml'.
+2025-04-16 16:50:25.493 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml'.
+2025-04-16 16:50:25.493 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml'.
+2025-04-16 16:50:25.493 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml'.
+2025-04-16 16:50:25.493 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml'.
+2025-04-16 16:50:25.493 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/_Layout.cshtml'.
+2025-04-16 16:50:25.493 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml'.
+2025-04-16 16:50:25.493 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml'.
+2025-04-16 16:50:25.493 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml'.
+2025-04-16 16:50:25.493 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/_ViewStart.cshtml'.
+2025-04-16 16:50:25.494 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Register.cshtml'.
+2025-04-16 16:50:25.494 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml'.
+2025-04-16 16:50:25.494 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml'.
+2025-04-16 16:50:25.494 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/ResetPassword.cshtml'.
+2025-04-16 16:50:25.494 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml'.
+2025-04-16 16:50:25.494 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/_StatusMessage.cshtml'.
+2025-04-16 16:50:25.494 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/_ViewImports.cshtml'.
+2025-04-16 16:50:25.494 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Error.cshtml'.
+2025-04-16 16:50:25.494 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/_Layout.cshtml'.
+2025-04-16 16:50:25.494 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml'.
+2025-04-16 16:50:25.494 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/_ViewImports.cshtml'.
+2025-04-16 16:50:25.494 +08:00 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/_ViewStart.cshtml'.
+2025-04-16 16:50:25.509 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-16 16:50:25.551 +08:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-16 16:50:25.726 +08:00 [DBG] Hosting starting
+2025-04-16 16:50:25.741 +08:00 [DBG] Reading data from file 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys\key-228ef77b-c039-4826-ac9a-42e4b3b59cdc.xml'.
+2025-04-16 16:50:25.757 +08:00 [DBG] Found key {228ef77b-c039-4826-ac9a-42e4b3b59cdc}.
+2025-04-16 16:50:25.767 +08:00 [DBG] Considering key {228ef77b-c039-4826-ac9a-42e4b3b59cdc} with expiration date 2025-07-01 06:29:20Z as default key.
+2025-04-16 16:50:25.771 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-04-16 16:50:25.773 +08:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-04-16 16:50:25.775 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-04-16 16:50:25.779 +08:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-04-16 16:50:25.780 +08:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-04-16 16:50:25.781 +08:00 [DBG] Using key {228ef77b-c039-4826-ac9a-42e4b3b59cdc} as the default key.
+2025-04-16 16:50:25.782 +08:00 [DBG] Key ring with default key {228ef77b-c039-4826-ac9a-42e4b3b59cdc} was loaded during application startup.
+2025-04-16 16:50:25.856 +08:00 [DBG] Loaded hosting startup assembly ML.NET
+2025-04-16 16:50:25.856 +08:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-16 16:50:25.856 +08:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-16 16:50:25.856 +08:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-16 16:50:25.905 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/ - null null
+2025-04-16 16:50:25.953 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-16 16:50:25.953 +08:00 [INF] Hosting environment: Development
+2025-04-16 16:50:25.953 +08:00 [INF] Content root path: D:\AI\ML.NET\ML.NET
+2025-04-16 16:50:25.954 +08:00 [DBG] Hosting started
+2025-04-16 16:50:26.019 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-16 16:50:26.029 +08:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-04-16 16:50:26.031 +08:00 [DBG] The request path / does not match a supported file type
+2025-04-16 16:50:26.061 +08:00 [DBG] 1 candidate(s) found for the request path '/'
+2025-04-16 16:50:26.064 +08:00 [DBG] Endpoint 'ML.NET.Controllers.HomeController.Index (ML.NET)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+2025-04-16 16:50:26.065 +08:00 [DBG] Request matched endpoint 'ML.NET.Controllers.HomeController.Index (ML.NET)'
+2025-04-16 16:50:26.067 +08:00 [INF] Executing endpoint 'ML.NET.Controllers.HomeController.Index (ML.NET)'
+2025-04-16 16:50:26.097 +08:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ML.NET.Controllers.HomeController (ML.NET).
+2025-04-16 16:50:26.099 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-16 16:50:26.100 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-16 16:50:26.103 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-16 16:50:26.104 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-16 16:50:26.104 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-16 16:50:26.107 +08:00 [DBG] Executing controller factory for controller ML.NET.Controllers.HomeController (ML.NET)
+2025-04-16 16:50:26.108 +08:00 [DBG] Executed controller factory for controller ML.NET.Controllers.HomeController (ML.NET)
+2025-04-16 16:50:26.109 +08:00 [INF] 進入 HomeController 的 Index Action
+2025-04-16 16:50:26.112 +08:00 [DBG] View lookup cache miss for view 'Index' in controller 'Home'.
+2025-04-16 16:50:26.124 +08:00 [INF] Executing ViewResult, running view Index.
+2025-04-16 16:50:26.128 +08:00 [DBG] The view path '/Views/Home/Index.cshtml' was found in 13.6779ms.
+2025-04-16 16:50:26.157 +08:00 [DBG] View lookup cache miss for view '_Layout' in controller 'Home'.
+2025-04-16 16:50:26.204 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2025-04-16 16:50:26.207 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2025-04-16 16:50:26.208 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2025-04-16 16:50:26.209 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2025-04-16 16:50:26.209 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2025-04-16 16:50:26.209 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2025-04-16 16:50:26.210 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-04-16 16:50:26.211 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2025-04-16 16:50:26.211 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2025-04-16 16:50:26.211 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Products])
+2025-04-16 16:50:26.212 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Products and 
+2025-04-16 16:50:26.212 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Products
+2025-04-16 16:50:26.212 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Customer])
+2025-04-16 16:50:26.212 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Customer and 
+2025-04-16 16:50:26.212 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Customer
+2025-04-16 16:50:26.215 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Login],controller=[Account])
+2025-04-16 16:50:26.215 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Account/Login and 
+2025-04-16 16:50:26.215 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Account/Login
+2025-04-16 16:50:26.222 +08:00 [DBG] A new antiforgery cookie token was created.
+2025-04-16 16:50:26.225 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Logout],controller=[Account])
+2025-04-16 16:50:26.225 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Account/Logout and 
+2025-04-16 16:50:26.225 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Account/Logout
+2025-04-16 16:50:26.227 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-04-16 16:50:26.227 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2025-04-16 16:50:26.227 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2025-04-16 16:50:26.238 +08:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-16 16:50:26.243 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-16 16:50:26.263 +08:00 [INF] Executed ViewResult - view Index executed in 152.4865ms.
+2025-04-16 16:50:26.268 +08:00 [INF] Executed action ML.NET.Controllers.HomeController.Index (ML.NET) in 163.6635ms
+2025-04-16 16:50:26.269 +08:00 [INF] Executed endpoint 'ML.NET.Controllers.HomeController.Index (ML.NET)'
+2025-04-16 16:50:26.269 +08:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-16 16:50:26.270 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-16 16:50:26.273 +08:00 [DBG] Connection ID "17149707390422089923" disconnecting.
+2025-04-16 16:50:26.281 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-16 16:50:26.282 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/ - 200 null text/html; charset=utf-8 386.3453ms
+2025-04-16 16:50:26.285 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-04-16 16:50:26.285 +08:00 [DBG] Connection ID "17149707390422089925" disconnecting.
+2025-04-16 16:50:26.285 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 3.3088ms
+2025-04-16 16:50:26.286 +08:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-04-16 16:50:26.286 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/lib/jquery/dist/jquery.min.js - null null
+2025-04-16 16:50:26.286 +08:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-04-16 16:50:26.285 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-04-16 16:50:26.286 +08:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-04-16 16:50:26.292 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/ML.NET.styles.css?v=uU9m3NjK76cFjNkpHbuI65nrDo7IXaKG5fmCSuaxRXY - null null
+2025-04-16 16:50:26.297 +08:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-04-16 16:50:26.297 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-04-16 16:50:26.297 +08:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-04-16 16:50:26.315 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/lib/jquery-validation/dist/jquery.validate.min.js - null null
+2025-04-16 16:50:26.315 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-04-16 16:50:26.316 +08:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-04-16 16:50:26.316 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - null null
+2025-04-16 16:50:26.316 +08:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-04-16 16:50:26.317 +08:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-04-16 16:50:26.321 +08:00 [INF] Sending file. Request path: '/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js'. Physical path: 'D:\AI\ML.NET\ML.NET\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js'
+2025-04-16 16:50:26.321 +08:00 [INF] Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.min.js'. Physical path: 'D:\AI\ML.NET\ML.NET\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js'
+2025-04-16 16:50:26.321 +08:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'D:\AI\ML.NET\ML.NET\wwwroot\js\site.js'
+2025-04-16 16:50:26.321 +08:00 [INF] Sending file. Request path: '/ML.NET.styles.css'. Physical path: 'D:\AI\ML.NET\ML.NET\obj\Debug\net8.0\scopedcss\bundle\ML.NET.styles.css'
+2025-04-16 16:50:26.321 +08:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'D:\AI\ML.NET\ML.NET\wwwroot\css\site.css'
+2025-04-16 16:50:26.322 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 6.8023ms
+2025-04-16 16:50:26.322 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - 200 5831 text/javascript 6.457ms
+2025-04-16 16:50:26.322 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/ML.NET.styles.css?v=uU9m3NjK76cFjNkpHbuI65nrDo7IXaKG5fmCSuaxRXY - 200 1124 text/css 33.8807ms
+2025-04-16 16:50:26.322 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 200 362 text/css 37.4079ms
+2025-04-16 16:50:26.323 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/_vs/browserLink - null null
+2025-04-16 16:50:26.323 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'D:\AI\ML.NET\ML.NET\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2025-04-16 16:50:26.324 +08:00 [DBG] Connection ID "17726168142725513445" disconnecting.
+2025-04-16 16:50:26.324 +08:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'D:\AI\ML.NET\ML.NET\wwwroot\lib\jquery\dist\jquery.min.js'
+2025-04-16 16:50:26.328 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/lib/jquery-validation/dist/jquery.validate.min.js - 200 24604 text/javascript 12.0975ms
+2025-04-16 16:50:26.338 +08:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\AI\ML.NET\ML.NET\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2025-04-16 16:50:26.344 +08:00 [DBG] Connection ID "17654110552982552700" disconnecting.
+2025-04-16 16:50:26.344 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/lib/jquery/dist/jquery.min.js - 200 89503 text/javascript 58.3984ms
+2025-04-16 16:50:26.345 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/lib/bootstrap/dist/css/bootstrap.min.css - 200 162726 text/css 60.06ms
+2025-04-16 16:50:26.356 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78474 text/javascript 48.7557ms
+2025-04-16 16:50:26.360 +08:00 [DBG] Connection ID "17221764984460017889" disconnecting.
+2025-04-16 16:50:26.360 +08:00 [DBG] Connection ID "16861477018565345416" disconnecting.
+2025-04-16 16:50:26.426 +08:00 [DBG] Connection ID "17654110548687585465" disconnecting.
+2025-04-16 16:50:26.427 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/_vs/browserLink - 200 null text/javascript; charset=UTF-8 103.8975ms
+2025-04-16 16:50:26.466 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/favicon.ico - null null
+2025-04-16 16:50:26.473 +08:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-04-16 16:50:26.478 +08:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\AI\ML.NET\ML.NET\wwwroot\favicon.ico'
+2025-04-16 16:50:26.479 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/favicon.ico - 200 5430 image/x-icon 12.8059ms
+2025-04-16 16:50:32.987 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/Account/Login - null null
+2025-04-16 16:50:33.005 +08:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-04-16 16:50:33.005 +08:00 [DBG] The request path /Account/Login does not match a supported file type
+2025-04-16 16:50:33.007 +08:00 [DBG] 1 candidate(s) found for the request path '/Account/Login'
+2025-04-16 16:50:33.007 +08:00 [DBG] Endpoint 'MyWebApp.Controllers.AccountController.Login (ML.NET)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Account/Login'
+2025-04-16 16:50:33.007 +08:00 [DBG] Request matched endpoint 'MyWebApp.Controllers.AccountController.Login (ML.NET)'
+2025-04-16 16:50:33.007 +08:00 [INF] Executing endpoint 'MyWebApp.Controllers.AccountController.Login (ML.NET)'
+2025-04-16 16:50:33.024 +08:00 [INF] Route matched with {action = "Login", controller = "Account", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String) on controller MyWebApp.Controllers.AccountController (ML.NET).
+2025-04-16 16:50:33.024 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-16 16:50:33.025 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-16 16:50:33.025 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-16 16:50:33.025 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-16 16:50:33.025 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-16 16:50:33.025 +08:00 [DBG] Executing controller factory for controller MyWebApp.Controllers.AccountController (ML.NET)
+2025-04-16 16:50:33.274 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-04-16 16:50:33.296 +08:00 [DBG] Executed controller factory for controller MyWebApp.Controllers.AccountController (ML.NET)
+2025-04-16 16:50:33.299 +08:00 [DBG] Attempting to bind parameter 'returnUrl' of type 'System.String' ...
+2025-04-16 16:50:33.301 +08:00 [DBG] Attempting to bind parameter 'returnUrl' of type 'System.String' using the name '' in request data ...
+2025-04-16 16:50:33.301 +08:00 [DBG] Could not find a value in the request with name '' for binding parameter 'returnUrl' of type 'System.String'.
+2025-04-16 16:50:33.302 +08:00 [DBG] Done attempting to bind parameter 'returnUrl' of type 'System.String'.
+2025-04-16 16:50:33.302 +08:00 [DBG] Done attempting to bind parameter 'returnUrl' of type 'System.String'.
+2025-04-16 16:50:33.302 +08:00 [DBG] Attempting to validate the bound parameter 'returnUrl' of type 'System.String' ...
+2025-04-16 16:50:33.303 +08:00 [DBG] Done attempting to validate the bound parameter 'returnUrl' of type 'System.String'.
+2025-04-16 16:50:33.304 +08:00 [DBG] View lookup cache miss for view 'Login' in controller 'Account'.
+2025-04-16 16:50:33.305 +08:00 [INF] Executing ViewResult, running view Login.
+2025-04-16 16:50:33.306 +08:00 [DBG] The view path '/Views/Account/Login.cshtml' was found in 1.1155ms.
+2025-04-16 16:50:33.309 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Login],controller=[Account])
+2025-04-16 16:50:33.310 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Account/Login and 
+2025-04-16 16:50:33.310 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Account/Login
+2025-04-16 16:50:33.311 +08:00 [DBG] An antiforgery cookie token was reused.
+2025-04-16 16:50:33.345 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Register],controller=[Account])
+2025-04-16 16:50:33.345 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Account/Register and 
+2025-04-16 16:50:33.345 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Account/Register
+2025-04-16 16:50:33.345 +08:00 [DBG] An antiforgery cookie token was reused.
+2025-04-16 16:50:33.346 +08:00 [DBG] View lookup cache miss for view '_Layout' in controller 'Account'.
+2025-04-16 16:50:33.347 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2025-04-16 16:50:33.347 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2025-04-16 16:50:33.348 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2025-04-16 16:50:33.348 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2025-04-16 16:50:33.348 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2025-04-16 16:50:33.348 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2025-04-16 16:50:33.348 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-04-16 16:50:33.348 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2025-04-16 16:50:33.348 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2025-04-16 16:50:33.348 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Products])
+2025-04-16 16:50:33.349 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Products and 
+2025-04-16 16:50:33.349 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Products
+2025-04-16 16:50:33.349 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Customer])
+2025-04-16 16:50:33.349 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Customer and 
+2025-04-16 16:50:33.349 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Customer
+2025-04-16 16:50:33.349 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Login],controller=[Account])
+2025-04-16 16:50:33.349 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Account/Login and 
+2025-04-16 16:50:33.349 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Account/Login
+2025-04-16 16:50:33.349 +08:00 [DBG] An antiforgery cookie token was reused.
+2025-04-16 16:50:33.350 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Logout],controller=[Account])
+2025-04-16 16:50:33.350 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Account/Logout and 
+2025-04-16 16:50:33.350 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Account/Logout
+2025-04-16 16:50:33.350 +08:00 [DBG] An antiforgery cookie token was reused.
+2025-04-16 16:50:33.350 +08:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-04-16 16:50:33.350 +08:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2025-04-16 16:50:33.351 +08:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2025-04-16 16:50:33.352 +08:00 [DBG] View lookup cache miss for view '_ValidationScriptsPartial' in controller 'Account'.
+2025-04-16 16:50:33.356 +08:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-16 16:50:33.356 +08:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-16 16:50:33.357 +08:00 [INF] Executed ViewResult - view Login executed in 52.6212ms.
+2025-04-16 16:50:33.357 +08:00 [INF] Executed action MyWebApp.Controllers.AccountController.Login (ML.NET) in 331.9673ms
+2025-04-16 16:50:33.358 +08:00 [INF] Executed endpoint 'MyWebApp.Controllers.AccountController.Login (ML.NET)'
+2025-04-16 16:50:33.358 +08:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-16 16:50:33.358 +08:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-16 16:50:33.358 +08:00 [DBG] Connection ID "17005592206641201249" disconnecting.
+2025-04-16 16:50:33.360 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/Account/Login - 200 null text/html; charset=utf-8 373.3703ms
+2025-04-16 16:50:33.385 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-16 16:50:33.386 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 1.0106ms
+2025-04-16 16:50:33.386 +08:00 [DBG] Connection ID "17798225728173506679" disconnecting.
+2025-04-16 16:50:33.391 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/_vs/browserLink - null null
+2025-04-16 16:50:33.404 +08:00 [DBG] Connection ID "17005592206641201251" disconnecting.
+2025-04-16 16:50:33.404 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/_vs/browserLink - 200 null text/javascript; charset=UTF-8 12.9548ms
+2025-04-16 16:50:38.341 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44310/Predict - null null
+2025-04-16 16:50:38.348 +08:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-04-16 16:50:38.348 +08:00 [DBG] The request path /Predict does not match a supported file type
+2025-04-16 16:50:38.350 +08:00 [DBG] 1 candidate(s) found for the request path '/Predict'
+2025-04-16 16:50:38.350 +08:00 [DBG] Endpoint 'ML.NET.Controllers.PredictController.Index (ML.NET)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Predict'
+2025-04-16 16:50:38.350 +08:00 [DBG] Request matched endpoint 'ML.NET.Controllers.PredictController.Index (ML.NET)'
+2025-04-16 16:50:38.351 +08:00 [INF] Executing endpoint 'ML.NET.Controllers.PredictController.Index (ML.NET)'
+2025-04-16 16:50:38.354 +08:00 [INF] Route matched with {action = "Index", controller = "Predict", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ML.NET.Controllers.PredictController (ML.NET).
+2025-04-16 16:50:38.354 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-16 16:50:38.354 +08:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-16 16:50:38.354 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-16 16:50:38.354 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-16 16:50:38.354 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-04-16 16:50:38.354 +08:00 [DBG] Executing controller factory for controller ML.NET.Controllers.PredictController (ML.NET)
+2025-04-16 16:50:59.063 +08:00 [INF] Executed action ML.NET.Controllers.PredictController.Index (ML.NET) in 20709.0565ms
+2025-04-16 16:50:59.065 +08:00 [INF] Executed endpoint 'ML.NET.Controllers.PredictController.Index (ML.NET)'
+2025-04-16 16:50:59.135 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44310/Predict - 500 null application/json 20793.6312ms
+2025-04-16 16:50:59.135 +08:00 [DBG] Connection ID "17005592206641201253" disconnecting.
