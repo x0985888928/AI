@@ -1,0 +1,133 @@
+﻿@model ML.NET.Models.PricePredictionInput
+@{
+    ViewData["Title"] = "Price Prediction";
+}
+
+<h1>Price Prediction</h1>
+
+<form asp-action="Predict" method="post">
+    @Html.AntiForgeryToken()
+    <div>
+        <label>Company Name</label>
+        <select asp-for="CompanyName" asp-items="ViewBag.Companies">
+            <option value="">-- Select Company --</option>
+        </select>
+    </div>
+    <div>
+        <label>Brand</label>
+        <select asp-for="Brand" asp-items="ViewBag.Brands">
+            <option value="">-- Select Brand --</option>
+        </select>
+    </div>
+    <div>
+        <label>Version</label>
+        <select asp-for="Version" asp-items="ViewBag.Versions">
+            <option value="">-- Select Version --</option>
+        </select>
+    </div>
+    <div>
+        <label>TYPE</label>
+        <select asp-for="TYPE" asp-items="ViewBag.Types">
+            <option value="">-- Select Type --</option>
+        </select>
+    </div>
+    <div>
+        <label>ROM</label>
+        <input asp-for="ROM" type="number" placeholder="e.g. 128" min="0" />
+    </div>
+    <div>
+        <label>MobileWeight</label>
+        <input asp-for="MobileWeight" type="number" placeholder="e.g. 174" min="0" />
+    </div>
+    <div>
+        <label>RAM</label>
+        <input asp-for="RAM" type="number" placeholder="e.g. 8" min="0" />
+    </div>
+    <div>
+        <label>BatteryCapacity</label>
+        <input asp-for="BatteryCapacity" type="number" placeholder="e.g. 3000" min="0" />
+    </div>
+    <div>
+        <label>LaunchedYear</label>
+        <input asp-for="LaunchedYear" type="number" placeholder="e.g. 2025" min="0" />
+    </div>
+
+    <button type="submit">Predict</button>
+</form>
+
+@if (ViewBag.PredictedPrice != null)
+{
+    <h2>Predicted Price: @ViewBag.PredictedPrice</h2>
+    <canvas id="priceChart" width="600" height="300"></canvas>
+}
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // 1. 把歷史資料 JSON 取出
+            const history    = @Html.Raw(ViewBag.HistoryJson);
+            const predicted  = @ViewBag.PredictedPrice;
+
+            // 2. 準備 labels (年份) 與 data (價格)
+            const labels = history.map(x => x.Year);
+            const data   = history.map(x => x.Price);
+
+            // 把預測值加到最後
+            labels.push(@Model.LaunchedYear);
+            data.push(predicted);
+
+            // 3. 建立或更新 Chart
+            const ctx = document.getElementById('priceChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Historical + Predicted',
+                        data: data,
+                        fill: false,
+                        borderWidth: 2
+                    }]
+                },
+                options: { scales: { y: { beginAtZero: false } } }
+            });
+        });
+    </script>
+}
+
+
+@* @section Scripts { *@
+@*     <!-- _ValidationScriptsPartial 之後 --> *@
+@*     <partial name="_ValidationScriptsPartial" /> *@
+
+@*     <script> *@
+@*         // 等 DOM 載入完成後 *@
+@*         document.addEventListener('DOMContentLoaded', function() { *@
+@*             const ctx = document.getElementById('priceChart').getContext('2d'); *@
+@*             // 先用靜態測試資料 *@
+@*             const sampleDates = ["2020","2021","2022","2023","2024"]; *@
+@*             const samplePrices = [500, 600, 750, 900, @ViewBag.PredictedPrice]; *@
+
+@*             new Chart(ctx, { *@
+@*                 type: 'line', *@
+@*                 data: { *@
+@*                     labels: sampleDates, *@
+@*                     datasets: [{ *@
+@*                         label: 'Price Trend', *@
+@*                         data: samplePrices, *@
+@*                         fill: false, *@
+@*                         borderWidth: 2 *@
+@*                     }] *@
+@*                 }, *@
+@*                 options: { *@
+@*                     scales: { *@
+@*                         y: { beginAtZero: false } *@
+@*                     } *@
+@*                 } *@
+@*             }); *@
+@*         }); *@
+@*     </script> *@
+@* } *@

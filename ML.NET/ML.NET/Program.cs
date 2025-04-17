@@ -12,7 +12,8 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
 );
 
-builder.Services.AddSingleton<PricePredictionService>();
+builder.Services.AddSingleton<PricePredictionService>(); 
+builder.Services.AddSingleton<HistoricalPriceService>();
 
 // 加入 Identity 服務與預設 UI，使用預設的 IdentityUser
 builder.Services.AddDefaultIdentity<IdentityUser>(options =>
