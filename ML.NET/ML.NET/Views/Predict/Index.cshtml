@@ -58,6 +58,10 @@
 @if (ViewBag.PredictedPrice != null)
 {
     <h2>Predicted Price: @ViewBag.PredictedPrice</h2>
+
+    @* <pre id="historyDump"> *@
+    @*     @Html.Raw(ViewBag.HistoryJson) *@
+    @* </pre> *@
     <canvas id="priceChart" width="600" height="300"></canvas>
 }
 
@@ -66,68 +70,107 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            // 1. 把歷史資料 JSON 取出
-            const history    = @Html.Raw(ViewBag.HistoryJson);
-            const predicted  = @ViewBag.PredictedPrice;
+        document.addEventListener('DOMContentLoaded', () => {
 
-            // 2. 準備 labels (年份) 與 data (價格)
-            const labels = history.map(x => x.Year);
-            const data   = history.map(x => x.Price);
+            // ==== 1. 取得後端資料 ====
+            const history   = @Html.Raw(ViewBag.HistoryJson);          // array of {CompanyName, Brand, Type, Year, Price}
+            const predYear  = @ViewBag.PredictedYear;                  // 數字
+            const predPrice = @ViewBag.PredictedPrice;                 // 數字
+            const predType  = "@ViewBag.PredictedType";                // e.g. "Pro"
 
-            // 把預測值加到最後
-            labels.push(@Model.LaunchedYear);
-            data.push(predicted);
+            // ==== 2. 統整所有年份 ====
+            const yearsSet = new Set(history.map(h => h.LaunchedYear));
+            yearsSet.add(predYear);                       // 把預測年份也加入
+            const years = [...yearsSet].sort((a,b)=>a-b); // labels
 
-            // 3. 建立或更新 Chart
-            const ctx = document.getElementById('priceChart').getContext('2d');
-            new Chart(ctx, {
+            // ==== 3. 依 TYPE 分組 ====
+            const groups = {};
+            history.forEach(h => {
+                if (!groups[h.Type]) groups[h.Type] = {};
+                groups[h.Type][h.LaunchedYear] = h.Price;         // 以 (Year -> Price) 存
+            });
+
+            // ==== 4. 組成 Chart.js datasets ====
+            const datasets = [];
+            const palette  = ['#3b82f6','#10b981','#f59e0b','#8b5cf6','#ef4444']; // 隨意配幾個顏色
+            let colorIdx = 0;
+
+            Object.keys(groups).forEach(type => {
+                const dataPoints = years.map(y => groups[type][y] ?? null); // 若該年沒資料填 null
+                datasets.push({
+                    label: type,
+                    data : dataPoints,
+                    fill : false,
+                    borderWidth: 2,
+                    borderColor: palette[colorIdx % palette.length],
+                    tension: 0.3
+                });
+                colorIdx++;
+            });
+
+            // ==== 5. 預測值資料集 (單點) ====
+            const predData = years.map(y => null);    // 全是 null
+            predData[years.indexOf(predYear)] = predPrice;
+            datasets.push({
+                label: 'Predicted',
+                data : predData,
+                fill : false,
+                borderColor: '#ef4444',
+                backgroundColor: '#ef4444',
+                pointRadius: 6,
+                showLine: false
+            });
+
+            // ==== 6. 畫圖 ====
+            new Chart(document.getElementById('priceChart'), {
                 type: 'line',
-                data: {
-                    labels: labels,
-                    datasets: [{
-                        label: 'Historical + Predicted',
-                        data: data,
-                        fill: false,
-                        borderWidth: 2
-                    }]
-                },
-                options: { scales: { y: { beginAtZero: false } } }
+                data: { labels: years.map(String), datasets },
+                options: {
+                    scales: {
+                        y: { beginAtZero: false }
+                    }
+                }
             });
         });
     </script>
 }
 
 
+
 @* @section Scripts { *@
-@*     <!-- _ValidationScriptsPartial 之後 --> *@
 @*     <partial name="_ValidationScriptsPartial" /> *@
+@*     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> *@
 
 @*     <script> *@
-@*         // 等 DOM 載入完成後 *@
 @*         document.addEventListener('DOMContentLoaded', function() { *@
-@*             const ctx = document.getElementById('priceChart').getContext('2d'); *@
-@*             // 先用靜態測試資料 *@
-@*             const sampleDates = ["2020","2021","2022","2023","2024"]; *@
-@*             const samplePrices = [500, 600, 750, 900, @ViewBag.PredictedPrice]; *@
+@*             // 1. 把歷史資料 JSON 取出 *@
+@*             const history    = @Html.Raw(ViewBag.HistoryJson); *@
+@*             const predicted  = @ViewBag.PredictedPrice; *@
 
+@*             // 2. 準備 labels (年份) 與 data (價格) *@
+@*             const labels = history.map(x => x.LaunchedYear); *@
+@*             const data   = history.map(x => x.Price); *@
+
+@*             // 把預測值加到最後 *@
+@*             labels.push(@Model.LaunchedYear); *@
+@*             data.push(predicted); *@
+
+@*             // 3. 建立或更新 Chart *@
+@*             const ctx = document.getElementById('priceChart').getContext('2d'); *@
 @*             new Chart(ctx, { *@
 @*                 type: 'line', *@
 @*                 data: { *@
-@*                     labels: sampleDates, *@
+@*                     labels: labels, *@
 @*                     datasets: [{ *@
-@*                         label: 'Price Trend', *@
-@*                         data: samplePrices, *@
+@*                         label: 'Historical + Predicted', *@
+@*                         data: data, *@
 @*                         fill: false, *@
 @*                         borderWidth: 2 *@
 @*                     }] *@
 @*                 }, *@
-@*                 options: { *@
-@*                     scales: { *@
-@*                         y: { beginAtZero: false } *@
-@*                     } *@
-@*                 } *@
+@*                 options: { scales: { y: { beginAtZero: false } } } *@
 @*             }); *@
 @*         }); *@
 @*     </script> *@
 @* } *@
+

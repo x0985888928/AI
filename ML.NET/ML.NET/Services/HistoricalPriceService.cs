@@ -43,14 +43,14 @@ namespace ML.NET.Services
         {
             return _data
                 .Where(x =>
-                    x.CompanyName.Equals(company, StringComparison.OrdinalIgnoreCase) &&
-                    x.Brand.Equals(brand, StringComparison.OrdinalIgnoreCase) &&
-                    x.Type.Equals(type, StringComparison.OrdinalIgnoreCase) && 
-                    x.ROM.Equals(ROM) &&
-                    x.MobileWeight.Equals(MobileWeight) &&
-                    x.RAM.Equals(RAM) &&
-                    x.BatteryCapacity.Equals(BatteryCapacity) &&
-                    x.LaunchedYear.Equals(LaunchedYear)
+                    x.CompanyName.Equals(company, StringComparison.OrdinalIgnoreCase)// &&
+                    //x.Brand.Equals(brand, StringComparison.OrdinalIgnoreCase) &&
+                    //x.Type.Equals(type, StringComparison.OrdinalIgnoreCase) && 
+                    //x.ROM.Equals(ROM) &&
+                    //x.MobileWeight.Equals(MobileWeight) &&
+                    //x.RAM.Equals(RAM) &&
+                    //x.BatteryCapacity.Equals(BatteryCapacity) &&
+                    //x.LaunchedYear.Equals(LaunchedYear)
                 )
                 .OrderBy(x => x.LaunchedYear)
                 .ToList();

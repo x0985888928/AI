@@ -62,8 +62,10 @@ namespace ML.NET.Controllers
             }
 
             // 3. 呼叫預測
-            float predictedPrice = _predictionService.Predict(input);
-            ViewBag.PredictedPrice = predictedPrice;
+            var predPrice = _predictionService.Predict(input);
+            ViewBag.PredictedPrice = predPrice;
+            ViewBag.PredictedYear = input.LaunchedYear;   // 傳年份給前端
+            ViewBag.PredictedType = input.TYPE;           // 該條 Type 名稱
 
             // 3. 取得歷史資料
             var history = _historyService.Get(
