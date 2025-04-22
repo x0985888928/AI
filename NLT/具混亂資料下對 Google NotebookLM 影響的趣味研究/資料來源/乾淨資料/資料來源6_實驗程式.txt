@@ -1,0 +1,27 @@
+# from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
+from rouge_score import rouge_scorer
+
+def read_text(file_path):
+    with open(file_path, 'r', encoding='utf-8') as file:
+        text = file.read()
+    return text
+
+# generated_text = read_text(r'C:\Users\user\OneDrive\Desktop\notebookLM作業\混亂結果.txt')
+generated_text = read_text(r'C:\Users\user\OneDrive\Desktop\notebookLM作業\優化混亂結果.txt')
+reference_text = read_text(r'C:\Users\user\OneDrive\Desktop\notebookLM作業\乾淨結果.txt')
+
+generated_text_tokenized = generated_text.split()  
+reference_text_tokenized = reference_text.split()  
+
+# weights = (0.25, 0.25, 0.25, 0.25)  
+# smoothing_function = SmoothingFunction().method1  
+
+# bleu_score = sentence_bleu(reference_text_tokenized, generated_text_tokenized, weights=weights, smoothing_function=smoothing_function)
+# print(f"BLEU Score: {bleu_score}")
+
+scorer = rouge_scorer.RougeScorer(['rouge1', 'rouge2', 'rougeL'], use_stemmer=True)
+
+scores = scorer.score(reference_text, generated_text)
+print(f"ROUGE-1: {scores['rouge1']}")
+print(f"ROUGE-2: {scores['rouge2']}")
+print(f"ROUGE-L: {scores['rougeL']}")
