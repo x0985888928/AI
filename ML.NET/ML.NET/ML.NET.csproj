@@ -11,6 +11,12 @@
     <Compile Remove="Migrations\20250409061431_AddIdentity.Designer.cs" />
     <Compile Remove="Migrations\20250409072141_AddIdentity.cs" />
     <Compile Remove="Migrations\20250409072141_AddIdentity.Designer.cs" />
+    <Content Include="MLModels\model.zip">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\historical_prices.csv">
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
   <ItemGroup>
