@@ -21,6 +21,8 @@ jobs:
       # 下載 PR 的原始碼
       - name: Checkout code
         uses: actions/checkout@v3
+        with:
+          lfs: true
 
       # 安裝 .NET 8 SDK
       - name: Setup .NET
@@ -48,7 +50,9 @@ jobs:
       # 下載最新的 main 原始碼
       - name: Checkout code
         uses: actions/checkout@v3
-
+        with:
+          lfs: true
+        
       # 安裝 .NET 8 SDK
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
