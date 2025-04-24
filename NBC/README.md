@@ -1,32 +1,14 @@
 # 專案重點報告： NBC實作
 ## 開發架構
-
-1. **資料檔**  
+   - 主框架： Python
+## 資料檔
    - `diabetes.csv`  
    - `hepatitis.data.csv`  
    - `glass.csv`  
    - **注意：** 資料中有遺失值 (missing values) 的地方，已以 `0` 進行填補。
 
-程式流程： 
-1. **Naive Bayes Classifier（NBC）**  
-2. **離散化**  
-   - 對連續屬性進行分箱（預設 10 等分），並以該區間的平均值取代原值。  
-3. **Dirichlet distribution**  
-   - 以「所有先驗初始皆為 1」的方式示範，並將其平均值作為先驗使用。  
-4. **Laplace smoothing**  
-   - 在計算每個屬性值於不同類別 (class) 下的機率時，套用拉普拉斯平滑避免零機率。  
-5. **K-fold cross validation (未完成)**  
-   - 程式中預留了 K-fold 的示範骨架，尚未做完整的計算與整合。
 
-## 技術選擇
-主框架： Python
-
-## 可擴展方向
-完成
-K-fold cross validation
-
-## GPT補充內容
-
+## 程式流程： 
 1. **讀取資料 (Read CSV)**  
    - 透過 `pandas.read_csv()` 載入 CSV 檔  
    - 取得資料的 row 與 column 數量（假設最後一欄為標籤 / 類別）
@@ -45,7 +27,7 @@ K-fold cross validation
    - 結合 Prior 與 Likelihood，得到 Posterior
 
 4. **Dirichlet 先驗**  
-   - 在此示範中，假設每個類別的「初始先驗」都為 1  
+   - 假設每個類別的「初始先驗」都為 1  
    - 再將這些先驗加總後求平均值，作為後續（或可自行設計不同 α）  
    - 實際計算時，與一般先驗邏輯類似，只是在乘機率時，乘上「Dirichlet 先驗」。
 
@@ -64,6 +46,9 @@ K-fold cross validation
      - 例如把資料切成 5 份（K=5）  
      - 迴圈中，第 `k` 份當測試，其餘當訓練  
      - 每次計算 Accuracy 後，再將 5 次的結果平均即可。  
-   - 節省篇幅與示範為主，尚未完成整合，可自行依需求再擴充。
+
+
+## 可擴展方向
+   - 完成 K-fold cross validation
 
 
