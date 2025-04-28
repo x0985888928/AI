@@ -3,57 +3,65 @@
     ViewData["Title"] = "Price Prediction";
 }
 
-<h1>Price Prediction</h1>
+<h1 class="mb-4">Price Prediction</h1>
 
-<form asp-action="Predict" method="post">
+<form asp-action="Predict" method="post" class="row g-3">
     @Html.AntiForgeryToken()
-    <div>
-        <label>Company Name</label>
-        <select asp-for="CompanyName" asp-items="ViewBag.Companies">
+
+    <div class="col-md-6">
+        <label class="form-label">Company</label>
+        <select asp-for="CompanyName" id="CompanyName" asp-items="ViewBag.Companies" class="form-select">
             <option value="">-- Select Company --</option>
         </select>
     </div>
-    <div>
-        <label>Brand</label>
-        <select asp-for="Brand" asp-items="ViewBag.Brands">
+
+    <div class="col-md-6">
+        <label class="form-label">Brand</label>
+        <select asp-for="Brand" id="Brand" asp-items="ViewBag.Brands" class="form-select">
             <option value="">-- Select Brand --</option>
         </select>
     </div>
-    <div>
-        <label>Version</label>
-        <select asp-for="Version" asp-items="ViewBag.Versions">
+
+    <div class="col-md-6">
+        <label class="form-label">Version</label>
+        <select asp-for="Version" id="Version" asp-items="ViewBag.Versions" class="form-select">
             <option value="">-- Select Version --</option>
         </select>
     </div>
-    <div>
-        <label>TYPE</label>
-        <select asp-for="TYPE" asp-items="ViewBag.Types">
+
+    <div class="col-md-6">
+        <label class="form-label">Type</label>
+        <select asp-for="TYPE" id="TYPE" asp-items="ViewBag.Types" class="form-select">
             <option value="">-- Select Type --</option>
         </select>
     </div>
-    <div>
-        <label>ROM</label>
-        <input asp-for="ROM" type="number" placeholder="e.g. 128" min="0" />
-    </div>
-    <div>
-        <label>MobileWeight</label>
-        <input asp-for="MobileWeight" type="number" placeholder="e.g. 174" min="0" />
-    </div>
-    <div>
-        <label>RAM</label>
-        <input asp-for="RAM" type="number" placeholder="e.g. 8" min="0" />
-    </div>
-    <div>
-        <label>BatteryCapacity</label>
-        <input asp-for="BatteryCapacity" type="number" placeholder="e.g. 3000" min="0" />
-    </div>
-    <div>
-        <label>LaunchedYear</label>
-        <input asp-for="LaunchedYear" type="number" placeholder="e.g. 2025" min="0" />
+
+    <!-- 其餘數值欄位，每個用 col-md-4 + form-control -->
+    <div class="col-md-6">
+        <label class="form-label">ROM (GB)</label>
+        <input asp-for="ROM" id="ROM" type="number" class="form-control" placeholder="128" />
     </div>
 
-    <button type="submit">Predict</button>
+    <!-- ... 依序把其他欄位加上 form-control ... -->
+
+    <div class="col-12">
+        <button type="submit" class="btn btn-primary">Predict</button>
+    </div>
 </form>
+
+<div id="predCardRoot" class="mt-4"></div>
+
+
+@if (ViewBag.PredictedPrice != null)
+{
+    @* 
+    <div class="alert alert-info mt-6">
+        <h4 class="alert-heading">Predicted Price</h4>
+         <p class="display-6">$@ViewBag.PredictedPrice.ToString("0.##")</p> 
+    </div> *@
+
+    <canvas id="priceChart" width="600" height="300" class="mt-6"></canvas>
+}
 
 @if (ViewBag.PredictedPrice != null)
 {
@@ -68,6 +76,7 @@
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
@@ -133,6 +142,87 @@
             });
         });
     </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+          const predicted = @((ViewBag.PredictedPrice ?? "null"));
+          if (predicted === "null") return;
+
+          const PredCard = () => {
+            const [val, setVal] = React.useState(0);
+            React.useEffect(() => {
+              let v = 0;
+              const id = setInterval(() => {
+                v += (predicted - v) * 0.15;
+                if (Math.abs(predicted - v) < 0.5) { v = predicted; clearInterval(id); }
+                setVal(v.toFixed(2));
+              }, 30);
+            }, []);
+            return React.createElement(
+              'div', {className:'alert alert-info fade show'}, [
+                React.createElement('h4', {className:'alert-heading', key:1}, 'Predicted Price'),
+                React.createElement('p',  {className:'display-6', key:2}, `$${val}`)
+              ]);
+          };
+
+          ReactDOM.createRoot(document.getElementById('predCardRoot'))
+                  .render(React.createElement(PredCard));
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+
+            // ===== 0. 解析整份靜態對照表 =====
+            const phoneOpt = @Html.Raw(ViewBag.PhoneOptionsJson);
+
+            // ===== 1. 元件引用 =====
+            const selCompany = document.getElementById('selCompany');
+            const selBrand   = document.getElementById('selBrand');
+            const selType    = document.getElementById('selType');
+
+            // ===== 2. 幫某個 <select> 填入 <option> =====
+            function fillSelect(select, arr, selected){
+                select.innerHTML = '<option value="">-- Select --</option>';
+                arr.forEach(v=>{
+                    const opt = document.createElement('option');
+                    opt.value = opt.text = v;
+                    if (v === selected) opt.selected = true;
+                    select.appendChild(opt);
+                });
+            }
+
+            // ===== 3. 初始依伺服器預設填 Brand/Type =====
+            refreshBrandType(selCompany.value, selBrand.value, selType.value);
+
+            // ===== 4. 監聽 Company → 重填 Brand & Type =====
+            selCompany.addEventListener('change', () => {
+                const company = selCompany.value;
+                fillSelect(selBrand,   [], null);       // 清空
+                fillSelect(selType,    [], null);
+                refreshBrandType(company, null, null);
+            });
+
+            // ===== 5. 監聽 Brand → 重填 Type =====
+            selBrand.addEventListener('change', ()=>{
+                const company = selCompany.value;
+                const brand   = selBrand.value;
+                const compObj = phoneOpt.companies.find(c=>c.name===company);
+                const brandObj= compObj?.brands.find(b=>b.name===brand);
+                fillSelect(selType, brandObj?.types ?? [], null);
+            });
+
+            // === helper：依 company / brand 初始化下級 ===
+            function refreshBrandType(companySel, brandSel, typeSel){
+                const compObj = phoneOpt.companies.find(c=>c.name===companySel);
+                const brands  = compObj?.brands.map(b=>b.name) ?? [];
+                fillSelect(selBrand, brands, brandSel);
+
+                const brandObj = compObj?.brands.find(b=>b.name=== (brandSel||brands[0]));
+                const types = brandObj?.types ?? [];
+                fillSelect(selType, types, typeSel);
+            }
+        });
+    </script>
+
 }
 
 

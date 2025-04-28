@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using ML.NET.Data;
 using ML.NET.Middlewares;
+using ML.NET.Models;
 using ML.NET.Services;
 using Serilog;
 
@@ -11,7 +12,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
 );
-
+builder.Services.Configure<PhoneOptions>(
+    builder.Configuration.GetSection("PhoneOptions"));
 builder.Services.AddSingleton<PricePredictionService>(); 
 builder.Services.AddSingleton<HistoricalPriceService>();
 

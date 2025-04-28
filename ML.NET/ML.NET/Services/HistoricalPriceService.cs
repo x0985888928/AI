@@ -39,7 +39,7 @@ namespace ML.NET.Services
         }
 
         // 根據使用者輸入過濾出該品牌／機種的歷史資料
-        public List<HistoricalPrice> Get(string company, string brand,string Version, string type, float ROM,float MobileWeight,float RAM,float BatteryCapacity,float LaunchedYear)
+        public List<HistoricalPrice> GetByCompany(string company, string brand,string Version, string type, float ROM,float MobileWeight,float RAM,float BatteryCapacity,float LaunchedYear)
         {
             return _data
                 .Where(x =>
