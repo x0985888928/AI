@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MLPricePrediction")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea68961e949400e21c5ba10a7b9d81ec30070269")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb15a347c2f0e531c06d7d900600bf8044dda441")]
 [assembly: System.Reflection.AssemblyProductAttribute("MLPricePrediction")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MLPricePrediction")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

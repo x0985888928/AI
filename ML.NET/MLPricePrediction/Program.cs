@@ -39,15 +39,15 @@ namespace MLPricePredictionConsole
                     "BatteryCapacity",
                     "LaunchedYear"
                 ));
-                //.Append(mlContext.Transforms.CopyColumns("Label", "LaunchedPrice"));
+            //.Append(mlContext.Transforms.CopyColumns("Label", "LaunchedPrice"));
             // 其實我們已在 ModelInput 用 [ColumnName("Label")] 也可以
 
             // 5. 選擇演算法(例: FastTreeRegression)
-            
-            
-            //var trainer = mlContext.Regression.Trainers.FastTree(labelColumnName: "Label",featureColumnName: "Features");
+
+
+            var trainer = mlContext.Regression.Trainers.FastTree(labelColumnName: "Label",featureColumnName: "Features");
             //var trainer = mlContext.Regression.Trainers.Sdca(labelColumnName: "Label", featureColumnName: "Features");
-            var trainer = mlContext.Regression.Trainers.LightGbm(labelColumnName: "Label", featureColumnName: "Features");
+            //var trainer = mlContext.Regression.Trainers.LightGbm(labelColumnName: "Label", featureColumnName: "Features");
 
             var trainingPipeline = dataProcessPipeline.Append(trainer);
 

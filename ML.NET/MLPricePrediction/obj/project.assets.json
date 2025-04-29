@@ -763,11 +763,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\AI\\ML.NET\\MLPricePrediction\\MLPricePrediction.csproj",
+      "projectUniqueName": "D:\\DEV_REGION\\AI\\ML.NET\\MLPricePrediction\\MLPricePrediction.csproj",
       "projectName": "MLPricePrediction",
-      "projectPath": "D:\\AI\\ML.NET\\MLPricePrediction\\MLPricePrediction.csproj",
+      "projectPath": "D:\\DEV_REGION\\AI\\ML.NET\\MLPricePrediction\\MLPricePrediction.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\AI\\ML.NET\\MLPricePrediction\\obj\\",
+      "outputPath": "D:\\DEV_REGION\\AI\\ML.NET\\MLPricePrediction\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

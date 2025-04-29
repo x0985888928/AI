@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oz7RHlhIIK8=",
+  "dgSpecHash": "zyVeYvxCxdE=",
   "success": true,
-  "projectFilePath": "D:\\AI\\ML.NET\\MLPricePrediction\\MLPricePrediction.csproj",
+  "projectFilePath": "D:\\DEV_REGION\\AI\\ML.NET\\MLPricePrediction\\MLPricePrediction.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\lightgbm\\3.3.5\\lightgbm.3.3.5.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.ml\\4.0.2\\microsoft.ml.4.0.2.nupkg.sha512",
