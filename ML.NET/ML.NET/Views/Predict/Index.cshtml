@@ -51,25 +51,10 @@
 
 <div id="predCardRoot" class="mt-4"></div>
 
-
 @if (ViewBag.PredictedPrice != null)
 {
-    @* 
-    <div class="alert alert-info mt-6">
-        <h4 class="alert-heading">Predicted Price</h4>
-         <p class="display-6">$@ViewBag.PredictedPrice.ToString("0.##")</p> 
-    </div> *@
+    @* <h2>Predicted Price: @ViewBag.PredictedPrice</h2> *@
 
-    <canvas id="priceChart" width="600" height="300" class="mt-6"></canvas>
-}
-
-@if (ViewBag.PredictedPrice != null)
-{
-    <h2>Predicted Price: @ViewBag.PredictedPrice</h2>
-
-    @* <pre id="historyDump"> *@
-    @*     @Html.Raw(ViewBag.HistoryJson) *@
-    @* </pre> *@
     <canvas id="priceChart" width="600" height="300"></canvas>
 }
 
@@ -142,32 +127,45 @@
             });
         });
     </script>
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-          const predicted = @((ViewBag.PredictedPrice ?? "null"));
-          if (predicted === "null") return;
 
-          const PredCard = () => {
-            const [val, setVal] = React.useState(0);
-            React.useEffect(() => {
-              let v = 0;
-              const id = setInterval(() => {
-                v += (predicted - v) * 0.15;
-                if (Math.abs(predicted - v) < 0.5) { v = predicted; clearInterval(id); }
-                setVal(v.toFixed(2));
-              }, 30);
-            }, []);
-            return React.createElement(
-              'div', {className:'alert alert-info fade show'}, [
-                React.createElement('h4', {className:'alert-heading', key:1}, 'Predicted Price'),
-                React.createElement('p',  {className:'display-6', key:2}, `$${val}`)
-              ]);
-          };
+    <script type="text/babel">
+        /* === 直接執行（不要再綁 DOMContentLoaded） === */
 
-          ReactDOM.createRoot(document.getElementById('predCardRoot'))
-                  .render(React.createElement(PredCard));
-        });
+        const predicted = Number(@(ViewBag.PredictedPrice != null
+        ? ViewBag.PredictedPrice.ToString(System.Globalization.CultureInfo.InvariantCulture)
+        : "NaN"));
+
+        const rootElem = document.getElementById('predCardRoot');
+
+        console.log("predicted :", predicted);
+        console.log("rootElem  :", rootElem);
+
+        if (isNaN(predicted) || !rootElem) {
+            console.log("No predicted value or root element — skip React card.");
+        } else {
+
+            const PredCard = () => {
+                const [val, setVal] = React.useState(0);
+                React.useEffect(() => {
+                    let v = 0;
+                    const id = setInterval(() => {
+                        v += (predicted - v) * 0.15;
+                        if (Math.abs(predicted - v) < 0.5) { v = predicted; clearInterval(id); }
+                        setVal(v.toFixed(2));
+                    }, 30);
+                }, []);
+                return (
+                    <div className="alert alert-info fade show">
+                        <h4 className="alert-heading">Predicted Price</h4>
+                        <p className="display-6">${val}</p>
+                    </div>
+                );
+            };
+
+            ReactDOM.createRoot(rootElem).render(<PredCard />);
+        }
     </script>
+
     <script>
         document.addEventListener('DOMContentLoaded', () => {
 
@@ -175,9 +173,9 @@
             const phoneOpt = @Html.Raw(ViewBag.PhoneOptionsJson);
 
             // ===== 1. 元件引用 =====
-            const selCompany = document.getElementById('selCompany');
-            const selBrand   = document.getElementById('selBrand');
-            const selType    = document.getElementById('selType');
+            const selCompany = document.getElementById('CompanyName');
+            const selBrand   = document.getElementById('Brand');
+            const selType    = document.getElementById('TYPE');
 
             // ===== 2. 幫某個 <select> 填入 <option> =====
             function fillSelect(select, arr, selected){
@@ -205,62 +203,23 @@
             selBrand.addEventListener('change', ()=>{
                 const company = selCompany.value;
                 const brand   = selBrand.value;
-                const compObj = phoneOpt.companies.find(c=>c.name===company);
-                const brandObj= compObj?.brands.find(b=>b.name===brand);
-                fillSelect(selType, brandObj?.types ?? [], null);
+                const compObj = phoneOpt.Companies.find(c=>c.Name===company);
+                const brandObj= compObj?.Brands.find(b=>b.Name===brand);
+                fillSelect(selType, brandObj?.Types ?? [], null);
             });
 
             // === helper：依 company / brand 初始化下級 ===
             function refreshBrandType(companySel, brandSel, typeSel){
-                const compObj = phoneOpt.companies.find(c=>c.name===companySel);
-                const brands  = compObj?.brands.map(b=>b.name) ?? [];
+                const compObj = phoneOpt.Companies.find(c => c.Name === companySel);
+                const brands  = compObj?.Brands.map(b => b.Name) ?? [];
                 fillSelect(selBrand, brands, brandSel);
 
-                const brandObj = compObj?.brands.find(b=>b.name=== (brandSel||brands[0]));
-                const types = brandObj?.types ?? [];
+                const brandObj = compObj?.Brands.find(b => b.Name === brands);
+                const types = brandObj?.Types ?? [];
                 fillSelect(selType, types, typeSel);
             }
         });
     </script>
 
 }
-
-
-
-@* @section Scripts { *@
-@*     <partial name="_ValidationScriptsPartial" /> *@
-@*     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> *@
-
-@*     <script> *@
-@*         document.addEventListener('DOMContentLoaded', function() { *@
-@*             // 1. 把歷史資料 JSON 取出 *@
-@*             const history    = @Html.Raw(ViewBag.HistoryJson); *@
-@*             const predicted  = @ViewBag.PredictedPrice; *@
-
-@*             // 2. 準備 labels (年份) 與 data (價格) *@
-@*             const labels = history.map(x => x.LaunchedYear); *@
-@*             const data   = history.map(x => x.Price); *@
-
-@*             // 把預測值加到最後 *@
-@*             labels.push(@Model.LaunchedYear); *@
-@*             data.push(predicted); *@
-
-@*             // 3. 建立或更新 Chart *@
-@*             const ctx = document.getElementById('priceChart').getContext('2d'); *@
-@*             new Chart(ctx, { *@
-@*                 type: 'line', *@
-@*                 data: { *@
-@*                     labels: labels, *@
-@*                     datasets: [{ *@
-@*                         label: 'Historical + Predicted', *@
-@*                         data: data, *@
-@*                         fill: false, *@
-@*                         borderWidth: 2 *@
-@*                     }] *@
-@*                 }, *@
-@*                 options: { scales: { y: { beginAtZero: false } } } *@
-@*             }); *@
-@*         }); *@
-@*     </script> *@
-@* } *@
 
