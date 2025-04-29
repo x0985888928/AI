@@ -2230,7 +2230,7 @@
           }
         },
         "build": {
-          "build/netstandard2.0/_._": {}
+          "build/netstandard2.0/Microsoft.ML.FastTree.props": {}
         },
         "runtimeTargets": {
           "runtimes/linux-x64/native/libFastTreeNative.so": {
@@ -9165,6 +9165,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.3",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.3",
       "Microsoft.ML >= 4.0.2",
+      "Microsoft.ML.FastTree >= 4.0.2",
       "Microsoft.ML.LightGbm >= 4.0.2",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 9.0.0",
       "Serilog.AspNetCore >= 9.0.0",
@@ -9179,11 +9180,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\AI\\ML.NET\\ML.NET\\ML.NET.csproj",
+      "projectUniqueName": "D:\\DEV_REGION\\AI\\ML.NET\\ML.NET\\ML.NET.csproj",
       "projectName": "ML.NET",
-      "projectPath": "D:\\AI\\ML.NET\\ML.NET\\ML.NET.csproj",
+      "projectPath": "D:\\DEV_REGION\\AI\\ML.NET\\ML.NET\\ML.NET.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\AI\\ML.NET\\ML.NET\\obj\\",
+      "outputPath": "D:\\DEV_REGION\\AI\\ML.NET\\ML.NET\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -9246,6 +9247,10 @@
             "version": "[9.0.3, )"
           },
           "Microsoft.ML": {
+            "target": "Package",
+            "version": "[4.0.2, )"
+          },
+          "Microsoft.ML.FastTree": {
             "target": "Package",
             "version": "[4.0.2, )"
           },

@@ -14,6 +14,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.3",
           "Microsoft.EntityFrameworkCore.Tools": "9.0.3",
           "Microsoft.ML": "4.0.2",
+          "Microsoft.ML.FastTree": "4.0.2",
           "Microsoft.ML.LightGbm": "4.0.2",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "9.0.0",
           "Serilog.AspNetCore": "9.0.0",

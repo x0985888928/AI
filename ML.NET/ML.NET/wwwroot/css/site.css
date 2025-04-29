@@ -1,22 +1,103 @@
-html {
-  font-size: 14px;
+/* ─────────────────────────────────────────────────── */
+/* 全域深色背景與文字 */
+body.dark-mode {
+    background-color: #1e1e2e;
+    color: #cfd8dc;
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+.container-fluid, .card, .sticky-footer {
+    background-color: #252538;
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+/* Sidebar 深色漸層 + 螢光青點綴 */
+.sidebar {
+    background: linear-gradient(180deg, #11101f 0%, #222236 100%) !important;
 }
 
-html {
-  position: relative;
-  min-height: 100%;
+    .sidebar .sidebar-brand-text,
+    .sidebar .nav-link span {
+        color: #cfd8dc !important;
+    }
+
+    .sidebar .nav-link:hover,
+    .sidebar .nav-item.active .nav-link {
+        background-color: #00bcd4 !important;
+        color: #1e1e2e !important;
+    }
+
+/* Topbar 風格 */
+.topbar {
+    background-color: #252538 !important;
+    border-bottom: 1px solid #3a3a4e;
 }
 
-body {
-  margin-bottom: 60px;
+    .topbar .nav-link, .topbar .btn {
+        color: #cfd8dc !important;
+    }
+
+        .topbar .nav-link:hover,
+        .topbar .btn-primary {
+            background-color: #00bcd4 !important;
+            border-color: #00bcd4 !important;
+        }
+
+/* Card / KPI 卡片 */
+.card {
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
+
+    .card .card-header {
+        background-color: #1e1e2e;
+        border-bottom: 1px solid #3a3a4e;
+        color: #00bcd4;
+    }
+
+    .card .card-body {
+        color: #eceff1;
+    }
+
+/* 按鈕風格 */
+.btn-primary {
+    background-color: #00bcd4;
+    border-color: #00bcd4;
+}
+
+    .btn-primary:hover {
+        background-color: #00a5b5;
+        border-color: #00a5b5;
+    }
+
+/* 表格、表單欄位 */
+.table-dark {
+    background-color: #252538;
+    color: #cfd8dc;
+}
+
+.form-control {
+    background-color: #2f2f41;
+    color: #eceff1;
+    border: 1px solid #3a3a4e;
+}
+
+    .form-control:focus {
+        background-color: #2f2f41;
+        color: #eceff1;
+        border-color: #00bcd4;
+        box-shadow: none;
+    }
+
+/* 自訂 Scrollbar（可選） */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #252538;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #00bcd4;
+    border-radius: 4px;
+}
+/* ─────────────────────────────────────────────────── */
