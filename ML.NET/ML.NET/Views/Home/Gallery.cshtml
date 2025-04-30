@@ -1,0 +1,77 @@
+﻿@* Views/Home/Index.cshtml — 在現有內容下方，加入作品集展示區 *@
+
+<!-- …既有的第一個 row 結束後，插入下面這段… -->
+<div class="row mt-5">
+    <!-- 區塊標題 -->
+    <div class="col-12 mb-4">
+        <h4 class="text-info">作品集展示</h4>
+    </div>
+
+    <!-- Project Card 1 -->
+    <div class="col-md-4 mb-4">
+        <div class="card h-100">
+            <img src="~/img/project1.png" class="card-img-top" alt="Project 1 Screenshot" height="100px" />
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title">專案一：AI 價格預測模型</h5>
+                <p class="card-text flex-grow-1">使用kagle提供機型手機價格資料，訓練模型對未來價格預測。</p>
+                <a href="https://github.com/x0985888928/AI/tree/main/ML.NET/MLPricePrediction" target="_blank" class="btn btn-sm btn-primary mt-2">GitHub 原始碼</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project Card 2 -->
+    <div class="col-md-4 mb-4">
+        <div class="card h-100">
+            <img src="~/img/project2.png" class="card-img-top" alt="Project 2 Screenshot" height="100px" />
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title">專案二：基於線上評論的顧客滿意度分類研究</h5>
+                <p class="card-text flex-grow-1">使用yelp提供的旅客滿意度分析，比對三種模型找出最合適模型。</p>
+                <a href="https://github.com/x0985888928/AI/tree/main/NN/%E5%9F%BA%E6%96%BC%E7%B7%9A%E4%B8%8A%E8%A9%95%E8%AB%96%E7%9A%84%E9%A1%A7%E5%AE%A2%E6%BB%BF%E6%84%8F%E5%BA%A6%E5%88%86%E9%A1%9E%E7%A0%94%E7%A9%B6" target="_blank" class="btn btn-sm btn-primary mt-2">GitHub 原始碼</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project Card 3 -->
+    <div class="col-md-4 mb-4">
+        <div class="card h-100">
+            <img src="~/img/project3.png" class="card-img-top" alt="Project 3 Screenshot" />
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title">專案三：加入Dirichlet 的NBC實作</h5>
+                <p class="card-text flex-grow-1">將NBC加入Dirichlet，使極端值也能保留合理機率，測試結果是否更優。</p>
+                <a href="https://github.com/x0985888928/AI/tree/main/NBC" target="_blank" class="btn btn-sm btn-primary mt-2">GitHub 原始碼</a>
+            </div>
+        </div>
+    </div>
+    <!-- Project Card 4 -->
+    <div class="col-md-4 mb-4">
+        <div class="card h-100">
+            <img src="~/img/project4.png" class="card-img-top" alt="Project 4 Screenshot" />
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title">專案四：具策略型消費者與多品項購買下之軟體定價之研究</h5>
+                <p class="card-text flex-grow-1">將軟體市場化為數學經濟模型，考慮存在策略型消費者與多品項購買下的訂價策略</p>
+                <a href="https://github.com/x0985888928/FIN-ECON/tree/main/%E5%85%B7%E7%AD%96%E7%95%A5%E5%9E%8B%E6%B6%88%E8%B2%BB%E8%80%85%E8%88%87%E5%A4%9A%E5%93%81%E9%A0%85%E8%B3%BC%E8%B2%B7%E4%B8%8B%E8%BB%9F%E9%AB%94%E5%8D%87%E7%B4%9A%E5%AE%9A%E5%83%B9%E4%B9%8B%E7%A0%94%E7%A9%B6" target="_blank" class="btn btn-sm btn-primary mt-2">GitHub 原始碼</a>
+            </div>
+        </div>
+    </div>
+    <!-- Project Card 5 -->
+    <div class="col-md-4 mb-4">
+        <div class="card h-100">
+            <img src="~/img/project5.png" class="card-img-top" alt="Project 5 Screenshot" />
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title">專案五：具混亂資料下對 Google NotebookLM 影響的趣味研究</h5>
+                <p class="card-text flex-grow-1">將原始資料加入雜音，同時丟入notebookLM產檔，分析兩者差異優劣。</p>
+                <a href="https://github.com/x0985888928/FIN-ECON/tree/main/%E5%85%B7%E7%AD%96%E7%95%A5%E5%9E%8B%E6%B6%88%E8%B2%BB%E8%80%85%E8%88%87%E5%A4%9A%E5%93%81%E9%A0%85%E8%B3%BC%E8%B2%B7%E4%B8%8B%E8%BB%9F%E9%AB%94%E5%8D%87%E7%B4%9A%E5%AE%9A%E5%83%B9%E4%B9%8B%E7%A0%94%E7%A9%B6" target="_blank" class="btn btn-sm btn-primary mt-2">GitHub 原始碼</a>
+            </div>
+        </div>
+    </div>
+    <!-- Project Card 6 -->
+    <div class="col-md-4 mb-4">
+        <div class="card h-100">
+            <img src="~/img/project6.png" class="card-img-top" alt="Project 6 Screenshot" />
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title">其他</h5>
+                <a href="https://github.com/x0985888928/" target="_blank" class="btn btn-sm btn-primary mt-4">GitHub 主頁</a>
+            </div>
+        </div>
+    </div>
+</div>

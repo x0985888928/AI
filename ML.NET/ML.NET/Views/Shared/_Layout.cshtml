@@ -74,13 +74,20 @@
                 <!-- 左側 Nav -->
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item"><a class="nav-link" asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" asp-controller="Home" asp-action="Privacy">Privacy</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-controller="Home" asp-action="Experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-controller="Home" asp-action="Gallery">Gallery</a></li>
                     <li class="nav-item"><a class="nav-link" asp-controller="Products" asp-action="Index">Products</a></li>
-                    <li class="nav-item"><a class="nav-link" asp-controller="Customer" asp-action="Index">Customers</a></li>
-                    <li class="nav-item"><a class="nav-link" asp-controller="Predict" asp-action="Index">Predict</a></li>
+                    @* <li class="nav-item"><a class="nav-link" asp-controller="Customer" asp-action="Index">Customers</a></li> *@
+                    @* <li class="nav-item"><a class="nav-link" asp-controller="Predict" asp-action="Index">Predict</a></li> *@
                 </ul>
                 <!-- 右側 登入/登出 按鈕 -->
                 <ul class="navbar-nav ms-auto">
+                    <li class="nav-item me-3">
+                        <select id="langSelect" class="form-select form-select-sm">
+                            <option value="zh">繁中</option>
+                            <option value="en">English</option>
+                        </select>
+                    </li>
                     <li class="nav-item"><a class="btn btn-sm btn-primary me-2" asp-controller="Account" asp-action="Login">登入</a></li>
                     <li class="nav-item"><a class="btn btn-sm btn-secondary" asp-controller="Account" asp-action="Logout">登出</a></li>
                 </ul>
@@ -92,9 +99,9 @@
             </div>
 
             <!-- Footer -->
-            <footer class="sticky-footer bg-white mt-auto">
+            <footer class="sticky-footer mt-auto">
                 <div class="container my-auto">
-                    <div class="copyright text-center my-auto"><span>© 2025 ML.NET</span></div>
+                    <div class="copyright text-center my-auto"><span>© 2025 Homegi</span></div>
                 </div>
             </footer>
         </div>
@@ -111,6 +118,9 @@
     </script>
     <!-- Chart.js -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="~/js/i18n.js"></script>
+
     @RenderSection("Scripts", required: false)
+
 </body>
 </html>

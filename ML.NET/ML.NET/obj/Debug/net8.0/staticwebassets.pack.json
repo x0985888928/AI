@@ -13,6 +13,22 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\DEV_REGION\\AI\\ML.NET\\ML.NET\\wwwroot\\img\\avatar.jpg",
+      "PackagePath": "staticwebassets\\img\\avatar.jpg"
+    },
+    {
+      "Id": "D:\\DEV_REGION\\AI\\ML.NET\\ML.NET\\wwwroot\\img\\project1.png",
+      "PackagePath": "staticwebassets\\img\\project1.png"
+    },
+    {
+      "Id": "D:\\DEV_REGION\\AI\\ML.NET\\ML.NET\\wwwroot\\img\\project2.png",
+      "PackagePath": "staticwebassets\\img\\project2.png"
+    },
+    {
+      "Id": "D:\\DEV_REGION\\AI\\ML.NET\\ML.NET\\wwwroot\\js\\i18n.js",
+      "PackagePath": "staticwebassets\\js\\i18n.js"
+    },
+    {
       "Id": "D:\\DEV_REGION\\AI\\ML.NET\\ML.NET\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
@@ -243,6 +259,14 @@
     {
       "Id": "D:\\DEV_REGION\\AI\\ML.NET\\ML.NET\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\DEV_REGION\\AI\\ML.NET\\ML.NET\\wwwroot\\locale\\en.json",
+      "PackagePath": "staticwebassets\\locale\\en.json"
+    },
+    {
+      "Id": "D:\\DEV_REGION\\AI\\ML.NET\\ML.NET\\wwwroot\\locale\\zh.json",
+      "PackagePath": "staticwebassets\\locale\\zh.json"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ML.NET.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

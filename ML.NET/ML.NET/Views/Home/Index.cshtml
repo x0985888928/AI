@@ -1,10 +1,144 @@
-﻿@*
-    Views/Home/Index.cshtml
-    此檔案是首頁的視圖
-*@
+﻿@* Views/Home/Index.cshtml *@
 @{
-    ViewData["Title"] = "首頁";
+    ViewData["Title"] = "主頁";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>歡迎來到我的網站</h1>
-<p>這是使用傳統 ASP.NET Core MVC Razor View 產生的前端頁面。</p>
+<div class="row">
+    <!-- 照片 + 姓名 + GitHub -->
+    <div class="col-md-6 mb-4">
+        <div class="card h-100">
+            <div class="card-header" data-i18n="photo"></div>
+            <div class="card-body text-center">
+                <img src="~/img/avatar.jpg" width="500" height="500" class="img-fluid mx-auto" />
+                <div class="mt-3 display-6" data-i18n="name"></div>
+                <h6 class="text-info">
+                    <a href="https://github.com/x0985888928"
+                       target="_blank"
+                       class="text-info text-decoration-none"
+                       data-i18n="github"></a>
+                </h6>
+            </div>
+        </div>
+    </div>
+
+    <!-- 自評能力圖 -->
+    <div class="col-lg-4 mb-4">
+        <div class="card h-100">
+            <div class="card-header" data-i18n="selfEval"></div>
+            <div class="card-body text-center">
+                <canvas id="abilityRadar" height="10"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- 最高同時處理專案 -->
+    <div class="col-md-6 mb-4">
+        <div class="card">
+            <div class="card-header" data-i18n="maxProjects"></div>
+            <div class="card-body">
+                <span class="display-6">
+                    <span class="count" data-target="5">0</span> <span data-i18n="unitItems"></span>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 最高同時責任系統 -->
+    <div class="col-md-6 mb-4">
+        <div class="card">
+            <div class="card-header" data-i18n="maxSystems"></div>
+            <div class="card-body">
+                <span class="display-6">
+                    <span class="count" data-target="28">0</span> <span data-i18n="unitItems"></span>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 工作經驗 -->
+    <div class="col-md-6 mb-4">
+        <div class="card">
+            <div class="card-header" data-i18n="experience"></div>
+            <div class="card-body">
+                <span class="display-6">
+                    <span class="count" data-target="4">0.0</span> <span data-i18n="unitYears"></span>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 年齡 -->
+    <div class="col-md-6 mb-4">
+        <div class="card">
+            <div class="card-header" data-i18n="age"></div>
+            <div class="card-body">
+                <span class="display-6">
+                    <span class="count" data-target="29">0</span> <span data-i18n="unitAge"></span>
+                </span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+@section Scripts {
+    <script>
+        // 雷達圖 (保持原設定)
+        const ctx = document.getElementById('abilityRadar').getContext('2d');
+        new Chart(ctx, {
+            type: 'radar',
+            data: {
+                labels: ['學習能力','溝通協調','合作與效率','責任與管理','問題解決','技術執行力'],
+                datasets: [{
+                    data: [80, 50, 80, 40, 80, 60],
+                    fill: true,
+                    backgroundColor: 'rgba(0,188,212,0.2)',
+                    borderColor: 'rgba(0,188,212,1)',
+                    pointBackgroundColor: 'rgba(0,188,212,1)'
+                }]
+            },
+            options: {
+                scales: {
+                    r: {
+                        beginAtZero: true,
+                        max: 100,
+                        grid: { color: '#3a3a4e' },
+                        angleLines: { color: '#3a3a4e' },
+                        pointLabels: { color: '#cfd8dc', font: { size: 20 } },
+                        ticks: { stepSize: 20, display: false }
+                    }
+                },
+                plugins: { legend: { display: false } }
+            }
+        });
+
+        // 卡片數值跳動動畫
+        document.addEventListener('DOMContentLoaded', () => {
+            const counters = document.querySelectorAll('.count');
+            counters.forEach(counter => {
+                const target = parseFloat(counter.getAttribute('data-target'));
+                const duration = 2000;
+                const frameRate = 60;
+                const totalFrames = Math.round(duration / (1000 / frameRate));
+                const increment = target / totalFrames;
+                let frame = 0;
+                const update = () => {
+                    frame++;
+                    const value = increment * frame;
+                    if (frame < totalFrames) {
+                        counter.innerText = Number.isInteger(target)
+                            ? Math.round(value)
+                            : value.toFixed(1);
+                        requestAnimationFrame(update);
+                    } else {
+                        counter.innerText = Number.isInteger(target)
+                            ? target
+                            : target.toFixed(1);
+                    }
+                };
+                requestAnimationFrame(update);
+            });
+        });
+    </script>
+}
