@@ -28,6 +28,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.ML" Version="4.0.2" />
     <PackageReference Include="Microsoft.ML" Version="4.0.2" />
     <PackageReference Include="Microsoft.ML.FastTree" Version="4.0.2" />
     <PackageReference Include="Microsoft.ML.LightGbm" Version="4.0.2" />
@@ -40,5 +41,10 @@
   <ItemGroup>
     <Folder Include="Img\" />
   </ItemGroup>
+
+  <PropertyGroup>
+  <!-- 這個 ID 可自訂，也可用 CLI 自動產生 -->
+  <UserSecretsId>Homegi-UserSecrets-2025</UserSecretsId>
+  </PropertyGroup>
 
 </Project>

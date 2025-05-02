@@ -17,12 +17,80 @@
       "PackagePath": "staticwebassets\\img\\avatar.jpg"
     },
     {
-      "Id": "D:\\DEV_REGION\\AI\\ML.NET\\ML.NET\\wwwroot\\img\\project1.png",
-      "PackagePath": "staticwebassets\\img\\project1.png"
+      "Id": "D:\\DEV_REGION\\AI\\ML.NET\\ML.NET\\wwwroot\\img\\project1-1.png",
+      "PackagePath": "staticwebassets\\img\\project1-1.png"
     },
     {
-      "Id": "D:\\DEV_REGION\\AI\\ML.NET\\ML.NET\\wwwroot\\img\\project2.png",
-      "PackagePath": "staticwebassets\\img\\project2.png"
+      "Id": "D:\\DEV_REGION\\AI\\ML.NET\\ML.NET\\wwwroot\\img\\project1-2.png",
+      "PackagePath": "staticwebassets\\img\\project1-2.png"
+    },
+    {
+      "Id": "D:\\DEV_REGION\\AI\\ML.NET\\ML.NET\\wwwroot\\img\\project1-3.png",
+      "PackagePath": "staticwebassets\\img\\project1-3.png"
+    },
+    {
+      "Id": "D:\\DEV_REGION\\AI\\ML.NET\\ML.NET\\wwwroot\\img\\project1-Main.png",
+      "PackagePath": "staticwebassets\\img\\project1-Main.png"
+    },
+    {
+      "Id": "D:\\DEV_REGION\\AI\\ML.NET\\ML.NET\\wwwroot\\img\\project2-1.png",
+      "PackagePath": "staticwebassets\\img\\project2-1.png"
+    },
+    {
+      "Id": "D:\\DEV_REGION\\AI\\ML.NET\\ML.NET\\wwwroot\\img\\project2-2.png",
+      "PackagePath": "staticwebassets\\img\\project2-2.png"
+    },
+    {
+      "Id": "D:\\DEV_REGION\\AI\\ML.NET\\ML.NET\\wwwroot\\img\\project2-Main.png",
+      "PackagePath": "staticwebassets\\img\\project2-Main.png"
+    },
+    {
+      "Id": "D:\\DEV_REGION\\AI\\ML.NET\\ML.NET\\wwwroot\\img\\project3-1.png",
+      "PackagePath": "staticwebassets\\img\\project3-1.png"
+    },
+    {
+      "Id": "D:\\DEV_REGION\\AI\\ML.NET\\ML.NET\\wwwroot\\img\\project3-2.png",
+      "PackagePath": "staticwebassets\\img\\project3-2.png"
+    },
+    {
+      "Id": "D:\\DEV_REGION\\AI\\ML.NET\\ML.NET\\wwwroot\\img\\project3-Main.png",
+      "PackagePath": "staticwebassets\\img\\project3-Main.png"
+    },
+    {
+      "Id": "D:\\DEV_REGION\\AI\\ML.NET\\ML.NET\\wwwroot\\img\\project4-1.png",
+      "PackagePath": "staticwebassets\\img\\project4-1.png"
+    },
+    {
+      "Id": "D:\\DEV_REGION\\AI\\ML.NET\\ML.NET\\wwwroot\\img\\project4-2.png",
+      "PackagePath": "staticwebassets\\img\\project4-2.png"
+    },
+    {
+      "Id": "D:\\DEV_REGION\\AI\\ML.NET\\ML.NET\\wwwroot\\img\\project4-Main.png",
+      "PackagePath": "staticwebassets\\img\\project4-Main.png"
+    },
+    {
+      "Id": "D:\\DEV_REGION\\AI\\ML.NET\\ML.NET\\wwwroot\\img\\project5-1.png",
+      "PackagePath": "staticwebassets\\img\\project5-1.png"
+    },
+    {
+      "Id": "D:\\DEV_REGION\\AI\\ML.NET\\ML.NET\\wwwroot\\img\\project5-2.png",
+      "PackagePath": "staticwebassets\\img\\project5-2.png"
+    },
+    {
+      "Id": "D:\\DEV_REGION\\AI\\ML.NET\\ML.NET\\wwwroot\\img\\project5-Main.png",
+      "PackagePath": "staticwebassets\\img\\project5-Main.png"
+    },
+    {
+      "Id": "D:\\DEV_REGION\\AI\\ML.NET\\ML.NET\\wwwroot\\img\\project6-1.png",
+      "PackagePath": "staticwebassets\\img\\project6-1.png"
+    },
+    {
+      "Id": "D:\\DEV_REGION\\AI\\ML.NET\\ML.NET\\wwwroot\\img\\project6-2.png",
+      "PackagePath": "staticwebassets\\img\\project6-2.png"
+    },
+    {
+      "Id": "D:\\DEV_REGION\\AI\\ML.NET\\ML.NET\\wwwroot\\img\\project6-Main.png",
+      "PackagePath": "staticwebassets\\img\\project6-Main.png"
     },
     {
       "Id": "D:\\DEV_REGION\\AI\\ML.NET\\ML.NET\\wwwroot\\js\\i18n.js",
@@ -267,6 +335,10 @@
     {
       "Id": "D:\\DEV_REGION\\AI\\ML.NET\\ML.NET\\wwwroot\\locale\\zh.json",
       "PackagePath": "staticwebassets\\locale\\zh.json"
+    },
+    {
+      "Id": "D:\\DEV_REGION\\AI\\ML.NET\\ML.NET\\wwwroot\\protected\\resume.pdf",
+      "PackagePath": "staticwebassets\\protected\\resume.pdf"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ML.NET.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

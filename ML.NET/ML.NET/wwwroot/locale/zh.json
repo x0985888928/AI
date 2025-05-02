@@ -32,5 +32,25 @@
   "selfEval": "自評能力圖",
   "unitItems": "個",
   "unitYears": "年",
-  "unitAge": "歲"
+  "unitAge": "歲",
+  "item1_title": "碩士畢業",
+  "item1_details": "國立成功大學 資訊管理研究所 碩士畢業 2020/7",
+  "item2_title": "台新銀行",
+  "item2_details": "台新銀行 內湖分行 - 軟體工程師 (2 年)",
+  "item3_title": "中國醫藥大學",
+  "item3_details": "中國醫藥大學 北區校本部 - 軟體工程師 (2 年)",
+  "systemHealth": "系統健康度",
+  "visitorCount": "即時訪客數",
+  "pricePredict": "價格預測",
+  "CompanyName": "公司",
+  "Brand": "品牌",
+  "Version": "版本",
+  "TYPE": "類型",
+  "ROM": "儲存(GB)",
+  "MobileWeight": "重量(g)",
+  "RAM": "記憶體(GB)",
+  "BatteryCapacity": "電量(mAh)",
+  "LaunchedYear": "發表年",
+  "predictBtn": "預測價格"
+
 }

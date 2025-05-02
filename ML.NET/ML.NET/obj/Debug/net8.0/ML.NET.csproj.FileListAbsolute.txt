@@ -672,3 +672,5 @@ D:\DEV_REGION\AI\ML.NET\ML.NET\obj\Debug\net8.0\refint\ML.NET.dll
 D:\DEV_REGION\AI\ML.NET\ML.NET\obj\Debug\net8.0\ML.NET.pdb
 D:\DEV_REGION\AI\ML.NET\ML.NET\obj\Debug\net8.0\ML.NET.genruntimeconfig.cache
 D:\DEV_REGION\AI\ML.NET\ML.NET\obj\Debug\net8.0\ref\ML.NET.dll
+D:\DEV_REGION\AI\ML.NET\ML.NET\bin\Debug\net8.0\Microsoft.Extensions.ML.dll
+D:\DEV_REGION\AI\ML.NET\ML.NET\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll

@@ -1,6 +1,217 @@
-﻿@* Views/Home/Index.cshtml — 在現有內容下方，加入作品集展示區 *@
+﻿@* Views/Home/Gallery.cshtml *@
+@{
+    ViewData["Title"] = "作品集";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
 
-<!-- …既有的第一個 row 結束後，插入下面這段… -->
+<div class="row mt-5">
+    <div class="col-12 mb-4">
+        <h4 class="text-info" data-i18n="galleryTab">作品集展示</h4>
+    </div>
+
+    <!-- Project 1: AI 價格預測模型 (3 張) -->
+    <div class="col-md-4 mb-4">
+        <div class="card h-100">
+            <div class="card-body d-flex flex-column">
+                <!-- 顯示縮圖 -->
+                <a href="@Url.Content("~/img/project1-Main.png")"
+                   data-lightbox="project1"
+                   data-title="專案一：AI 價格預測模型 – 主頁面">
+                    <img src="@Url.Content("~/img/project1-1.png")"
+                         class="card-img-top"
+                         alt="Project 1 Screenshot" />
+                </a>
+                <!-- 群組所有圖片 -->
+                <a href="@Url.Content("~/img/project1-1.png")"
+                   data-lightbox="project1"
+                   data-title="專案一：AI 價格預測模型 – 主頁面"></a>
+                <a href="@Url.Content("~/img/project1-2.png")"
+                   data-lightbox="project1"
+                   data-title="專案一：AI 價格預測模型 – 功能頁面"></a>
+                <a href="@Url.Content("~/img/project1-3.png")"
+                   data-lightbox="project1"
+                   data-title="專案一：AI 價格預測模型 – 設定頁面"></a>
+
+                
+
+                <div class="mt-3 flex-grow-1">
+                    <h5 class="card-title">專案一：AI 價格預測模型</h5>
+                    <p class="card-text">
+                        使用 Kaggle 手機價格資料訓練模型，預測未來價格趨勢。
+                    </p>
+                </div>
+                <a href="https://github.com/x0985888928/AI/tree/main/ML.NET/MLPricePrediction"
+                   target="_blank"
+                   class="btn btn-sm btn-primary mt-2">GitHub 原始碼</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project 2: 顧客滿意度分類研究 (2 張) -->
+    <div class="col-md-4 mb-4">
+        <div class="card h-100">
+            <div class="card-body d-flex flex-column">
+                <a href="@Url.Content("~/img/project2-Main.png")"
+                   data-lightbox="project2"
+                   data-title="專案二：顧客滿意度分類研究 – 首頁">
+                    <img src="@Url.Content("~/img/project2-1.png")"
+                         class="card-img-top"
+                         alt="Project 2 Screenshot" />
+                </a>
+                <a href="@Url.Content("~/img/project2-1.png")"
+                   data-lightbox="project2"
+                   data-title="專案二：顧客滿意度分類研究 – 首頁"></a>
+                <a href="@Url.Content("~/img/project2-2.png")"
+                   data-lightbox="project2"
+                   data-title="專案二：顧客滿意度分類研究 – 分析頁面"></a>
+
+                <div class="mt-3 flex-grow-1">
+                    <h5 class="card-title">專案二：顧客滿意度分類研究</h5>
+                    <p class="card-text">
+                        使用 Yelp 評論資料，比對三種模型，找出最佳分類器。
+                    </p>
+                </div>
+                <a href="https://github.com/x0985888928/AI/tree/main/NN/%E5%9F%BA%E6%96%BC%E7%B7%9A%E4%B8%8A%E8%A9%95%E8%AB%96%E7%9A%84%E9%A1%A7%E5%AE%A2%E6%BB%BF%E6%84%8F%E5%BA%A6%E5%88%86%E9%A1%9E%E7%A0%94%E7%A9%B6"
+                   target="_blank"
+                   class="btn btn-sm btn-primary mt-2">GitHub 原始碼</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project 3: Dirichlet NBC 實作 (2 張) -->
+    <div class="col-md-4 mb-4">
+        <div class="card h-100">
+            <div class="card-body d-flex flex-column">
+                <a href="@Url.Content("~/img/project3-Main.png")"
+                   data-lightbox="project3"
+                   data-title="專案三：Dirichlet NBC 實作 – 範例">
+                    <img src="@Url.Content("~/img/project3-1.png")"
+                         class="card-img-top"
+                         alt="Project 3 Screenshot" />
+                </a>
+                <a href="@Url.Content("~/img/project3-1.png")"
+                   data-lightbox="project3"
+                   data-title="專案三：Dirichlet NBC 實作 – 範例"></a>
+                <a href="@Url.Content("~/img/project3-2.png")"
+                   data-lightbox="project3"
+                   data-title="專案三：Dirichlet NBC 實作 – 結果比較"></a>
+
+
+                <div class="mt-3 flex-grow-1">
+                    <h5 class="card-title">專案三：Dirichlet NBC 實作</h5>
+                    <p class="card-text">
+                        將 NBC 加入 Dirichlet，保留極端值機率，測試效能改善。
+                    </p>
+                </div>
+                <a href="https://github.com/x0985888928/AI/tree/main/NBC"
+                   target="_blank"
+                   class="btn btn-sm btn-primary mt-2">GitHub 原始碼</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project 4: 經濟定價模型 (2 張) -->
+    <div class="col-md-4 mb-4">
+        <div class="card h-100">
+            <div class="card-body d-flex flex-column">
+                <a href="@Url.Content("~/img/project4-Main.png")"
+                   data-lightbox="project4"
+                   data-title="專案四：經濟定價模型 – 市場結構">
+                    <img src="@Url.Content("~/img/project4-1.png")"
+                         class="card-img-top"
+                         alt="Project 4 Screenshot" />
+                </a>
+                <a href="@Url.Content("~/img/project4-1.png")"
+                   data-lightbox="project4"
+                   data-title="專案四：經濟定價模型 – 市場結構"></a>
+                <a href="@Url.Content("~/img/project4-2.png")"
+                   data-lightbox="project4"
+                   data-title="專案四：經濟定價模型 – 定價策略"></a>
+
+
+                <div class="mt-3 flex-grow-1">
+                    <h5 class="card-title">專案四：策略型消費者與多品項定價研究</h5>
+                    <p class="card-text">
+                        建立數學經濟模型，模擬軟體訂價下的市場行為。
+                    </p>
+                </div>
+                <a href="https://github.com/x0985888928/FIN-ECON/tree/main/%E5%85%B7%E7%AD%96%E7%95%A5%E5%9E%8B%E6%B6%88%E8%B2%BB%E8%80%85%E8%88%87%E5%A4%9A%E5%93%81%E9%A0%85%E8%B3%BC%E8%B2%B7%E4%B8%8B%E8%BB%9F%E9%AB%94%E5%8D%87%E7%B4%9A%E5%AE%9A%E5%83%B9%E4%B9%8B%E7%A0%94%E7%A9%B6"
+                   target="_blank"
+                   class="btn btn-sm btn-primary mt-2">GitHub 原始碼</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project 5: NotebookLM 雜音研究 (2 張) -->
+    <div class="col-md-4 mb-4">
+        <div class="card h-100">
+            <div class="card-body d-flex flex-column">
+                <a href="@Url.Content("~/img/project5-Main.png")"
+                   data-lightbox="project5"
+                   data-title="專案五：NotebookLM 雜音 – 原始資料">
+                    <img src="@Url.Content("~/img/project5-1.png")"
+                         class="card-img-top"
+                         alt="Project 5 Screenshot" />
+                </a>
+                <a href="@Url.Content("~/img/project5-1.png")"
+                   data-lightbox="project5"
+                   data-title="專案五：NotebookLM 雜音 – 原始資料"></a>
+                <a href="@Url.Content("~/img/project5-2.png")"
+                   data-lightbox="project5"
+                   data-title="專案五：NotebookLM 雜音 – 分析結果"></a>
+
+
+                <div class="mt-3 flex-grow-1">
+                    <h5 class="card-title">專案五：Google NotebookLM 雜音影響研究</h5>
+                    <p class="card-text">
+                        向 NotebookLM 輸入掺雜雜訊的資料，比較輸出差異。
+                    </p>
+                </div>
+                <a href="https://github.com/x0985888928/FIN-ECON/tree/main/%E5%85%B7%E7%AD%96%E7%95%A5%E5%9E%8B%E6%B6%88%E8%B2%BB%E8%80%85%E8%88%87%E5%A4%9A%E5%93%81%E9%A0%85%E8%B3%BC%E8%B2%B7%E4%B8%8B%E8%BB%9F%E9%AB%94%E5%8D%87%E7%B4%9A%E5%AE%9A%E5%83%B9%E4%B9%8B%E7%A0%94%E7%A9%B6"
+                   target="_blank"
+                   class="btn btn-sm btn-primary mt-2">GitHub 原始碼</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project 6: 其他研究報告 (2 張) -->
+    <div class="col-md-4 mb-4">
+        <div class="card h-100">
+            <div class="card-body d-flex flex-column">
+                <a href="@Url.Content("~/img/project6-Main.png")"
+                   data-lightbox="project6"
+                   data-title="其他：研究報告 – 示意圖">
+                    <img src="@Url.Content("~/img/project6-1.png")"
+                         class="card-img-top"
+                         alt="Project 6 Screenshot" />
+                </a>
+                <a href="@Url.Content("~/img/project6-1.png")"
+                   data-lightbox="project6"
+                   data-title="其他：研究報告 – 示意圖"></a>
+                <a href="@Url.Content("~/img/project6-2.png")"
+                   data-lightbox="project6"
+                   data-title="其他：研究報告 – 結論"></a>
+
+
+                <div class="mt-3 flex-grow-1">
+                    <h5 class="card-title">其他有趣或研究報告</h5>
+                    <p class="card-text">
+                        收錄各種有趣或深入的研究報告示意圖。
+                    </p>
+                </div>
+                <a href="https://github.com/x0985888928/"
+                   target="_blank"
+                   class="btn btn-sm btn-primary mt-2">GitHub 主頁</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<@* !-- …既有的第一個 row 結束後，插入下面這段… -->
 <div class="row mt-5">
     <!-- 區塊標題 -->
     <div class="col-12 mb-4">
@@ -70,8 +281,10 @@
             <img src="~/img/project6.png" class="card-img-top" alt="Project 6 Screenshot" />
             <div class="card-body d-flex flex-column">
                 <h5 class="card-title">其他</h5>
+                <p class="card-text flex-grow-1">其他有趣或研究報告</p>
                 <a href="https://github.com/x0985888928/" target="_blank" class="btn btn-sm btn-primary mt-4">GitHub 主頁</a>
             </div>
         </div>
     </div>
 </div>
+ *@

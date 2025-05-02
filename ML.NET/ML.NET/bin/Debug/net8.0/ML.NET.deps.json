@@ -13,6 +13,7 @@
           "Microsoft.EntityFrameworkCore": "9.0.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.3",
           "Microsoft.EntityFrameworkCore.Tools": "9.0.3",
+          "Microsoft.Extensions.ML": "4.0.2",
           "Microsoft.ML": "4.0.2",
           "Microsoft.ML.FastTree": "4.0.2",
           "Microsoft.ML.LightGbm": "4.0.2",
@@ -1549,6 +1550,29 @@
           "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll": {
             "assemblyVersion": "9.0.0.0",
             "fileVersion": "9.0.325.11113"
+          }
+        }
+      },
+      "Microsoft.Extensions.ML/4.0.2": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.3",
+          "Microsoft.Extensions.Logging": "9.0.3",
+          "Microsoft.Extensions.ObjectPool": "8.0.7",
+          "Microsoft.Extensions.Options": "9.0.3",
+          "Microsoft.ML": "4.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.ML.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "4.0.225.12505"
+          }
+        }
+      },
+      "Microsoft.Extensions.ObjectPool/8.0.7": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.ObjectPool.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.724.31402"
           }
         }
       },
@@ -3271,6 +3295,20 @@
       "sha512": "sha512-H/MBMLt9A/69Ux4OrV7oCKt3DcMT04o5SCqDolulzQA66TLFEpYYb4qedMs/uwrLtyHXGuDGWKZse/oa8W9AZw==",
       "path": "microsoft.extensions.logging.abstractions/9.0.3",
       "hashPath": "microsoft.extensions.logging.abstractions.9.0.3.nupkg.sha512"
+    },
+    "Microsoft.Extensions.ML/4.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hpLoPsx64n9v2aAdvgzM9/rG7zuHw/1h0CWY5O+9l8/xGGX3tbxMvjCx2NYlkmUGiTuXfGDiMFFKTAyVdzY9PA==",
+      "path": "microsoft.extensions.ml/4.0.2",
+      "hashPath": "microsoft.extensions.ml.4.0.2.nupkg.sha512"
+    },
+    "Microsoft.Extensions.ObjectPool/8.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2yLweyqmpuuFSRo+I3sLHMxmnAgNcI537kBJiyv49U2ZEqo00jZcG8lrnD8uCiOJp9IklYyTZULtbsXoFVzsjQ==",
+      "path": "microsoft.extensions.objectpool/8.0.7",
+      "hashPath": "microsoft.extensions.objectpool.8.0.7.nupkg.sha512"
     },
     "Microsoft.Extensions.Options/9.0.3": {
       "type": "package",

@@ -15,6 +15,14 @@ namespace ML.NET.Models
     public class Brand
     {
         public string Name { get; set; } = default!;
+        /// <summary>
+        /// 例如同一品牌不同機型版本
+        /// </summary>
+        public List<string> Versions { get; set; } = new();
+
+        /// <summary>
+        /// 原本的 TYPE 列表
+        /// </summary>
         public List<string> Types { get; set; } = new();
     }
 }

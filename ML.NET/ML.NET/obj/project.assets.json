@@ -1863,6 +1863,39 @@
           "buildTransitive/net8.0/Microsoft.Extensions.Logging.Abstractions.targets": {}
         }
       },
+      "Microsoft.Extensions.ML/4.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1",
+          "Microsoft.Extensions.Logging": "8.0.0",
+          "Microsoft.Extensions.ObjectPool": "8.0.7",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "Microsoft.ML": "4.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.ML.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.ML.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.ObjectPool/8.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.ObjectPool.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.ObjectPool.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Options/9.0.3": {
         "type": "package",
         "dependencies": {
@@ -6469,6 +6502,41 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Microsoft.Extensions.ML/4.0.2": {
+      "sha512": "hpLoPsx64n9v2aAdvgzM9/rG7zuHw/1h0CWY5O+9l8/xGGX3tbxMvjCx2NYlkmUGiTuXfGDiMFFKTAyVdzY9PA==",
+      "type": "package",
+      "path": "microsoft.extensions.ml/4.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard2.0/Microsoft.Extensions.ML.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.ML.xml",
+        "microsoft.extensions.ml.4.0.2.nupkg.sha512",
+        "microsoft.extensions.ml.nuspec",
+        "mlnetlogo.png"
+      ]
+    },
+    "Microsoft.Extensions.ObjectPool/8.0.7": {
+      "sha512": "2yLweyqmpuuFSRo+I3sLHMxmnAgNcI537kBJiyv49U2ZEqo00jZcG8lrnD8uCiOJp9IklYyTZULtbsXoFVzsjQ==",
+      "type": "package",
+      "path": "microsoft.extensions.objectpool/8.0.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/Microsoft.Extensions.ObjectPool.dll",
+        "lib/net462/Microsoft.Extensions.ObjectPool.xml",
+        "lib/net8.0/Microsoft.Extensions.ObjectPool.dll",
+        "lib/net8.0/Microsoft.Extensions.ObjectPool.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.ObjectPool.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.ObjectPool.xml",
+        "microsoft.extensions.objectpool.8.0.7.nupkg.sha512",
+        "microsoft.extensions.objectpool.nuspec"
+      ]
+    },
     "Microsoft.Extensions.Options/9.0.3": {
       "sha512": "xE7MpY70lkw1oiid5y6FbL9dVw8oLfkx8RhSNGN8sSzBlCqGn0SyT3Fqc8tZnDaPIq7Z8R9RTKlS564DS+MV3g==",
       "type": "package",
@@ -9164,6 +9232,7 @@
       "Microsoft.EntityFrameworkCore >= 9.0.3",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.3",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.3",
+      "Microsoft.Extensions.ML >= 4.0.2",
       "Microsoft.ML >= 4.0.2",
       "Microsoft.ML.FastTree >= 4.0.2",
       "Microsoft.ML.LightGbm >= 4.0.2",
@@ -9245,6 +9314,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[9.0.3, )"
+          },
+          "Microsoft.Extensions.ML": {
+            "target": "Package",
+            "version": "[4.0.2, )"
           },
           "Microsoft.ML": {
             "target": "Package",

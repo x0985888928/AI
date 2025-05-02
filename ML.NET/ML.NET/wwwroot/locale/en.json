@@ -32,5 +32,25 @@
   "selfEval": "Skill Radar",
   "unitItems": "items",
   "unitYears": "yrs",
-  "unitAge": "yrs old"
+  "unitAge": "yrs old",
+  "item1_title": "Master's Graduation",
+  "item1_details": "NCKU MIS — Graduated July 2020",
+  "item2_title": "Taishin Bank",
+  "item2_details": "Taishin Bank Neihu Branch — Software Engineer (2 yrs)",
+  "item3_title": "China Medical University",
+  "item3_details": "CMU Main Campus — Software Engineer (2 yrs)",
+  "systemHealth": "System Health",
+  "visitorCount": "Live Visitors",
+  "pricePredict": "pricePredict",
+  "CompanyName": "CompanyName",
+  "Brand": "Brand",
+  "Version": "Version",
+  "TYPE": "TYPE",
+  "ROM": "ROM",
+  "MobileWeight": "MobileWeight",
+  "RAM": "RAM",
+  "BatteryCapacity": "BatteryCapacity",
+  "LaunchedYear": "LaunchedYear",
+  "predictBtn": "predictBtn"
+
 }

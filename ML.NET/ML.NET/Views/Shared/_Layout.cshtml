@@ -43,21 +43,14 @@
             <ul class="navbar-nav sidebar sidebar-dark accordion" id="accordionSidebar">
                 <!-- Sidebar Brand -->
                 <a class="sidebar-brand d-flex align-items-center justify-content-center" asp-area="" asp-controller="Home" asp-action="Index">
-                    <div class="sidebar-brand-icon"><i class="fas fa-chart-line"></i></div>
-                    <div class="sidebar-brand-text mx-3">ML Dashboard</div>
+                    <div class="sidebar-brand-text mx-3">Dashboard</div>
                 </a>
                 <hr class="sidebar-divider my-0" />
                 <!-- Nav Items -->
                 <li class="nav-item">
-                    <a class="nav-link" asp-controller="Predict" asp-action="Index">
-                        <i class="fas fa-magic"></i>
-                        <span>即時預測</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" asp-controller="History" asp-action="Index">
-                        <i class="fas fa-chart-bar"></i>
-                        <span>歷史趨勢</span>
+                    <a class="nav-link" asp-area="" asp-controller="Predict" asp-action="Index">
+                        <i class="fas fa-fw fa-calculator"></i>
+                        <span data-i18n="pricePredict">價格預測</span>
                     </a>
                 </li>
             </ul>
@@ -76,7 +69,8 @@
                     <li class="nav-item"><a class="nav-link" asp-controller="Home" asp-action="Index">Home</a></li>
                     <li class="nav-item"><a class="nav-link" asp-controller="Home" asp-action="Experience">Experience</a></li>
                     <li class="nav-item"><a class="nav-link" asp-controller="Home" asp-action="Gallery">Gallery</a></li>
-                    <li class="nav-item"><a class="nav-link" asp-controller="Products" asp-action="Index">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-controller="Contact" asp-action="Index">Contact</a></li>
+                    @* <li class="nav-item"><a class="nav-link" asp-controller="Products" asp-action="Index">Products</a></li> *@
                     @* <li class="nav-item"><a class="nav-link" asp-controller="Customer" asp-action="Index">Customers</a></li> *@
                     @* <li class="nav-item"><a class="nav-link" asp-controller="Predict" asp-action="Index">Predict</a></li> *@
                 </ul>
@@ -119,6 +113,8 @@
     <!-- Chart.js -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="~/js/i18n.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
 
     @RenderSection("Scripts", required: false)
 

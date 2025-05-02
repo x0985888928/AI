@@ -1,0 +1,55 @@
+﻿@model ML.NET.Models.ContactFormModel
+@{
+    ViewData["Title"] = "聯絡我";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 class="h3 mb-4 text-gray-800">聯絡我</h1>
+
+@if (ViewBag.Success != null)
+{
+    <div class="alert alert-success">感謝您的留言，我們已收到！</div>
+}
+
+<div class="row">
+    <div class="col-lg-6">
+        <form asp-action="Index" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="mb-3">
+                <label asp-for="Name" class="form-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Email" class="form-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Phone" class="form-label"></label>
+                <input asp-for="Phone" class="form-control" />
+                <span asp-validation-for="Phone" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Message" class="form-label"></label>
+                <textarea asp-for="Message" class="form-control" rows="5"></textarea>
+                <span asp-validation-for="Message" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">送出</button>
+        </form>
+    </div>
+
+    <div class="col-lg-6">
+        <h5>下載我的 PDF 簡歷</h5>
+        <p>
+            <a asp-action="Resume" class="btn btn-outline-secondary">
+                <i class="fas fa-file-download"></i> 下載簡歷 (PDF)
+            </a>
+        </p>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

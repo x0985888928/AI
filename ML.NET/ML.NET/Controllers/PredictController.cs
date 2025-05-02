@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 using ML.NET.Models;
 using ML.NET.Services;
-using System.Runtime.Intrinsics.Arm;
+using System.Text.Json;
 
 public class PredictController : Controller
 {
@@ -21,67 +21,68 @@ public class PredictController : Controller
         _phoneOptions = phoneOptions.Value;
     }
 
-    // ---------- GET ----------
+    // GET /Predict
     public IActionResult Index()
     {
-        var model = new PricePredictionInput { /* 預設值 */ };
-        // PredictController.cs（GET 與 POST 都加）
-        ViewBag.PhoneOptionsJson =
-            System.Text.Json.JsonSerializer.Serialize(_phoneOptions);
+        ViewBag.PhoneOptionsJson = JsonSerializer.Serialize(_phoneOptions);
+        // Companies
+        ViewBag.Companies = new SelectList(_phoneOptions.Companies.Select(c => c.Name));
 
-        // Company 下拉 (全部公司)
-        ViewBag.Companies = new SelectList(
-            _phoneOptions.Companies.Select(c => c.Name));
+        // 先拿第一家
+        var first = _phoneOptions.Companies.First();
+        // Brands
+        ViewBag.Brands = new SelectList(first.Brands.Select(b => b.Name));
 
-        // 先用第一家公司填品牌 & 型號
-        var firstCompany = _phoneOptions.Companies.First();
-        ViewBag.Brands = new SelectList(firstCompany.Brands.Select(b => b.Name));
-        ViewBag.Types = new SelectList(firstCompany.Brands.First().Types);
+        // Versions：取第一家、第一個 Brand 下的 Versions
+        ViewBag.Versions = new SelectList(
+            first.Brands.First().Versions
+        );
 
-        return View(model);
+        // Types
+        ViewBag.Types = new SelectList(
+            first.Brands.First().Types
+        );
+
+        return View(new PricePredictionInput());
     }
 
-    // ---------- POST ----------
     [HttpPost]
     public IActionResult Predict(PricePredictionInput input)
     {
-        // PredictController.cs（GET 與 POST 都加）
-        ViewBag.PhoneOptionsJson =
-            System.Text.Json.JsonSerializer.Serialize(_phoneOptions);
-
-        /* 1) 重新填下拉清單 —— 靜態來源，不打 DB */
+        ViewBag.PhoneOptionsJson = JsonSerializer.Serialize(_phoneOptions);
         ViewBag.Companies = new SelectList(
-            _phoneOptions.Companies.Select(c => c.Name), input.CompanyName);
+            _phoneOptions.Companies.Select(c => c.Name),
+            input.CompanyName
+        );
 
-        var brands = _phoneOptions.Companies
-            .FirstOrDefault(c => c.Name == input.CompanyName)
-            ?.Brands ?? new List<Brand>();
-
+        var company = _phoneOptions.Companies
+                         .First(c => c.Name == input.CompanyName);
         ViewBag.Brands = new SelectList(
-            brands.Select(b => b.Name), input.Brand);
+            company.Brands.Select(b => b.Name),
+            input.Brand
+        );
 
-        var types = brands
-            .FirstOrDefault(b => b.Name == input.Brand)
-            ?.Types ?? new List<string>();
+        var brand = company.Brands
+                           .First(b => b.Name == input.Brand);
+        // **分開 Versions 與 Types**
+        ViewBag.Versions = new SelectList(
+            brand.Versions,   // 這裡用 Versions
+            input.Version
+        );
+        ViewBag.Types = new SelectList(
+            brand.Types,
+            input.TYPE
+        );
 
-        ViewBag.Types = new SelectList(types, input.TYPE);
-
-        /* 2) 做預測 & 歷史資料（與之前相同） */
-        var predPrice = _predictSvc.Predict(input);
-        ViewBag.PredictedPrice = predPrice;
-        ViewBag.PredictedYear = input.LaunchedYear;
-        ViewBag.PredictedType = input.TYPE;
-        var history = _historySvc.GetByCompany(input.CompanyName ?? "",
-                input.Brand ?? "",
-                input.Version ?? "",
-                input.TYPE ?? "",
-                input.ROM,
-                input.MobileWeight,
-                input.RAM,
-                input.BatteryCapacity,
-                input.LaunchedYear);
-        ViewBag.HistoryJson = System.Text.Json.JsonSerializer.Serialize(history);
+        // 預測與歷史同原本
+        ViewBag.PredictedPrice = _predictSvc.Predict(input);
+        var history = _historySvc.GetByCompany(
+          input.CompanyName, input.Brand, input.Version, input.TYPE,
+          input.ROM, input.MobileWeight, input.RAM,
+          input.BatteryCapacity, input.LaunchedYear);
+        ViewBag.HistoryJson = JsonSerializer.Serialize(history);
 
         return View("Index", input);
     }
+
 }

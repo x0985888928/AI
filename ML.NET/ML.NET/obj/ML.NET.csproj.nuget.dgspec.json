@@ -73,6 +73,10 @@
               "target": "Package",
               "version": "[9.0.3, )"
             },
+            "Microsoft.Extensions.ML": {
+              "target": "Package",
+              "version": "[4.0.2, )"
+            },
             "Microsoft.ML": {
               "target": "Package",
               "version": "[4.0.2, )"

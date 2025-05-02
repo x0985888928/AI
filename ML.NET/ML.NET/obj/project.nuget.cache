@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2k7ZyTuJmTQ=",
+  "dgSpecHash": "MFI/+la+4U8=",
   "success": true,
   "projectFilePath": "D:\\DEV_REGION\\AI\\ML.NET\\ML.NET\\ML.NET.csproj",
   "expectedPackageFiles": [
@@ -105,6 +105,8 @@
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.identity.stores\\8.0.15\\microsoft.extensions.identity.stores.8.0.15.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.logging\\9.0.3\\microsoft.extensions.logging.9.0.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.3\\microsoft.extensions.logging.abstractions.9.0.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.ml\\4.0.2\\microsoft.extensions.ml.4.0.2.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.objectpool\\8.0.7\\microsoft.extensions.objectpool.8.0.7.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.options\\9.0.3\\microsoft.extensions.options.9.0.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.3\\microsoft.extensions.primitives.9.0.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.identity.client\\4.61.3\\microsoft.identity.client.4.61.3.nupkg.sha512",
