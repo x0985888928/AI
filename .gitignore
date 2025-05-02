@@ -1,1 +1,43 @@
+# 1. 專案特定要忽略的檔案／資料夾
 /NN/基於線上評論的顧客滿意度分類研究/negative.csv
+
+# 2. Visual Studio / .NET 常見輸出
+**/bin/
+**/obj/
+**/publish/             # 若你有 dotnet publish 的輸出
+
+# 3. IDE 設定與快取
+.vs/
+*.user
+*.suo
+*.userosscache         # VS 的雲端快取
+*.sln.docstates        # VS 解決方案使用記錄
+
+# 4. 使用者機密與設定
+appsettings.Development.json
+appsettings.*.Local.json
+launchSettings.json    # 若放在 Properties 裡面，也可忽略
+
+# 5. Secret Manager
+secrets.json
+
+# 6. 前端套件快取
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 7. 日誌與暫存
+*.log
+*.cache
+*.tmp
+
+# 8. 作業系統檔案
+.DS_Store
+Thumbs.db
+
+# 9. 保護你不想公開的靜態資源
+wwwroot/protected/*
+
+# (選擇性) 忽略 NuGet 套件資料夾，只在部分方案使用
+**/packages/ 
